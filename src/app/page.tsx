@@ -1,4 +1,4 @@
-import Image from 'next/image'
+
 // import { poppins } from 'next/font/google'
 import Link from 'next/link'
 
@@ -139,7 +139,7 @@ export default function Home() {
       
       <div className='hover:border-white hover:bg-mypurple/20  md:border-[1px] lg:border-[1px]  border-mypurple rounded-2xl'>
         <div className=" mx-auto flex h-20 w-20 items-center justify-center rounded-full ">
-          <Image src="/webdevelopers.gif" alt="web development" />
+          <img src="/webdevelopers.gif" alt="web development" />
         </div>
         <h3 className="mt-2 md:text-[12px] font-semibold text-white">Web Development</h3>
         <p className=" mt-2 md:text-[8px] text-gray-300">
@@ -148,7 +148,7 @@ export default function Home() {
       </div>
       <div className='hover:border-white  hover:bg-mypurple/20 md:border-[1px] lg:border-[1px]   border-mypurple rounded-2xl'>
         <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full ">
-          <Image src="/gd.gif" alt="Graphcs designing" />
+          <img src="/gd.gif" alt="Graphcs designing" />
         </div>
         <h3 className="mt-2 text-lg font-semibold md:text-[12px] text-white">
           Graphics Designing
@@ -159,7 +159,7 @@ export default function Home() {
       </div>
       <div className='hover:border-white  hover:bg-mypurple/20 md:border-[1px] lg:border-[1px]  border-mypurple rounded-2xl'>
         <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full ">
-          <Image src="/cw.gif" alt="content writing" />
+          <img src="/cw.gif" alt="content writing" />
         </div>
         <h3 className="mt-2 text-lg md:text-[12px] font-semibold text-white">
           Content Writing
@@ -170,7 +170,7 @@ export default function Home() {
       </div>
       <div className='hover:border-white  hover:bg-mypurple/20 md:border-[1px] lg:border-[1px]  border-mypurple rounded-2xl'>
         <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full ">
-          <Image src="/dm.gif" alt="Digital Marketing" />
+          <img src="/dm.gif" alt="Digital Marketing" />
         </div>
         <h3 className="mt-2 text-lg font-semibold md:text-[12px] text-white">Digital Marketing</h3>
         <p className="mt-2 md:text-[8px] text-gray-300">
@@ -179,7 +179,7 @@ export default function Home() {
       </div>
       <div className='hover:border-white  hover:bg-mypurple/20 md:border-[1px] lg:border-[1px]  border-mypurple rounded-2xl'>
         <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full ">
-          <Image src="/ve.gif" alt="Digital Marketing" />
+          <img src="/ve.gif" alt="Digital Marketing" />
         </div>
         <h3 className="mt-2 text-lg md:text-[12px] font-semibold text-white">Professional Video Editing</h3>
         <p className="mt-2  text-gray-300 md:text-[8px]">
@@ -188,7 +188,7 @@ export default function Home() {
       </div>
       <div className='hover:border-white  hover:bg-mypurple/20 md:border-[1px] lg:border-[1px]  border-mypurple rounded-2xl'>
         <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full ">
-          <Image src="/seo.gif" alt="Digital Marketing" />
+          <img src="/seo.gif" alt="Digital Marketing" />
         </div>
         <h3 className="mt-2 text-lg font-semibold md:text-[12px] text-white">SEO </h3>
         <p className="mt-2  text-gray-300 md:text-[8px]">
@@ -197,7 +197,7 @@ export default function Home() {
       </div>
       <div className='hover:border-white  hover:bg-mypurple/20 md:border-[1px] lg:border-[1px]  border-mypurple rounded-2xl'>
         <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full ">
-          <Image src="/insta.png" alt="Digital Marketing" />
+          <img src="/insta.png" alt="Digital Marketing" />
         </div>
         <h3 className="mt-2 text-lg font-semibold text-white md:text-[12px]">SMM </h3>
         <p className="mt-2  text-gray-300 md:text-[8px]">
@@ -206,7 +206,7 @@ export default function Home() {
       </div>
       <div className='hover:border-white  hover:bg-mypurple/20 md:border-[1px] lg:border-[1px]  border-mypurple rounded-2xl'>
         <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full ">
-          <Image src="/smo.png" alt="Digital Marketing" />
+          <img src="/smo.png" alt="Digital Marketing" />
         </div>
         <h3 className="mt-2 text-lg font-semibold text-white md:text-[12px]">SMO </h3>
         <p className=" mt-2  text-gray-300 md:text-[8px]">
@@ -288,22 +288,22 @@ export default function Home() {
         </blockquote>
         <figcaption className="mt-10 flex items-center gap-x-6">
           <div className="isolate flex place-content-center -space-x-2">
-            <Image
+            <img
               className="relative z-30 inline-block h-5 w-5 rounded-full ring-2 ring-white"
               src="https://overreacted.io/static/profile-pic-c715447ce38098828758e525a1128b87.jpg"
               alt="Dan_Abromov"
             />
-            <Image
+            <img
               className="relative z-20 inline-block h-5 w-5 rounded-full ring-2 ring-white"
               src="https://res.cloudinary.com/crunchbase-production/image/upload/c_thumb,h_170,w_170,f_auto,g_faces,z_0.7,b_white,q_auto:eco,dpr_1/smokhfs2uevnppc2bmwl"
               alt="Guillermo_Rauch"
             />
-            <Image
+            <img
               className="relative z-10 inline-block h-5 w-5 rounded-full ring-2 ring-white"
               src="https://leerob.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar.b1d1472f.jpg&w=256&q=75"
               alt="Lee_Robinson"
             />
-            <Image
+            <img
               className="relative z-0 inline-block h-5 w-5 rounded-full ring-2 ring-white"
               src="https://nextjs.org/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F35255%2F1665059775-delba.jpg&w=640&q=75"
               alt="Delba"
