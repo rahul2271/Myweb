@@ -37,7 +37,7 @@ export default function RootLayout({
         <header className='md:mt-[-40px] mx-auto w-full'>
           
         {/* <img className=' absolute m-[20px]' src="./hamburger.png" alt="dddd" /> */}
-          <Image className=' mx-auto  relative  h-[150px] w-[150px] md:h-[50px] md:w-[50px] md:mt-[50px] md:mx-[10px]' src="./logo.png" alt="rchauhan.in" />
+          <Image className=' mx-auto  relative  h-[150px] w-[150px] md:h-[50px] md:w-[50px] md:mt-[50px] md:mx-[10px]' src="./logo.png" alt="rchauhan" />
           <ul className='md:block lg:block flex md:flex md:space-x-6  md:mt-[-30px] md:text-[10px] md:mx-auto md:place-content-center lg:flex md:space-x-6 lg:relative lg:mt-[-30px] lg:text-[10px] lg:place-content-center  text-[15px] space-x-6 text-slate place-content-center'>
             <li className='text-slate'>
               <Link className='hover:text-mypurple' href="/">
