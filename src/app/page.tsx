@@ -80,7 +80,7 @@ export default function Home() {
         Our Exclusive Services
       </h2>
       <p className="mt-4 text-base leading-relaxed text-gray-400">
-      From design to deployment, we've got your web presence covered—your all-in-one solution for digital excellence.
+      From design to deployment, we have got your web presence covered—your all-in-one solution for digital excellence.
       </p>
     </div>
     <div className="absolute inset-x-0 -top-[4rem] -z-10 transform-gpu overflow-hidden blur-3xl md:-top-[10rem]">
@@ -143,7 +143,7 @@ export default function Home() {
         </div>
         <h3 className="mt-2 md:text-[12px] font-semibold text-white">Web Development</h3>
         <p className=" mt-2 md:text-[8px] text-gray-300">
-        Elevate your online presence with our expert web development services—where innovation meets impeccable design.
+        Elevate your online presence with our expert web development services where innovation meets impeccable design.
         </p>
       </div>
       <div className='hover:border-white  hover:bg-mypurple/20 md:border-[1px] lg:border-[1px]   border-mypurple rounded-2xl'>
@@ -154,7 +154,7 @@ export default function Home() {
           Graphics Designing
         </h3>
         <p className="mt-2  md:text-[8px] text-gray-300">
-        Ignite your brand with our graphic design magic—where creativity meets visual brilliance.
+        Ignite your brand with our graphic design magic where creativity meets visual brilliance.
         </p>
       </div>
       <div className='hover:border-white  hover:bg-mypurple/20 md:border-[1px] lg:border-[1px]  border-mypurple rounded-2xl'>
@@ -165,7 +165,7 @@ export default function Home() {
           Content Writing
         </h3>
         <p className="mt-2 md:text-[8px]  text-gray-300">
-        Unleash the power of words with our content writing services—where every sentence tells your story and captivates your audience.
+        Unleash the power of words with our content writing services where every sentence tells your story and captivates your audience.
         </p>
       </div>
       <div className='hover:border-white  hover:bg-mypurple/20 md:border-[1px] lg:border-[1px]  border-mypurple rounded-2xl'>
@@ -174,7 +174,7 @@ export default function Home() {
         </div>
         <h3 className="mt-2 text-lg font-semibold md:text-[12px] text-white">Digital Marketing</h3>
         <p className="mt-2 md:text-[8px] text-gray-300">
-        Elevate your brand with our expert digital marketing services – where visibility meets success in the online landscape.
+        Elevate your brand with our expert digital marketing services where visibility meets success in the online landscape.
         </p>
       </div>
       <div className='hover:border-white  hover:bg-mypurple/20 md:border-[1px] lg:border-[1px]  border-mypurple rounded-2xl'>
@@ -183,7 +183,7 @@ export default function Home() {
         </div>
         <h3 className="mt-2 text-lg md:text-[12px] font-semibold text-white">Professional Video Editing</h3>
         <p className="mt-2  text-gray-300 md:text-[8px]">
-        Transforming moments into cinematic magic—our video editing services make your story unforgettable.
+        Transforming moments into cinematic magic our video editing services make your story unforgettable.
         </p>
       </div>
       <div className='hover:border-white  hover:bg-mypurple/20 md:border-[1px] lg:border-[1px]  border-mypurple rounded-2xl'>
@@ -192,7 +192,7 @@ export default function Home() {
         </div>
         <h3 className="mt-2 text-lg font-semibold md:text-[12px] text-white">SEO </h3>
         <p className="mt-2  text-gray-300 md:text-[8px]">
-        Boost your online presence with our expert SEO services—because being found is the first step to being remembered.
+        Boost your online presence with our expert SEO services because being found is the first step to being remembered.
         </p>
       </div>
       <div className='hover:border-white  hover:bg-mypurple/20 md:border-[1px] lg:border-[1px]  border-mypurple rounded-2xl'>
@@ -201,7 +201,7 @@ export default function Home() {
         </div>
         <h3 className="mt-2 text-lg font-semibold text-white md:text-[12px]">SMM </h3>
         <p className="mt-2  text-gray-300 md:text-[8px]">
-        Elevate your brand's online charisma with our Social Media Magic – where engagement meets strategy, and your story takes center stage.
+        Elevate your brand online charisma with our Social Media Magic  where engagement meets strategy, and your story takes center stage.
         </p>
       </div>
       <div className='hover:border-white  hover:bg-mypurple/20 md:border-[1px] lg:border-[1px]  border-mypurple rounded-2xl'>
@@ -210,7 +210,7 @@ export default function Home() {
         </div>
         <h3 className="mt-2 text-lg font-semibold text-white md:text-[12px]">SMO </h3>
         <p className=" mt-2  text-gray-300 md:text-[8px]">
-        Elevate your online presence with our Social Media Optimization magic— where visibility meets engagement, and your brand becomes the talk of the digital town!
+        Elevate your online presence with our Social Media Optimization magic where visibility meets engagement, and your brand becomes the talk of the digital town!
         </p>
       </div>
     </div>
@@ -283,7 +283,7 @@ export default function Home() {
         <h1 className="mb-4 text-[30px] font-semibold text-center text-mypurple">What our Esteemed client are saying ?</h1>
         <blockquote className="text-justify mt-10 text-xs text-center text-white">
           <p>
-            “Choosing this web service was a game-changer for my business. Their innovative designs and seamless functionality not only elevated my online presence but also significantly boosted my customer engagement. The team's expertise and commitment to excellence made the entire process a breeze. I'm thrilled with the results and can confidently say they exceeded my expectations. Highly recommended!”
+            “Choosing this web service was a game-changer for my business. Their innovative designs and seamless functionality not only elevated my online presence but also significantly boosted my customer engagement. The team expertise and commitment to excellence made the entire process a breeze. I am thrilled with the results and can confidently say they exceeded my expectations. Highly recommended!”
           </p>
         </blockquote>
         <figcaption className="mt-10 flex items-center gap-x-6">
