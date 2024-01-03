@@ -88,7 +88,7 @@ export default function Home() {
         Our Exclusive Services
       </h2>
       <p className="mt-4 text-base leading-relaxed text-gray-200">
-      From design to deployment, we've got your web presence covered—your all-in-one solution for digital excellence.
+      From design to deployment, we've got your web presence covered your all in one solution for digital excellence.
       </p>
     </div>
     <div className="mt-12 grid grid-cols-1 gap-y-8 text-center sm:grid-cols-2 sm:gap-12 lg:grid-cols-4">
@@ -98,7 +98,7 @@ export default function Home() {
         </div>
         <h3 className="mt-8 text-lg font-semibold text-white">Web Development</h3>
         <p className="mt-8 text-sm text-gray-200">
-        Elevate your online presence with our expert web development services—where innovation meets impeccable design.
+        Elevate your online presence with our expert web development services where innovation meets impeccable design.
         </p>
       </div>
       <div className='hover:border-white  hover:bg-mypurple/20 border-2 p-[20px] border-mypurple rounded-2xl'>
@@ -109,7 +109,7 @@ export default function Home() {
           Graphics Designing
         </h3>
         <p className="mt-8 text-sm text-gray-200">
-        Ignite your brand with our graphic design magic—where creativity meets visual brilliance.
+        Ignite your brand with our graphic design magic where creativity meets visual brilliance.
         </p>
       </div>
       <div className='hover:border-white  hover:bg-mypurple/20 border-2 p-[20px] border-mypurple rounded-2xl'>
@@ -120,7 +120,7 @@ export default function Home() {
           Content Writing
         </h3>
         <p className="mt-8 text-sm text-gray-200">
-        Unleash the power of words with our content writing services—where every sentence tells your story and captivates your audience.
+        Unleash the power of words with our content writing services where every sentence tells your story and captivates your audience.
         </p>
       </div>
       <div className='hover:border-white  hover:bg-mypurple/20 border-2 p-[20px] border-mypurple rounded-2xl'>
@@ -129,7 +129,7 @@ export default function Home() {
         </div>
         <h3 className="mt-8 text-lg font-semibold text-white">Digital Marketing</h3>
         <p className="mt-8 text-sm text-gray-200">
-        Elevate your brand with our expert digital marketing services – where visibility meets success in the online landscape.
+        Elevate your brand with our expert digital marketing services where visibility meets success in the online landscape.
         </p>
       </div>
       <div className='hover:border-white  hover:bg-mypurple/20 border-2 p-[20px] border-mypurple rounded-2xl'>
@@ -138,8 +138,8 @@ export default function Home() {
         </div>
         <h3 className="mt-8 text-lg font-semibold text-white">Professional Video Editing</h3>
         <p className="mt-8 text-sm text-gray-200">
-        Transforming moments into cinematic magic—our video editing services make your story unforgettable.
-        </p>
+        Transforming moments into cinematic magic our video editing services make your story unforgettable.
+        </p >
       </div>
       <div className='hover:border-white  hover:bg-mypurple/20 border-2 p-[20px] border-mypurple rounded-2xl'>
         <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full ">
@@ -147,7 +147,7 @@ export default function Home() {
         </div>
         <h3 className="mt-8 text-lg font-semibold text-white">SEO </h3>
         <p className="mt-8 text-sm text-gray-200">
-        Boost your online presence with our expert SEO services—because being found is the first step to being remembered.
+        Boost your online presence with our expert SEO services because being found is the first step to being remembered.
         </p>
       </div>
       <div className='hover:border-white  hover:bg-mypurple/20 border-2 p-[20px] border-mypurple rounded-2xl'>
@@ -156,7 +156,7 @@ export default function Home() {
         </div>
         <h3 className="mt-8 text-lg font-semibold text-white">SMM </h3>
         <p className="mt-8 text-sm text-gray-200">
-        Elevate your brand's online charisma with our Social Media Magic – where engagement meets strategy, and your story takes center stage.
+        Elevate your brand's online charisma with our Social Media Magic where engagement meets strategy, and your story takes center stage.
         </p>
       </div>
       <div className='hover:border-white  hover:bg-mypurple/20 border-2 p-[20px] border-mypurple rounded-2xl'>
@@ -165,7 +165,7 @@ export default function Home() {
         </div>
         <h3 className="mt-8 text-lg font-semibold text-white">SMO </h3>
         <p className=" mt-8 text-sm text-gray-200">
-        Elevate your online presence with our Social Media Optimization magic— where visibility meets engagement, and your brand becomes the talk of the digital town!
+        Elevate your online presence with our Social Media Optimization magic where visibility meets engagement, and your brand becomes the talk of the digital town!
         </p>
       </div>
     </div>
