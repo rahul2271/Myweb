@@ -87,7 +87,7 @@ export default function Home() {
         Our Exclusive Services
       </h2>
       <p className="mt-4 text-base leading-relaxed text-gray-200">
-      From design to deployment, we've got your web presence covered—your all-in-one solution for digital excellence.
+      From design to deployment, we have got your web presence covered—your all-in-one solution for digital excellence.
       </p>
     </div>
     <div className="mt-12 grid grid-cols-1 gap-y-8 text-center sm:grid-cols-2 sm:gap-12 lg:grid-cols-4">
