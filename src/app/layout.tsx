@@ -5,7 +5,7 @@ import { Poppins } from 'next/font/google'
 import './globals.css'
 import Home from './page';
 import Link from 'next/link';
-// import Image from 'next/image';
+import Image from 'next/image';
 
 import { useState } from 'react';
 
@@ -34,7 +34,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={poppins.className}>
       <header className=' mx-auto w-full'>
-      <img className=' mx-auto  relative  h-[150px] w-[150px] md:h-[100px] md:w-[100px] md:mt-[50px] md:mx-[10px]' src="./logo.png" alt="rchauhan" />
+      <Image width={100} height={100} className=' mx-auto  relative  h-[150px] w-[150px] md:h-[100px] md:w-[100px] md:mt-[50px] md:mx-[10px]' src="/logo.png" alt="rchauhan" />
           <ul className=' flex md:space-x-6  md:text-xl md:my-[-50px] md:place-content-center lg:flex md:space-x-6 lg:place-content-center text-[15px] space-x-6  place-content-center'>
             <li>
               <Link className="hover:text-mypurple" href="/">
@@ -297,7 +297,7 @@ export default function RootLayout({
         {/* <hr/> */}
     <footer className="mx-auto place-content-center relative overflow-hidden py-8">
       <div className=" place-content-center flex w-auto">
-      <img className='hidden md:block mx-auto md:ml-[12px] md:mt-[25px]  relative h-[100px] w-[100px] ' src="./logo.png" alt="rchauhan.in" />
+      <Image width={100} height={100} className='hidden md:block mx-auto md:ml-[12px] md:mt-[25px]  relative h-[100px] w-[100px] ' src="/logo.png" alt="rchauhan.in" />
 
         <ul className="text-center relative md:absolute place-content-center md:m-5 md:flex flex-column md:flex-wrap">
           <li className="p-5">

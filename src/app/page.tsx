@@ -3,6 +3,7 @@
 import { link } from 'fs'
 import Link from 'next/link'
 import CallNowButton from '../app/Call/page'
+import Image from 'next/image'
 
 
 export default function Home() {
@@ -93,7 +94,7 @@ export default function Home() {
     <div className="mt-12 grid grid-cols-1 gap-y-8 text-center sm:grid-cols-2 sm:gap-12 lg:grid-cols-4">
       <div className='hover:border-white  hover:bg-mypurple/20  border-2 p-[20px] border-mypurple rounded-2xl'>
         <div className=" mx-auto flex h-20 w-20 items-center justify-center rounded-full ">
-          <img src="/webdevelopers.gif" alt="web development" />
+          <Image width={80} height={80} src="/webdevelopers.gif" alt="web development" />
         </div>
         <h3 className="mt-8 text-lg font-semibold text-white">Web Development</h3>
         <p className="mt-8 text-sm text-gray-200">
@@ -102,7 +103,7 @@ export default function Home() {
       </div>
       <div className='hover:border-white  hover:bg-mypurple/20 border-2 p-[20px] border-mypurple rounded-2xl'>
         <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full ">
-          <img src="/gd.gif" alt="Graphcs designing" />
+          <Image width={80} height={80} src="/gd.gif" alt="Graphcs designing" />
         </div>
         <h3 className="mt-8 text-lg font-semibold text-white">
           Graphics Designing
@@ -113,7 +114,7 @@ export default function Home() {
       </div>
       <div className='hover:border-white  hover:bg-mypurple/20 border-2 p-[20px] border-mypurple rounded-2xl'>
         <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full ">
-          <img src="/cw.gif" alt="content writing" />
+          <Image width={80} height={80} src="/cw.gif" alt="content writing" />
         </div>
         <h3 className="mt-8 text-lg font-semibold text-white">
           Content Writing
@@ -124,7 +125,7 @@ export default function Home() {
       </div>
       <div className='hover:border-white  hover:bg-mypurple/20 border-2 p-[20px] border-mypurple rounded-2xl'>
         <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full ">
-          <img src="/dm.gif" alt="Digital Marketing" />
+          <Image width={80} height={80} src="/dm.gif" alt="Digital Marketing" />
         </div>
         <h3 className="mt-8 text-lg font-semibold text-white">Digital Marketing</h3>
         <p className="mt-8 text-sm text-gray-200">
@@ -133,7 +134,7 @@ export default function Home() {
       </div>
       <div className='hover:border-white  hover:bg-mypurple/20 border-2 p-[20px] border-mypurple rounded-2xl'>
         <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full ">
-          <img src="/ve.gif" alt="Digital Marketing" />
+          <Image width={80} height={80} src="/ve.gif" alt="Digital Marketing" />
         </div>
         <h3 className="mt-8 text-lg font-semibold text-white">Professional Video Editing</h3>
         <p className="mt-8 text-sm text-gray-200">
@@ -142,7 +143,7 @@ export default function Home() {
       </div>
       <div className='hover:border-white  hover:bg-mypurple/20 border-2 p-[20px] border-mypurple rounded-2xl'>
         <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full ">
-          <img src="/seo.gif" alt="Digital Marketing" />
+          <Image width={80} height={80} src="/seo.gif" alt="Digital Marketing" />
         </div>
         <h3 className="mt-8 text-lg font-semibold text-white">SEO </h3>
         <p className="mt-8 text-sm text-gray-200">
@@ -151,7 +152,7 @@ export default function Home() {
       </div>
       <div className='hover:border-white  hover:bg-mypurple/20 border-2 p-[20px] border-mypurple rounded-2xl'>
         <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full ">
-          <img src="/insta.png" alt="Digital Marketing" />
+          <Image width={80} height={80} src="/insta.png" alt="Digital Marketing" />
         </div>
         <h3 className="mt-8 text-lg font-semibold text-white">SMM </h3>
         <p className="mt-8 text-sm text-gray-200">
@@ -160,7 +161,7 @@ export default function Home() {
       </div>
       <div className='hover:border-white  hover:bg-mypurple/20 border-2 p-[20px] border-mypurple rounded-2xl'>
         <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full ">
-          <img src="/smo.png" alt="Digital Marketing" />
+          <Image width={80} height={80} src="/smo.png" alt="Digital Marketing" />
         </div>
         <h3 className="mt-8 text-lg font-semibold text-white">SMO </h3>
         <p className=" mt-8 text-sm text-gray-200">
@@ -387,28 +388,28 @@ export default function Home() {
           </p>
         </blockquote>
         <figcaption className="mt-10 flex items-center gap-x-6">
-          <div className="isolate flex place-content-center -space-x-2">
-            <img
+          {/* <div className="isolate flex place-content-center -space-x-2">
+            <Image
               className="relative z-30 inline-block h-5 w-5 rounded-full ring-2 ring-white"
               src="https://overreacted.io/static/profile-pic-c715447ce38098828758e525a1128b87.jpg"
               alt="Dan_Abromov"
             />
-            <img
+            <Image
               className="relative z-20 inline-block h-5 w-5 rounded-full ring-2 ring-white"
               src="https://res.cloudinary.com/crunchbase-production/image/upload/c_thumb,h_170,w_170,f_auto,g_faces,z_0.7,b_white,q_auto:eco,dpr_1/smokhfs2uevnppc2bmwl"
               alt="Guillermo_Rauch"
             />
-            <img
+            <Image
               className="relative z-10 inline-block h-5 w-5 rounded-full ring-2 ring-white"
               src="https://leerob.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar.b1d1472f.jpg&w=256&q=75"
               alt="Lee_Robinson"
             />
-            <img
+            <Image
               className="relative z-0 inline-block h-5 w-5 rounded-full ring-2 ring-white"
               src="https://nextjs.org/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F35255%2F1665059775-delba.jpg&w=640&q=75"
               alt="Delba"
             />
-          </div>
+          </div> */}
           <div>
             <p className="font-semibold md:text-[10px] text-white">90+ Clients</p>
           </div>
