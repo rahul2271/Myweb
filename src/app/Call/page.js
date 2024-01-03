@@ -1,4 +1,6 @@
+"use client"
 import React from 'react';
+
 
 const CallNowButton = () => {
   const phoneNumber = '+917009646377'; // Replace with your actual phone number
