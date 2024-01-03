@@ -1,17 +1,21 @@
-
+"use client"
 // import { poppins } from 'next/font/google'
+import { link } from 'fs'
 import Link from 'next/link'
+import CallNowButton from '../app/Call/page'
+
 
 export default function Home() {
+    
   return (
     <main>
-    <div className="relative w-full">
+    <div className="relative w-full lg:w-auto lg:place-content-center">
       
       <div className="relative isolate z-0  px-6 md:mt-[20px] md:pt-[-50px] pt-[-100px] lg:px-8">
-        <div className="relative mx-auto max-w-2xl py-24">
-          <div className="absolute inset-x-0 -top-[4rem] -z-10 transform-gpu overflow-hidden blur-3xl md:-top-[10rem]">
+        <div className="relative mx-auto  py-[50px]">
+          <div className="absolute inset-x-0 -top-[0rem] -z-10 transform-gpu overflow-hidden blur-3xl md:-top-[0rem]">
             <svg
-              className="md:mt-[-100px] mt-[-50px] relative left-[calc(50%-11rem)] -z-10 h-[21.1875rem] max-w-none -translate-x-1/2 rotate-[30deg] sm:left-[calc(50%-30rem)] sm:h-[42.375rem]"
+              className="mt-[50px] left-[calc(50%-11rem)] -z-10 h-[21.1875rem] max-w-none -translate-x-1/2 rotate-[30deg] sm:left-[calc(50%-30rem)] sm:h-[42.375rem]"
               viewBox="0 0 1155 678"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -35,12 +39,12 @@ export default function Home() {
               </defs>
             </svg>
           </div>
-          <div className="md:mt-[-50px] mt-[-20px] text-center">
-          <h1 className="mt-8 text-4xl font-bold tracking-tight text-grey-300 md:text-4xl lg:text-6xl">
-          People who care about your growth
-        </h1>
-        <p className="mt-8 text-lg text-gray-300">
-        Fueling online success, one click at a time—supercharge your business growth with our winning web solutions.
+          <div className="md:mt-[50px] mt-[-20px] text-center ">
+          <p className="mt-8 text-4xl font-bold tracking-normal text-grey-300 leading-normal  lg:text-[80px]">
+          People who care<br/> about your growth
+        </p>
+        <p className="mt-8 text-[15px] md:text-[25px] md:w-auto text-gray-300 leading-loose">
+        Fueling online success, one click at a time supercharge your business growth with our winning web solutions.
         </p>
             {/* <h1 className="text-4xl font-bold tracking-tight text-gray-300 sm:text-6xl">
               Lorem ipsum dolor sit amet consectetur dicta.
@@ -49,27 +53,123 @@ export default function Home() {
               Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat
               commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
             </p> */}
-            <div className="mt-10 flex items-center justify-center gap-x-2">
+            {/* <div className="mt-10 flex items-center justify-center gap-x-2">
               <button
                 type="button"
-                className="rounded-md bg-mypurple px-3 py-2 md:px-2 md:py-1 text-sm md:text-[10px] font-semibold text-grey-300 shadow-sm hover:bg-mypurple/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+                className="rounded-md bg-mypurple px-3 py-2 md:px-6 md:py-3 text-sm md:text-[15px] font-semibold text-grey-300 shadow-sm hover:bg-mypurple/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+                onClick={handleCallButtonClick}
+                
               >
                 Contact Us
               </button>
               <button
                 type="button"
-                className="rounded-md border border-mypurple px-3 py-2 md:px-2 md:py-1 md:text-[10px] hover:bg-white text-sm font-semibold text-mypurple shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+                className="rounded-md border md:border-2 border-mypurple px-3 py-2 md:px-6 md:py-3 md:text-[15px] hover:bg-white text-sm font-semibold text-mypurple shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
               >
                 Get Started
               </button>
-            </div>
+            </div> */}
+            <CallNowButton/>
+            
           </div>
         </div>
       </div>
     </div>
 
-            
     <div id='services' className="croll-smooth focus:scroll-auto mx-auto my-12 max-w-7xl px-4 sm:px-6 md:my-24 lg:my-32 lg:px-8">
+    <div className="mx-auto max-w-xl text-center">
+      <div className="mx-auto inline-flex rounded-full bg-mypurple px-4 py-1.5">
+        <p className="text-xs font-semibold uppercase tracking-widest text-white">
+          What we have for you...
+        </p>
+      </div>
+      <h2 className="mt-6 text-3xl font-bold leading-tight text-grey-100 sm:text-4xl lg:text-5xl">
+        Our Exclusive Services
+      </h2>
+      <p className="mt-4 text-base leading-relaxed text-gray-200">
+      From design to deployment, we've got your web presence covered—your all-in-one solution for digital excellence.
+      </p>
+    </div>
+    <div className="mt-12 grid grid-cols-1 gap-y-8 text-center sm:grid-cols-2 sm:gap-12 lg:grid-cols-4">
+      <div className='hover:border-white  hover:bg-mypurple/20  border-2 p-[20px] border-mypurple rounded-2xl'>
+        <div className=" mx-auto flex h-20 w-20 items-center justify-center rounded-full ">
+          <img src="/webdevelopers.gif" alt="web development" />
+        </div>
+        <h3 className="mt-8 text-lg font-semibold text-white">Web Development</h3>
+        <p className="mt-8 text-sm text-gray-200">
+        Elevate your online presence with our expert web development services—where innovation meets impeccable design.
+        </p>
+      </div>
+      <div className='hover:border-white  hover:bg-mypurple/20 border-2 p-[20px] border-mypurple rounded-2xl'>
+        <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full ">
+          <img src="/gd.gif" alt="Graphcs designing" />
+        </div>
+        <h3 className="mt-8 text-lg font-semibold text-white">
+          Graphics Designing
+        </h3>
+        <p className="mt-8 text-sm text-gray-200">
+        Ignite your brand with our graphic design magic—where creativity meets visual brilliance.
+        </p>
+      </div>
+      <div className='hover:border-white  hover:bg-mypurple/20 border-2 p-[20px] border-mypurple rounded-2xl'>
+        <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full ">
+          <img src="/cw.gif" alt="content writing" />
+        </div>
+        <h3 className="mt-8 text-lg font-semibold text-white">
+          Content Writing
+        </h3>
+        <p className="mt-8 text-sm text-gray-200">
+        Unleash the power of words with our content writing services—where every sentence tells your story and captivates your audience.
+        </p>
+      </div>
+      <div className='hover:border-white  hover:bg-mypurple/20 border-2 p-[20px] border-mypurple rounded-2xl'>
+        <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full ">
+          <img src="/dm.gif" alt="Digital Marketing" />
+        </div>
+        <h3 className="mt-8 text-lg font-semibold text-white">Digital Marketing</h3>
+        <p className="mt-8 text-sm text-gray-200">
+        Elevate your brand with our expert digital marketing services – where visibility meets success in the online landscape.
+        </p>
+      </div>
+      <div className='hover:border-white  hover:bg-mypurple/20 border-2 p-[20px] border-mypurple rounded-2xl'>
+        <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full ">
+          <img src="/ve.gif" alt="Digital Marketing" />
+        </div>
+        <h3 className="mt-8 text-lg font-semibold text-white">Professional Video Editing</h3>
+        <p className="mt-8 text-sm text-gray-200">
+        Transforming moments into cinematic magic—our video editing services make your story unforgettable.
+        </p>
+      </div>
+      <div className='hover:border-white  hover:bg-mypurple/20 border-2 p-[20px] border-mypurple rounded-2xl'>
+        <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full ">
+          <img src="/seo.gif" alt="Digital Marketing" />
+        </div>
+        <h3 className="mt-8 text-lg font-semibold text-white">SEO </h3>
+        <p className="mt-8 text-sm text-gray-200">
+        Boost your online presence with our expert SEO services—because being found is the first step to being remembered.
+        </p>
+      </div>
+      <div className='hover:border-white  hover:bg-mypurple/20 border-2 p-[20px] border-mypurple rounded-2xl'>
+        <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full ">
+          <img src="/insta.png" alt="Digital Marketing" />
+        </div>
+        <h3 className="mt-8 text-lg font-semibold text-white">SMM </h3>
+        <p className="mt-8 text-sm text-gray-200">
+        Elevate your brand's online charisma with our Social Media Magic – where engagement meets strategy, and your story takes center stage.
+        </p>
+      </div>
+      <div className='hover:border-white  hover:bg-mypurple/20 border-2 p-[20px] border-mypurple rounded-2xl'>
+        <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full ">
+          <img src="/smo.png" alt="Digital Marketing" />
+        </div>
+        <h3 className="mt-8 text-lg font-semibold text-white">SMO </h3>
+        <p className=" mt-8 text-sm text-gray-200">
+        Elevate your online presence with our Social Media Optimization magic— where visibility meets engagement, and your brand becomes the talk of the digital town!
+        </p>
+      </div>
+    </div>
+  </div>    
+    {/* <div id='services' className="croll-smooth focus:scroll-auto mx-auto my-12 max-w-7xl px-4 sm:px-6 md:my-24 lg:my-32 lg:px-8">
     <div className="mx-auto max-w-xl text-center">
       <div className="mx-auto inline-flex rounded-full bg-mypurple px-4 py-1.5 md:px-3 md:px-1">
         <p className="text-xs md:text-[7px] font-semibold uppercase tracking-widest text-white">
@@ -214,7 +314,7 @@ export default function Home() {
         </p>
       </div>
     </div>
-  </div>
+  </div> */}
 
   <div className="mt-[100px] md:mt-[50px] mx-auto max-w-xl text-center">
       <div className="mx-auto inline-flex rounded-full bg-mypurple px-4 py-1.5">
@@ -253,7 +353,7 @@ export default function Home() {
         </p>
       </div>
       </div>
-      <div className="absolute inset-x-0 -top-[-180rem] -z-10 transform-gpu overflow-hidden blur-3xl md:-top-[-75rem]">
+      {/* <div className="absolute inset-x-0 -top-[-180rem] -z-10 transform-gpu overflow-hidden blur-3xl md:-top-[-75rem]">
             <svg
               className="md:mt-[-100px] mt-[-50px] relative left-[calc(50%-11rem)] -z-10 h-[21.1875rem] max-w-none -translate-x-1/2 rotate-[30deg] sm:left-[calc(50%-30rem)] sm:h-[42.375rem]"
               viewBox="0 0 1155 678"
@@ -278,11 +378,11 @@ export default function Home() {
                 </linearGradient>
               </defs>
             </svg>
-          </div>
-      <figure className="mx-auto max-w-2xl">
-        <h1 className="mb-4 text-[30px] font-semibold text-center text-mypurple">What our Esteemed client are saying ?</h1>
-        <blockquote className="text-justify mt-10 text-xs text-center text-white">
-          <p>
+          </div> */}
+      <figure className="mx-auto">
+        <h1 className="mb-4 text-[30px] md:text-[50px] font-semibold text-center text-mypurple">What our Esteemed client are saying ?</h1>
+        <blockquote className="md:text-[20px] tracking-wide leading-6 mt-10 text-xs text-left text-grey-300">
+          <p className='max-w-4xl m-auto place-content-center'>
             “Choosing this web service was a game-changer for my business. Their innovative designs and seamless functionality not only elevated my online presence but also significantly boosted my customer engagement. The team expertise and commitment to excellence made the entire process a breeze. I am thrilled with the results and can confidently say they exceeded my expectations. Highly recommended!”
           </p>
         </blockquote>
@@ -318,4 +418,3 @@ export default function Home() {
   </main>
   )
 }
-
