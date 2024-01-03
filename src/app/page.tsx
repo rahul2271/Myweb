@@ -155,7 +155,7 @@ export default function Home() {
         </div>
         <h3 className="mt-8 text-lg font-semibold text-white">SMM </h3>
         <p className="mt-8 text-sm text-gray-200">
-        Elevate your brand's online charisma with our Social Media Magic – where engagement meets strategy, and your story takes center stage.
+        Elevate your brand online charisma with our Social Media Magic – where engagement meets strategy, and your story takes center stage.
         </p>
       </div>
       <div className='hover:border-white  hover:bg-mypurple/20 border-2 p-[20px] border-mypurple rounded-2xl'>
