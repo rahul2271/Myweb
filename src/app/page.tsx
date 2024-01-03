@@ -80,7 +80,7 @@ export default function Home() {
     <div className="mx-auto max-w-xl text-center">
       <div className="mx-auto inline-flex rounded-full bg-mypurple px-4 py-1.5">
         <p className="text-xs font-semibold uppercase tracking-widest text-white">
-          What we have for you....
+          What we have for you...
         </p>
       </div>
       <h2 className="mt-6 text-3xl font-bold leading-tight text-grey-100 sm:text-4xl lg:text-5xl">
