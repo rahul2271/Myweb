@@ -3,7 +3,6 @@
 import { link } from 'fs'
 import Link from 'next/link'
 import CallNowButton from '../app/Call/page'
-import Image from 'next/image'
 
 
 export default function Home() {
@@ -88,84 +87,84 @@ export default function Home() {
         Our Exclusive Services
       </h2>
       <p className="mt-4 text-base leading-relaxed text-gray-200">
-      From design to deployment, we have got your web presence covered your all in one solution for digital excellence.
+      From design to deployment, we've got your web presence covered—your all-in-one solution for digital excellence.
       </p>
     </div>
     <div className="mt-12 grid grid-cols-1 gap-y-8 text-center sm:grid-cols-2 sm:gap-12 lg:grid-cols-4">
       <div className='hover:border-white  hover:bg-mypurple/20  border-2 p-[20px] border-mypurple rounded-2xl'>
         <div className=" mx-auto flex h-20 w-20 items-center justify-center rounded-full ">
-          <Image width={80} height={80} src="/webdevelopers.gif" alt="web development" />
+          <img src="/webdevelopers.gif" alt="web development" />
         </div>
         <h3 className="mt-8 text-lg font-semibold text-white">Web Development</h3>
         <p className="mt-8 text-sm text-gray-200">
-        Elevate your online presence with our expert web development services where innovation meets impeccable design.
+        Elevate your online presence with our expert web development services—where innovation meets impeccable design.
         </p>
       </div>
       <div className='hover:border-white  hover:bg-mypurple/20 border-2 p-[20px] border-mypurple rounded-2xl'>
         <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full ">
-          <Image width={80} height={80} src="/gd.gif" alt="Graphcs designing" />
+          <img src="/gd.gif" alt="Graphcs designing" />
         </div>
         <h3 className="mt-8 text-lg font-semibold text-white">
           Graphics Designing
         </h3>
         <p className="mt-8 text-sm text-gray-200">
-        Ignite your brand with our graphic design magic where creativity meets visual brilliance.
+        Ignite your brand with our graphic design magic—where creativity meets visual brilliance.
         </p>
       </div>
       <div className='hover:border-white  hover:bg-mypurple/20 border-2 p-[20px] border-mypurple rounded-2xl'>
         <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full ">
-          <Image width={80} height={80} src="/cw.gif" alt="content writing" />
+          <img src="/cw.gif" alt="content writing" />
         </div>
         <h3 className="mt-8 text-lg font-semibold text-white">
           Content Writing
         </h3>
         <p className="mt-8 text-sm text-gray-200">
-        Unleash the power of words with our content writing services where every sentence tells your story and captivates your audience.
+        Unleash the power of words with our content writing services—where every sentence tells your story and captivates your audience.
         </p>
       </div>
       <div className='hover:border-white  hover:bg-mypurple/20 border-2 p-[20px] border-mypurple rounded-2xl'>
         <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full ">
-          <Image width={80} height={80} src="/dm.gif" alt="Digital Marketing" />
+          <img src="/dm.gif" alt="Digital Marketing" />
         </div>
         <h3 className="mt-8 text-lg font-semibold text-white">Digital Marketing</h3>
         <p className="mt-8 text-sm text-gray-200">
-        Elevate your brand with our expert digital marketing services where visibility meets success in the online landscape.
+        Elevate your brand with our expert digital marketing services – where visibility meets success in the online landscape.
         </p>
       </div>
       <div className='hover:border-white  hover:bg-mypurple/20 border-2 p-[20px] border-mypurple rounded-2xl'>
         <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full ">
-          <Image width={80} height={80} src="/ve.gif" alt="Digital Marketing" />
+          <img src="/ve.gif" alt="Digital Marketing" />
         </div>
         <h3 className="mt-8 text-lg font-semibold text-white">Professional Video Editing</h3>
         <p className="mt-8 text-sm text-gray-200">
-        Transforming moments into cinematic magic our video editing services make your story unforgettable.
-        </p >
+        Transforming moments into cinematic magic—our video editing services make your story unforgettable.
+        </p>
       </div>
       <div className='hover:border-white  hover:bg-mypurple/20 border-2 p-[20px] border-mypurple rounded-2xl'>
         <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full ">
-          <Image width={80} height={80} src="/seo.gif" alt="Digital Marketing" />
+          <img src="/seo.gif" alt="Digital Marketing" />
         </div>
         <h3 className="mt-8 text-lg font-semibold text-white">SEO </h3>
         <p className="mt-8 text-sm text-gray-200">
-        Boost your online presence with our expert SEO services because being found is the first step to being remembered.
+        Boost your online presence with our expert SEO services—because being found is the first step to being remembered.
         </p>
       </div>
       <div className='hover:border-white  hover:bg-mypurple/20 border-2 p-[20px] border-mypurple rounded-2xl'>
         <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full ">
-          <Image width={80} height={80} src="/insta.png" alt="Digital Marketing" />
+          <img src="/insta.png" alt="Digital Marketing" />
         </div>
         <h3 className="mt-8 text-lg font-semibold text-white">SMM </h3>
         <p className="mt-8 text-sm text-gray-200">
-        Elevate your brand online charisma with our Social Media Magic where engagement meets strategy, and your story takes center stage.
+        Elevate your brand's online charisma with our Social Media Magic – where engagement meets strategy, and your story takes center stage.
         </p>
       </div>
       <div className='hover:border-white  hover:bg-mypurple/20 border-2 p-[20px] border-mypurple rounded-2xl'>
         <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full ">
-          <Image width={80} height={80} src="/smo.png" alt="Digital Marketing" />
+          <img src="/smo.png" alt="Digital Marketing" />
         </div>
         <h3 className="mt-8 text-lg font-semibold text-white">SMO </h3>
         <p className=" mt-8 text-sm text-gray-200">
-        Elevate your online presence with our Social Media Optimization magic where visibility meets engagement, and your brand becomes the talk of the digital town!
+        Elevate your online presence with our Social Media Optimization magic— where visibility meets engagement, and your brand becomes the talk of the digital town!
         </p>
       </div>
     </div>
@@ -388,28 +387,28 @@ export default function Home() {
           </p>
         </blockquote>
         <figcaption className="mt-10 flex items-center gap-x-6">
-          {/* <div className="isolate flex place-content-center -space-x-2">
-            <Image
+          <div className="isolate flex place-content-center -space-x-2">
+            {/* <img
               className="relative z-30 inline-block h-5 w-5 rounded-full ring-2 ring-white"
               src="https://overreacted.io/static/profile-pic-c715447ce38098828758e525a1128b87.jpg"
               alt="Dan_Abromov"
-            />
-            <Image
+            /> */}
+            <img
               className="relative z-20 inline-block h-5 w-5 rounded-full ring-2 ring-white"
               src="https://res.cloudinary.com/crunchbase-production/image/upload/c_thumb,h_170,w_170,f_auto,g_faces,z_0.7,b_white,q_auto:eco,dpr_1/smokhfs2uevnppc2bmwl"
               alt="Guillermo_Rauch"
             />
-            <Image
+            <img
               className="relative z-10 inline-block h-5 w-5 rounded-full ring-2 ring-white"
               src="https://leerob.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar.b1d1472f.jpg&w=256&q=75"
               alt="Lee_Robinson"
             />
-            <Image
+            <img
               className="relative z-0 inline-block h-5 w-5 rounded-full ring-2 ring-white"
               src="https://nextjs.org/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F35255%2F1665059775-delba.jpg&w=640&q=75"
               alt="Delba"
             />
-          </div> */}
+          </div>
           <div>
             <p className="font-semibold md:text-[10px] text-white">90+ Clients</p>
           </div>
