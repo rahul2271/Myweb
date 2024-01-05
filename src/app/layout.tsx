@@ -340,7 +340,7 @@ export default function RootLayout({
       <div className="md:mt-[-115px] md:mr-[-1110px] w-auto p-8">
         <div className="place-content-center flex flex-wrap">
           <div className="w-auto p-1.5">
-            <a href="#">
+            <Link href="https://www.facebook.com/rchauhanweb">
               <div className="flex h-[50px] bg-mypurple w-[50px] md:w-[50px] md:h-[50px] items-center justify-center rounded-full  border-gray-100 hover:border-white">
                 <svg
                   width="10"
@@ -355,10 +355,10 @@ export default function RootLayout({
                   ></path>
                 </svg>
               </div>
-            </a>
+            </Link>
           </div>
           <div className="w-auto p-1.5">
-            <a href="#">
+            <Link href="#">
               <div className="flex h-[50px] bg-mypurple w-[50px] md:w-[50px] md:h-[50px] items-center justify-center rounded-full  border-gray-100 hover:border-white">
                 <svg
                   width="20"
@@ -373,10 +373,10 @@ export default function RootLayout({
                   ></path>
                 </svg>
               </div>
-            </a>
+            </Link>
           </div>
           <div className="w-auto p-1.5">
-            <a href="#">
+            <Link href="https://www.instagram.com/rchauhan.in/">
               <div className="flex h-[50px] bg-mypurple w-[50px] md:w-[50px] md:h-[50px] items-center justify-center rounded-full  border-gray-100 hover:border-white">
                 <svg
                   width="20"
@@ -391,7 +391,7 @@ export default function RootLayout({
                   ></path>
                 </svg>
               </div>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
