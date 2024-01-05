@@ -24,6 +24,4 @@
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/hamburger/page.js"],
   "exclude": ["node_modules"],
-
-  "staticPageGenerationTimeout": "120"
 }

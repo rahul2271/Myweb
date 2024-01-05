@@ -5,6 +5,7 @@ import { Poppins } from 'next/font/google'
 import './globals.css'
 import Home from './page';
 import Link from 'next/link';
+import Head from 'next/head';
 
 // import { Poppins } from 'next/font/google';
 
@@ -15,10 +16,10 @@ const poppins = Poppins({
   weight: ['300']
 });
 
-export const metadata = {
-  title: 'Page Title',
-  description: 'Page Description',
-}
+// export const metadata = {
+//   title: 'Page Title',
+//   description: 'Page Description',
+// }
 
 export default function RootLayout({
   children,
@@ -28,6 +29,13 @@ export default function RootLayout({
   
   return(
     <html lang="en">
+      <head>
+        <title>Rchauhan - Web Development, Graphic Design, Content Writing and other Digital Services.</title>
+        <meta name="description" content="Transform your online presence with expert web development, creative graphic design, and engaging content writing services. Explore a world of digital solutions with Rchauhan." />
+        <meta name="keywords" content="web development, graphic design, content creation, digital services, social media optimization, social media management, digital marketing, business growth, Rahul Chauhan, rchauhan, innovation, creativity, branding" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="canonical" href="https://www.rchauahan.in" />
+        </head>
       <body className={poppins.className}>
       <header className=' mx-auto w-full'>
       <img className=' mx-auto  relative  h-[150px] w-[150px] md:h-[100px] md:w-[100px] md:mt-[50px] md:mx-[10px]' src="./logo.png" alt="rchauhan" />
@@ -38,7 +46,7 @@ export default function RootLayout({
               </Link>
             </li>
             <li>
-              <Link className="hover:text-mypurple"  href="/services">
+              <Link className="hover:text-mypurple"  href="#services">
               Services
               </Link>
             </li>

@@ -39,7 +39,7 @@ export default function Home() {
               </defs>
             </svg>
           </div>
-          <div className="md:mt-[50px] mt-[-20px] text-center ">
+          <div className=" md:mt-[50px] mt-[-20px] text-center ">
           <p className="mt-8 text-4xl font-bold tracking-normal text-grey-300 leading-normal  lg:text-[80px]">
           People who care<br/> about your growth
         </p>
