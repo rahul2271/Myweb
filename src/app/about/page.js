@@ -3,7 +3,7 @@ import { Metadata } from "next"
 export default function Aboutpage(){
     return(
         <>
-        <title>Greetings! I'm Rahul Chauhan, the visionary founder of Rchauhan.</title>
+        <title>Greetings! I&apos;m Rahul Chauhan, the visionary founder of Rchauhan.</title>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <meta name="description" content="Discover the story behind [Your Company Name], a digital services hub founded by Rahul Chauhan. Dive into our journey of innovation, creativity, and digital excellence in web development, graphic design, and content creation."/>
@@ -95,7 +95,7 @@ export default function Aboutpage(){
         <section className="z-10 ">
             <div>
                 {/* <h1 className="text-[30px] mx-auto w-auto text-center mt-[50px] font-bold">Welcome to Rchauhan</h1> */}
-                <h1 className="text-[13px] text-center mt-[50px]">Greetings! I'm <span className="font-bold">Rahul Chauhan</span>, the visionary founder of Rchauhan.</h1>
+                <h1 className="text-[13px] text-center mt-[50px]">Greetings! I&apos;m <span className="font-bold">Rahul Chauhan</span>, the visionary founder of Rchauhan.</h1>
             </div>
             <div>
                 <h3 className="text-[20px] text-center font-bold mt-[50px]">
@@ -110,7 +110,7 @@ export default function Aboutpage(){
                 Crafting Digital Marvels
                 </h3>
                 <p className="text-[15px]  text-center mt-[20px]">
-                At Rchauhan, we don't just build websites; we sculpt online experiences. Dive into a world where sleek websites, captivating graphics, and compelling content converge to create a symphony of digital marvels.
+                At Rchauhan, we don&apos;t just build websites; we sculpt online experiences. Dive into a world where sleek websites, captivating graphics, and compelling content converge to create a symphony of digital marvels.
                 </p>
             </div>
             <div>
@@ -118,15 +118,15 @@ export default function Aboutpage(){
                 Meet the Mavericks
                 </h3>
                 <p className="text-[15px]  text-center mt-[20px]">
-                Our team isn't just a team; it's a league of digital mavericks. Graphic virtuosos, coding maestros, and content sorcerers—each member is a specialist in their domain. Together, we form a powerhouse dedicated to transforming your digital aspirations into awe-inspiring realities.
+                Our team isn&apos;t just a team; it&apos;s a league of digital mavericks. Graphic virtuosos, coding maestros, and content sorcerers—each member is a specialist in their domain. Together, we form a powerhouse dedicated to transforming your digital aspirations into awe-inspiring realities.
                 </p>
             </div>
             <div>
                 <h3 className="text-[20px] text-center font-bold mt-[50px]">
-                Pioneering Tomorrow's Trends
+                Pioneering Tomorrow&apos;s Trends
                 </h3>
                 <p className="text-[15px]  text-center mt-[20px]">
-                In the ever-evolving digital cosmos, we don't chase trends; we set them. Innovation is not just a buzzword for us; it's a tradition. Stay ahead in the game with Rchauhan, your digital partner in pioneering tomorrow's trends.
+                In the ever-evolving digital cosmos, we don&apos;t chase trends; we set them. Innovation is not just a buzzword for us; it&apos;s a tradition. Stay ahead in the game with Rchauhan, your digital partner in pioneering tomorrow&apos;s trends.
                 </p>
             </div>
             <div>
@@ -134,7 +134,7 @@ export default function Aboutpage(){
                 Your Triumph, Our Mission
                 </h3>
                 <p className="text-[15px]  text-center mt-[20px]">
-                Your success is our heartbeat. From conceptualization to execution, we blend our expertise with your vision, creating digital symphonies that resonate. Your brand isn't just another project; it's a testament to our commitment to your triumph.
+                Your success is our heartbeat. From conceptualization to execution, we blend our expertise with your vision, creating digital symphonies that resonate. Your brand isn&apos;t just another project; it&apos;s a testament to our commitment to your triumph.
                 </p>
             </div>
             <div>
@@ -142,20 +142,20 @@ export default function Aboutpage(){
                 Elevate Your Digital Presence
                 </h3>
                 <p className="text-[15px]  text-center mt-[20px]">
-                Revolutionize your online footprint with Rchauhan. Whether you're a startup dreaming big or an established brand ready for a digital facelift, our team is poised to elevate your digital presence to new heights.
+                Revolutionize your online footprint with Rchauhan. Whether you&apos;re a startup dreaming big or an established brand ready for a digital facelift, our team is poised to elevate your digital presence to new heights.
                 </p>
             </div>
             <div>
                 <h3 className="text-[20px] text-center font-bold mt-[50px]">
-                Let's Script Digital Success Together
+                Let&apos;s Script Digital Success Together
                 </h3>
                 <p className="text-[15px]  text-center mt-[20px]">
-                Partner with Rchauhan and script a digital success story that resonates across the virtual landscape. Collaborate, innovate, and witness your brand's meteoric rise with us.
+                Partner with Rchauhan and script a digital success story that resonates across the virtual landscape. Collaborate, innovate, and witness your brand&apos;s meteoric rise with us.
                 </p>
             </div>
             <div>
                 <p className="text-center text-[15px]  mt-[50px]">
-                Thank you for considering Rchauhan as your digital ally. Let's weave digital wonders together.
+                Thank you for considering Rchauhan as your digital ally. Let&apos;s weave digital wonders together.
                 </p>
             </div>
             <div className="text-center mt-[20px]">
