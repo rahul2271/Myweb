@@ -331,7 +331,7 @@ export default function Home() {
     <dl className="grid grid-cols-1 gap-x-8 gap-y-16 text-center md:flex animate-pulse lg:grid-cols-3">
     <div className="mx-auto flex max-w-xs flex-col gap-y-4">
         <dt className="text-base leading-7 text-grey-300">Existing Clients</dt>
-        <h1 className="order-first text-3xl font-semibold tracking-tight text-mypurple sm:text-5xl">110+</h1>
+        <p className="order-first text-3xl font-semibold tracking-tight text-mypurple sm:text-5xl">110+</p>
       </div>
       <div className="mx-auto flex max-w-xs flex-col gap-y-4">
         <dt className="text-base leading-7 text-grey-300">Projects Completed</dt>

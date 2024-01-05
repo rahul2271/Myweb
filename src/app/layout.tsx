@@ -34,7 +34,7 @@ export default function RootLayout({
         <meta name="description" content="Transform your online presence with expert web development, creative graphic design, and engaging content writing services. Explore a world of digital solutions with Rchauhan." />
         <meta name="keywords" content="web development, graphic design, content creation, digital services, social media optimization, social media management, digital marketing, business growth, Rahul Chauhan, rchauhan, innovation, creativity, branding" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="canonical" href="https://www.rchauahan.in" />
+        <link rel="canonical" href="https://www.rchauhan.in" />
         </head>
       <body className={poppins.className}>
       <header className='md:mx-auto md:w-full md:mt-[-70px] mx-auto w-full'>
