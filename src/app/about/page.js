@@ -108,7 +108,7 @@ export default function Aboutpage(){
                 <h1 className="text-[13px] text-center mt-[50px]  md:text-[35px] md:tracking-wider">Greetings! I&apos;m <span className="font-bold">Rahul Chauhan</span>, the visionary founder of Rchauhan.</h1>
             </div>
             <div>
-                <h3 className="text-[20px] text-center font-bold mt-[50px] md:text-[35px] md:mt-[100px] md:tracking-wider">
+                <h3 className="text-[20px] text-center font-bold mt-[50px] md:text-[30px] md:mt-[100px] md:tracking-wider">
                 Unleashing Digital Excellence
                 </h3>
                 <p className="text-[15px]  text-center mt-[20px] md:text-[20px] md:text-gray-200">
@@ -116,7 +116,7 @@ export default function Aboutpage(){
                 </p>
             </div>
             <div>
-                <h3 className="text-[20px] text-center font-bold mt-[50px] md:text-[35px] md:tracking-wider md:mt-[100px]">
+                <h3 className="text-[20px] text-center font-bold mt-[50px] md:text-[30px] md:tracking-wider md:mt-[100px]">
                 Crafting Digital Marvels
                 </h3>
                 <p className="text-[15px]  text-center mt-[20px] md:text-[20px] md:text-gray-200">
@@ -124,7 +124,7 @@ export default function Aboutpage(){
                 </p>
             </div>
             <div>
-                <h3 className="text-[20px] text-center font-bold mt-[50px] md:text-[35px] md:tracking-wider md:mt-[100px]">
+                <h3 className="text-[20px] text-center font-bold mt-[50px] md:text-[30px] md:tracking-wider md:mt-[100px]">
                 Meet the Mavericks
                 </h3>
                 <p className="text-[15px]  text-center mt-[20px] md:text-[20px] md:text-gray-200">
@@ -132,7 +132,7 @@ export default function Aboutpage(){
                 </p>
             </div>
             <div>
-                <h3 className="text-[20px] text-center font-bold mt-[50px] md:text-[35px] md:tracking-wider md:mt-[100px]">
+                <h3 className="text-[20px] text-center font-bold mt-[50px] md:text-[30px] md:tracking-wider md:mt-[100px]">
                 Pioneering Tomorrow&apos;s Trends
                 </h3>
                 <p className="text-[15px]  text-center mt-[20px] md:text-[20px] md:text-gray-200">
@@ -140,7 +140,7 @@ export default function Aboutpage(){
                 </p>
             </div>
             <div>
-                <h3 className="text-[20px] text-center font-bold mt-[50px] md:text-[35px] md:tracking-wider md:mt-[100px]">
+                <h3 className="text-[20px] text-center font-bold mt-[50px] md:text-[30px] md:tracking-wider md:mt-[100px]">
                 Your Triumph, Our Mission
                 </h3>
                 <p className="text-[15px]  text-center mt-[20px] md:text-[20px] md:text-gray-200">
@@ -148,7 +148,7 @@ export default function Aboutpage(){
                 </p>
             </div>
             <div>
-                <h3 className="text-[20px] text-center font-bold mt-[50px] md:text-[35px] md:tracking-wider md:mt-[100px]">
+                <h3 className="text-[20px] text-center font-bold mt-[50px] md:text-[30px] md:tracking-wider md:mt-[100px]">
                 Elevate Your Digital Presence
                 </h3>
                 <p className="text-[15px]  text-center mt-[20px] md:text-[20px] md:text-gray-200">
@@ -156,7 +156,7 @@ export default function Aboutpage(){
                 </p>
             </div>
             <div>
-                <h3 className="text-[20px] text-center font-bold mt-[50px] md:text-[35px] md:tracking-wider md:mt-[100px]">
+                <h3 className="text-[20px] text-center font-bold mt-[50px] md:text-[30px] md:tracking-wider md:mt-[100px]">
                 Let&apos;s Script Digital Success Together
                 </h3>
                 <p className="text-[15px]  text-center mt-[20px] md:text-[20px] md:text-gray-200">
@@ -164,11 +164,11 @@ export default function Aboutpage(){
                 </p>
             </div>
             <div>
-                <p className="text-center text-[15px]  mt-[50px] md:text-[35px] md:text-[20px] md:text-gray-200 md:tracking-wider md:mt-[100px]">
+                <p className="text-center text-[15px]  mt-[50px] md:text-[20px] md:text-gray-200 md:tracking-wider md:mt-[100px]">
                 Thank you for considering Rchauhan as your digital ally. Let&apos;s weave digital wonders together.
                 </p>
             </div>
-            <div className="text-center mt-[20px] md:tracking-wider md:text-[25px] md:mt-[80px] mb-[50px]">
+            <div className="text-center mt-[20px] md:tracking-wider md:text-[20px] md:mt-[80px] mb-[50px]">
                 <p>
                 Warm regards,
                 </p>
