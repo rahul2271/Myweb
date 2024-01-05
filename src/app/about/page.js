@@ -6,7 +6,7 @@ export default function Aboutpage(){
         <title>Greetings! I&apos;m Rahul Chauhan, the visionary founder of Rchauhan.</title>
         <meta charset="UTF-8"/>
         {/* <meta name="viewport" content="width=device-width, initial-scale=1.0"/> */}
-        <meta name="description" content="Discover the story behind Rchauhan, a digital services hub founded by Rahul Chauhan. Dive into our journey of digital excellence in web development, graphic design, and content creation."/>
+        <meta name="description" content="Discover the story behind Rchauhan, a digital services hub founded by Rahul Chauhan. Dive into our journey of digital excellence."/>
         <meta name="keywords" content="web development, graphic design, content creation, digital services, social media optimization, social media management, digital marketing, business growth, Rahul Chauhan, rchauhan, innovation, creativity, branding "/>
         <meta name="author" content="Rahul Chauhan"/>
         <meta name="robots" content="index, follow"/>
