@@ -92,73 +92,73 @@ export default function Aboutpage(){
               </defs>
             </svg>
           </div>
-        <section className="z-10 ">
+        <section className="z-10 md:max-w-6xl mx-auto place-content-center md:mt-[100px] ">
             <div>
                 {/* <h1 className="text-[30px] mx-auto w-auto text-center mt-[50px] font-bold">Welcome to Rchauhan</h1> */}
-                <h1 className="text-[13px] text-center mt-[50px]">Greetings! I&apos;m <span className="font-bold">Rahul Chauhan</span>, the visionary founder of Rchauhan.</h1>
+                <h1 className="text-[13px] text-center mt-[50px]  md:text-[35px] md:tracking-wider">Greetings! I&apos;m <span className="font-bold">Rahul Chauhan</span>, the visionary founder of Rchauhan.</h1>
             </div>
             <div>
-                <h3 className="text-[20px] text-center font-bold mt-[50px]">
+                <h3 className="text-[20px] text-center font-bold mt-[50px] md:text-[35px] md:mt-[100px] md:tracking-wider">
                 Unleashing Digital Excellence
                 </h3>
-                <p className="text-[15px]  text-center mt-[20px]">
+                <p className="text-[15px]  text-center mt-[20px] md:text-[20px] md:text-gray-200">
                 Embark on a digital odyssey with Rchauhan, where cutting-edge technology meets creative brilliance. Armed with a B.Tech degree and a rich 5-year professional journey, I founded this digital haven to redefine excellence in web development, graphic design, content creation, and beyond.
                 </p>
             </div>
             <div>
-                <h3 className="text-[20px] text-center font-bold mt-[50px]">
+                <h3 className="text-[20px] text-center font-bold mt-[50px] md:text-[35px] md:tracking-wider md:mt-[100px]">
                 Crafting Digital Marvels
                 </h3>
-                <p className="text-[15px]  text-center mt-[20px]">
+                <p className="text-[15px]  text-center mt-[20px] md:text-[20px] md:text-gray-200">
                 At Rchauhan, we don&apos;t just build websites; we sculpt online experiences. Dive into a world where sleek websites, captivating graphics, and compelling content converge to create a symphony of digital marvels.
                 </p>
             </div>
             <div>
-                <h3 className="text-[20px] text-center font-bold mt-[50px]">
+                <h3 className="text-[20px] text-center font-bold mt-[50px] md:text-[35px] md:tracking-wider md:mt-[100px]">
                 Meet the Mavericks
                 </h3>
-                <p className="text-[15px]  text-center mt-[20px]">
+                <p className="text-[15px]  text-center mt-[20px] md:text-[20px] md:text-gray-200">
                 Our team isn&apos;t just a team; it&apos;s a league of digital mavericks. Graphic virtuosos, coding maestros, and content sorcerers—each member is a specialist in their domain. Together, we form a powerhouse dedicated to transforming your digital aspirations into awe-inspiring realities.
                 </p>
             </div>
             <div>
-                <h3 className="text-[20px] text-center font-bold mt-[50px]">
+                <h3 className="text-[20px] text-center font-bold mt-[50px] md:text-[35px] md:tracking-wider md:mt-[100px]">
                 Pioneering Tomorrow&apos;s Trends
                 </h3>
-                <p className="text-[15px]  text-center mt-[20px]">
+                <p className="text-[15px]  text-center mt-[20px] md:text-[20px] md:text-gray-200">
                 In the ever-evolving digital cosmos, we don&apos;t chase trends; we set them. Innovation is not just a buzzword for us; it&apos;s a tradition. Stay ahead in the game with Rchauhan, your digital partner in pioneering tomorrow&apos;s trends.
                 </p>
             </div>
             <div>
-                <h3 className="text-[20px] text-center font-bold mt-[50px]">
+                <h3 className="text-[20px] text-center font-bold mt-[50px] md:text-[35px] md:tracking-wider md:mt-[100px]">
                 Your Triumph, Our Mission
                 </h3>
-                <p className="text-[15px]  text-center mt-[20px]">
+                <p className="text-[15px]  text-center mt-[20px] md:text-[20px] md:text-gray-200">
                 Your success is our heartbeat. From conceptualization to execution, we blend our expertise with your vision, creating digital symphonies that resonate. Your brand isn&apos;t just another project; it&apos;s a testament to our commitment to your triumph.
                 </p>
             </div>
             <div>
-                <h3 className="text-[20px] text-center font-bold mt-[50px]">
+                <h3 className="text-[20px] text-center font-bold mt-[50px] md:text-[35px] md:tracking-wider md:mt-[100px]">
                 Elevate Your Digital Presence
                 </h3>
-                <p className="text-[15px]  text-center mt-[20px]">
+                <p className="text-[15px]  text-center mt-[20px] md:text-[20px] md:text-gray-200">
                 Revolutionize your online footprint with Rchauhan. Whether you&apos;re a startup dreaming big or an established brand ready for a digital facelift, our team is poised to elevate your digital presence to new heights.
                 </p>
             </div>
             <div>
-                <h3 className="text-[20px] text-center font-bold mt-[50px]">
+                <h3 className="text-[20px] text-center font-bold mt-[50px] md:text-[35px] md:tracking-wider md:mt-[100px]">
                 Let&apos;s Script Digital Success Together
                 </h3>
-                <p className="text-[15px]  text-center mt-[20px]">
+                <p className="text-[15px]  text-center mt-[20px] md:text-[20px] md:text-gray-200">
                 Partner with Rchauhan and script a digital success story that resonates across the virtual landscape. Collaborate, innovate, and witness your brand&apos;s meteoric rise with us.
                 </p>
             </div>
             <div>
-                <p className="text-center text-[15px]  mt-[50px]">
+                <p className="text-center text-[15px]  mt-[50px] md:text-[35px] md:text-[20px] md:text-gray-200 md:tracking-wider md:mt-[100px]">
                 Thank you for considering Rchauhan as your digital ally. Let&apos;s weave digital wonders together.
                 </p>
             </div>
-            <div className="text-center mt-[20px]">
+            <div className="text-center mt-[20px] md:tracking-wider md:text-[25px] md:mt-[80px] mb-[50px]">
                 <p>
                 Warm regards,
                 </p>

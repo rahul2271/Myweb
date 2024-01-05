@@ -37,8 +37,8 @@ export default function RootLayout({
         <link rel="canonical" href="https://www.rchauahan.in" />
         </head>
       <body className={poppins.className}>
-      <header className=' mx-auto w-full'>
-      <img className=' mx-auto  relative  h-[150px] w-[150px] md:h-[100px] md:w-[100px] md:mt-[50px] md:mx-[10px]' src="./logo.png" alt="rchauhan" />
+      <header className='md:mx-auto md:w-full md:mt-[-70px] mx-auto w-full'>
+      <img className=' mx-auto  relative  h-[150px] w-[150px] md:h-[100px] md:w-[100px] md:mt-[70px] md:mx-[10px]' src="./logo.png" alt="rchauhan" />
           <ul className=' flex md:space-x-6  md:text-xl md:my-[-20px] md:place-content-center lg:flex md:space-x-6 lg:place-content-center text-[15px] space-x-6  place-content-center'>
             <li>
               <Link className="hover:text-mypurple" href="/">
