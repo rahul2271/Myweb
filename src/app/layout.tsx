@@ -72,14 +72,14 @@ export default function RootLayout({
               </Link>
             </li>
           </ul>
-          <Link href="/contact" className="hidden lg:block ml-[1300px] mt-[-50px] ">
+          {/* <Link href="/contact" className="hidden lg:block ml-[1300px] mt-[-50px] ">
       <button
         type="button"
         className="rounded-md bg-[#953ee2] px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
       >
         Contact Us
       </button>
-    </Link>
+    </Link> */}
           
         </header>
       {/* <header className=" relative  w-full">
