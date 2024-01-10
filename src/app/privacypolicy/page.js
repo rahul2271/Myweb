@@ -9,7 +9,7 @@ export default function Privacy(){
             </div>
             <div>
             <h2 className="mt-[20px] text-[30px] font-extrabold">Introduction</h2>
-            <p>Welcome to Rchauhan ("we," "us," or "our"). This Privacy Policy is designed to help you understand how we collect, use, disclose, and safeguard your personal information.</p>
+            <p>Welcome to Rchauhan (&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;). This Privacy Policy is designed to help you understand how we collect, use, disclose, and safeguard your personal information.</p>
             </div>
             <div>
                 <h2 className="mt-[20px] text-[30px] font-extrabold">Information We Collect</h2>
