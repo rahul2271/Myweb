@@ -105,7 +105,7 @@ export default function Privacy(){
               </defs>
             </svg>
           </div>        
-        <section className="z-10 max-w-7xl md:max-w-6xl mx-auto place-content-center text-center">
+        <section className="z-10 max-w-7xl md:max-w-6xl mx-auto place-content-center text-center md:mb-[100px] mb=[50px] ">
             <div className="mt-[50px] md:mt-[100px] text-gray-500">
                 <p>Last Updated: [06-01-2024]</p>
             </div>
