@@ -376,7 +376,7 @@ export default function RootLayout({
             </Link>
           </div>
           <div className="w-auto p-1.5">
-            <Link href="https://www.instagram.com/rchauhan.in?igsh=MWVvNGF0MDQ3Y2IwYw%3D%3D&utm_source=qr">
+            <Link href="https://www.instagram.com/r.__.chauhan?igsh=MWVvNGF0MDQ3Y2IwYw%3D%3D&utm_source=qr">
               <div className="flex h-[50px] bg-mypurple w-[50px] md:w-[50px] md:h-[50px] items-center justify-center rounded-full  border-gray-100 hover:border-white">
                 <svg
                   width="20"
