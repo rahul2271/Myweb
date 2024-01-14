@@ -321,7 +321,7 @@ export default function RootLayout({
             </Link>
           </li>
           <li className="p-5">
-            <Link className="font-medium text-gray-300 md:text-[20px] hover:text-mypurple" href="#">
+            <Link className="font-medium text-gray-300 md:text-[20px] hover:text-mypurple" href="/tnc">
               Terms of Service
             </Link>
           </li>
