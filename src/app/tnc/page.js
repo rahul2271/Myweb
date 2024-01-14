@@ -112,7 +112,7 @@ export default function terms(){
             <div>
                 {/* <h2>Content and Intellectual Property</h2> */}
                 <h2 className="font-extrabold mt-[20px] text-[30px] md:text-[30px] md:mt-[40px] md:tracking-wider">Acceptance of Terms</h2>
-                <p className="md:text-[20px] md:text-gray-200">Welcome to www.rchauhan.in (the "Website"). By accessing or using the Website, you agree to comply with and be bound by these Terms of Service. If you do not agree with these terms, please refrain from using the Website.</p>
+                <p className="md:text-[20px] md:text-gray-200">Welcome to www.rchauhan.in (the &quot;Website&quot;). By accessing or using the Website, you agree to comply with and be bound by these Terms of Service. If you do not agree with these terms, please refrain from using the Website.</p>
             </div>
             <div>
                 <h2 className= "font-extrabold mt-[20px] text-[30px] md:text-[35px] md:mt-[100px] md:tracking-wider mt-[80px]">Content and Intellectual Property</h2>
@@ -151,7 +151,7 @@ export default function terms(){
             
             <div>
                 <h2 className= "font-extrabold mt-[80px] text-[30px] md:text-[35px] md:mt-[100px] md:tracking-wider">Disclaimer of Warranties</h2>
-                <p className="md:text-[20px] md:text-gray-200">The Website is provided on an "as-is" and "as available" basis. Rchauhan makes no warranties, express or implied, regarding the Website's accuracy, completeness, or fitness for a particular purpose.</p>
+                <p className="md:text-[20px] md:text-gray-200">The Website is provided on an &quot;as-is&quot; and &quot;as available&quot; basis. Rchauhan makes no warranties, express or implied, regarding the Website's accuracy, completeness, or fitness for a particular purpose.</p>
             </div>
 
             <div>
