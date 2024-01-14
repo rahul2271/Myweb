@@ -316,7 +316,7 @@ export default function RootLayout({
 
         <ul className="text-center relative md:absolute place-content-center md:m-5 md:flex flex-column md:flex-wrap">
           <li className="p-5">
-            <Link className="text-center font-medium md:text-[20px] text-gray-300 hover:text-mypurple" href="#">
+            <Link className="text-center font-medium md:text-[20px] text-gray-300 hover:text-mypurple" href="/privacypolicy">
               Privacy Policy
             </Link>
           </li>
