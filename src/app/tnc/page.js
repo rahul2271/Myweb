@@ -151,7 +151,7 @@ export default function terms(){
             
             <div>
                 <h2 className= "font-extrabold mt-[80px] text-[30px] md:text-[35px] md:mt-[100px] md:tracking-wider">Disclaimer of Warranties</h2>
-                <p className="md:text-[20px] md:text-gray-200">The Website is provided on an &quot;as-is&quot; and &quot;as available&quot; basis. Rchauhan makes no warranties, express or implied, regarding the Website's accuracy, completeness, or fitness for a particular purpose.</p>
+                <p className="md:text-[20px] md:text-gray-200">The Website is provided on an &quot;as-is&quot; and &quot;as available&quot; basis. Rchauhan makes no warranties, express or implied, regarding the Website&apos;s accuracy, completeness, or fitness for a particular purpose.</p>
             </div>
 
             <div>
