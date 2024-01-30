@@ -74,7 +74,7 @@ const Form = () => {
   return (
     <>
     <form className='contactusform' onSubmit={handleSubmit}>
-      <p>ASK YOUR QUERY</p>
+      <p>GET IN TOUCH</p>
 
       <div className="mb-3 mt-1">
         <label htmlFor="fullName" className="form-label">
@@ -96,7 +96,7 @@ const Form = () => {
 
       <div className="mb-3">
         <label htmlFor="gmail" className="form-label">
-          Gmail *
+          E-mail *
         </label>
         <div className="input-group">
           <input
@@ -149,7 +149,7 @@ const Form = () => {
         </div>
       </div>
 
-      <button type="submit">SEND</button>
+      <button type="submit">Submit</button>
     </form>
 
 
