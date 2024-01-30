@@ -36,7 +36,7 @@ const Form = () => {
 
     setShowTick(true);
 
-    const sheetDBEndpoint = 'Your API';
+    const sheetDBEndpoint = 'https://sheetdb.io/api/v1/7tneevoxn7zax';
 
     try {
       const response = await fetch(sheetDBEndpoint, {
