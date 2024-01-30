@@ -38,7 +38,7 @@
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
   width: 500px; /* Adjust the width as needed */
-  border: 2px solid violet;
+  border: 2px solid #953ee2;
 }
 
 .contactusform p {
@@ -54,7 +54,7 @@
 
 .form-label {
   font-size: 14px;
-  color: violet;
+  color: #953ee2;
 }
 
 .form-control {
@@ -74,7 +74,7 @@
 }
 
 button[type='submit'] {
-  background-color: violet; /* Green button color */
+  background-color: #953ee2; /* Green button color */
   color: #fff;
   font-weight: bolder;
   padding: 10px 50px;
