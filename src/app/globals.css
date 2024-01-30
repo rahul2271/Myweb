@@ -41,6 +41,20 @@
   border: 2px solid #953ee2;
 }
 
+@media only screen and (max-width: 600px) {
+  .contactusform {
+    background-color: transparent; /* Form background color */
+    display: block;
+    margin: auto;
+    margin-top: 70px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    width: 350px; /* Adjust the width as needed */
+    border: 2px solid #953ee2;
+  }
+}
+
 .contactusform p {
   text-align: center;
   font-size: 18px;
