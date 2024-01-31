@@ -15,7 +15,8 @@
 .centered-div{
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.774);
+  background-color: #d7b6f3;
+  opacity: 70%;
   text-align:center;
   position:absolute;
   top: 0px;
@@ -57,7 +58,8 @@
   .centered-div{
     width: 100%;
     height: 200%;
-    background-color: rgba(0, 0, 0, 0.774);
+    background-color: #d7b6f3;
+    opacity: 70%;
     text-align:center;
     position:absolute;
     top: 0px;
