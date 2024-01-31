@@ -317,6 +317,7 @@ export default function Home() {
   </div> */}
 
 <section className="relative w-full overflow-hidden bg-transparent pb-14">
+  <div className='lg:text-5xl md:text-5xl text-3xl md:mb-[80px] lg:mb-[80px] mb-[40px] mt-[40px] font-bold mx-auto max-w-auto text-center place-content-center'>Our Exclusive Plans</div>
       <div className="relative  z-10 mx-auto max-w-7xl px-4">
         <div className="mx-auto md:max-w-4xl">
           <div className="-m-5 flex flex-wrap">
