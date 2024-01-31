@@ -265,7 +265,7 @@ const Form = () => {
               height={500}
               alt="Contact us"
               className="hidden max-h-full w-full rounded-lg object-cover lg:block"
-              src="/contact.jpg"
+              src="/contact1.jpg"
             />
           </div>
         </div>
