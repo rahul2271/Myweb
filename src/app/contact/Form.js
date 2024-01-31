@@ -17,6 +17,9 @@ const locations = [
   {
     title: 'Contact : +91 7009646377',
   },
+  {
+    title: 'E-mail : rraahhuullch@gmail.com',
+  },
 ]
 const Form = () => {
   const [showTick, setShowTick] = useState(false);
