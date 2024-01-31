@@ -66,11 +66,16 @@ export default function RootLayout({
               About
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link className="hover:text-mypurple" href="/blogs">
               Blogs
               </Link>
-            </li>
+            </li> */}
+            <li>
+              <Link className="hover:text-mypurple" href="#pricing">
+              Pricing
+              </Link>
+            </li>            
           </ul>
           {/* <Link href="/contact" className="hidden lg:block ml-[1300px] mt-[-50px] ">
       <button
