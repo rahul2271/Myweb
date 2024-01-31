@@ -1,17 +1,17 @@
 export default function terms(){
     return(
         <>
-         <title>Terms of Service - Rchauhan</title>
+         <title>Terms of Service - RC Tech Solutions</title>
          <meta
           name="description"
           content="Read the Terms of Service for www.rchauhan.in to understand the rules and guidelines for using our website. Your use of the website is subject to these terms and conditions."
         />
         <meta
           name="keywords"
-          content="terms of service, Rchauhan, website usage, rules, guidelines, India"
+          content="terms of service, RC Tech Solutions, website usage, rules, guidelines, India"
         />
         <meta name="robots" content="index, follow" />
-        <meta property="og:title" content="Terms of Service - Rchauhan" />
+        <meta property="og:title" content="Terms of Service - RC Tech Solutions" />
         <meta
           property="og:description"
           content="Read the Terms of Service for www.rchauhan.in to understand the rules and guidelines for using our website. Your use of the website is subject to these terms and conditions."
@@ -121,11 +121,11 @@ export default function terms(){
                 <ol>
                     <li>
                         <h2 className="font-extrabold mt-[20px] text-[20px] md:text-[25px] md:mt-[40px] md:tracking-wider">Ownership: </h2>
-                        <p className="md:text-[20px] md:text-gray-200">All content on the Website, including text, graphics, logos, images, and software, is the property of Rchauhan or its licensors and is protected by copyright and other intellectual property laws.</p>
+                        <p className="md:text-[20px] md:text-gray-200">All content on the Website, including text, graphics, logos, images, and software, is the property of RC Tech Solutions or its licensors and is protected by copyright and other intellectual property laws.</p>
                     </li>
                     <li>
                         <h2 className="font-extrabold mt-[20px] text-[20px] md:text-[25px] md:mt-[40px] md:tracking-wider">User-Generated Content: </h2>
-                        <p className="md:text-[20px] md:text-gray-200">If you submit any content to the Website, you grant Rchauhan a non-exclusive, royalty-free, worldwide, and perpetual license to use, reproduce, modify, adapt, publish, translate, create derivative works, distribute, and display such content.</p>
+                        <p className="md:text-[20px] md:text-gray-200">If you submit any content to the Website, you grant RC Tech Solutions a non-exclusive, royalty-free, worldwide, and perpetual license to use, reproduce, modify, adapt, publish, translate, create derivative works, distribute, and display such content.</p>
                     </li>
                     
                 </ol>
@@ -151,17 +151,17 @@ export default function terms(){
             
             <div>
                 <h2 className= "font-extrabold mt-[80px] text-[30px] md:text-[35px] md:mt-[100px] md:tracking-wider">Disclaimer of Warranties</h2>
-                <p className="md:text-[20px] md:text-gray-200">The Website is provided on an &quot;as-is&quot; and &quot;as available&quot; basis. Rchauhan makes no warranties, express or implied, regarding the Website&apos;s accuracy, completeness, or fitness for a particular purpose.</p>
+                <p className="md:text-[20px] md:text-gray-200">The Website is provided on an &quot;as-is&quot; and &quot;as available&quot; basis. RC Tech Solutions makes no warranties, express or implied, regarding the Website&apos;s accuracy, completeness, or fitness for a particular purpose.</p>
             </div>
 
             <div>
                 <h2 className= "font-extrabold mt-[80px] text-[30px] md:text-[35px] md:mt-[100px] md:tracking-wider">Limitation of Liability</h2>
-                <p className="md:text-[20px] md:text-gray-200">To the fullest extent permitted by applicable law, Rchauhan shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenues.</p>
+                <p className="md:text-[20px] md:text-gray-200">To the fullest extent permitted by applicable law, RC Tech Solutions shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenues.</p>
             </div>                       
         
             <div>
                 <h2 className= "font-extrabold mt-[80px] text-[30px] md:text-[35px] md:mt-[100px] md:tracking-wider">Changes to Terms</h2>
-                <p className="md:text-[20px] md:text-gray-200">Rchauhan reserves the right to modify or replace these Terms of Service at any time. Your continued use of the Website after any changes constitute your acceptance of the new terms.</p>
+                <p className="md:text-[20px] md:text-gray-200">RC Tech Solutions reserves the right to modify or replace these Terms of Service at any time. Your continued use of the Website after any changes constitute your acceptance of the new terms.</p>
             </div>
 
             <div>

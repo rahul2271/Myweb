@@ -3,22 +3,22 @@ import { Metadata } from "next"
 export default function Aboutpage(){
     return(
         <>
-        <title>Greetings! I&apos;m Rahul Chauhan, the visionary founder of Rchauhan.</title>
+        <title>Greetings! I&apos;m Rahul Chauhan, the visionary founder of RC Tech Solutions.</title>
         <meta charset="UTF-8"/>
         {/* <meta name="viewport" content="width=device-width, initial-scale=1.0"/> */}
-        <meta name="description" content="Discover the story behind Rchauhan, a digital services hub founded by Rahul Chauhan. Dive into our journey of digital excellence."/>
-        <meta name="keywords" content="web development, graphic design, content creation, digital services, social media optimization, social media management, digital marketing, business growth, Rahul Chauhan, rchauhan, innovation, creativity, branding "/>
+        <meta name="description" content="Discover the story behind RC Tech Solutions, a digital services hub founded by Rahul Chauhan. Dive into our journey of digital excellence."/>
+        <meta name="keywords" content="web development, graphic design, content creation, digital services, social media optimization, social media management, digital marketing, business growth, Rahul Chauhan, RC Tech Solutions, innovation, creativity, branding "/>
         <meta name="author" content="Rahul Chauhan"/>
         <meta name="robots" content="index, follow"/>
         <meta property="og:type" content="website"/>
         <meta property="og:url" content="www.rchauhan.in"/>
-        <meta property="og:title" content="Rchauhan - Crafting Digital Excellence"/>
-        <meta property="og:description" content="Join Rahul Chauhan's journey at Rchauhan, a hub of innovation in web development, graphic design, and content creation. Your digital success begins here."/>
+        <meta property="og:title" content="RC Tech Solutions - Crafting Digital Excellence"/>
+        <meta property="og:description" content="Join Rahul Chauhan's journey at RC Tech Solutions, a hub of innovation in web development, graphic design, and content creation. Your digital success begins here."/>
         <meta property="og:image" content="/logo.png"/>
         <meta name="twitter:card" content="summary_large_image"/>
         <meta name="twitter:url" content="www.rchauhan.in"/>
-        <meta name="twitter:title" content="Rchauhan - Crafting Digital Excellence"/>
-        <meta name="twitter:description" content="Join Rahul Chauhan's journey at Rchauhan, a hub of innovation in web development, graphic design, and content creation. Your digital success begins here."/>
+        <meta name="twitter:title" content="RC Tech Solutions - Crafting Digital Excellence"/>
+        <meta name="twitter:description" content="Join Rahul Chauhan's journey at RC Tech Solutions, a hub of innovation in web development, graphic design, and content creation. Your digital success begins here."/>
         <meta name="twitter:image" content="/logo.png"/>
 
         {/* <section className="z-20 blur-xl fixed ">
@@ -105,14 +105,14 @@ export default function Aboutpage(){
         <section className="z-10 md:max-w-6xl mx-auto place-content-center md:mt-[100px] ">
             <div>
                 {/* <h1 className="text-[30px] mx-auto w-auto text-center mt-[50px] font-bold">Welcome to Rchauhan</h1> */}
-                <h1 className="text-[13px] text-center mt-[50px]  md:text-[35px] md:tracking-wider">Greetings! I&apos;m <span className="font-bold">Rahul Chauhan</span>, the visionary founder of Rchauhan.</h1>
+                <h1 className="text-[13px] text-center mt-[50px]  md:text-[35px] md:tracking-wider">Greetings! I&apos;m <span className="font-bold">Rahul Chauhan</span>, the visionary founder of RC Tech Solutions.</h1>
             </div>
             <div>
                 <h3 className="text-[20px] text-center font-bold mt-[50px] md:text-[30px] md:mt-[100px] md:tracking-wider">
                 Unleashing Digital Excellence
                 </h3>
                 <p className="text-[15px]  text-center mt-[20px] md:text-[20px] md:text-gray-200">
-                Embark on a digital odyssey with Rchauhan, where cutting-edge technology meets creative brilliance. Armed with a B.Tech degree and a rich 5-year professional journey, I founded this digital haven to redefine excellence in web development, graphic design, content creation, and beyond.
+                Embark on a digital odyssey with RC Tech Solutions, where cutting-edge technology meets creative brilliance. Armed with a B.Tech degree and a rich 5-year professional journey, I founded this digital haven to redefine excellence in web development, graphic design, content creation, and beyond.
                 </p>
             </div>
             <div>
@@ -120,7 +120,7 @@ export default function Aboutpage(){
                 Crafting Digital Marvels
                 </h3>
                 <p className="text-[15px]  text-center mt-[20px] md:text-[20px] md:text-gray-200">
-                At Rchauhan, we don&apos;t just build websites; we sculpt online experiences. Dive into a world where sleek websites, captivating graphics, and compelling content converge to create a symphony of digital marvels.
+                At RC Tech Solutions, we don&apos;t just build websites; we sculpt online experiences. Dive into a world where sleek websites, captivating graphics, and compelling content converge to create a symphony of digital marvels.
                 </p>
             </div>
             <div>
@@ -136,7 +136,7 @@ export default function Aboutpage(){
                 Pioneering Tomorrow&apos;s Trends
                 </h3>
                 <p className="text-[15px]  text-center mt-[20px] md:text-[20px] md:text-gray-200">
-                In the ever-evolving digital cosmos, we don&apos;t chase trends; we set them. Innovation is not just a buzzword for us; it&apos;s a tradition. Stay ahead in the game with Rchauhan, your digital partner in pioneering tomorrow&apos;s trends.
+                In the ever-evolving digital cosmos, we don&apos;t chase trends; we set them. Innovation is not just a buzzword for us; it&apos;s a tradition. Stay ahead in the game with RC Tech Solutions, your digital partner in pioneering tomorrow&apos;s trends.
                 </p>
             </div>
             <div>
@@ -152,7 +152,7 @@ export default function Aboutpage(){
                 Elevate Your Digital Presence
                 </h3>
                 <p className="text-[15px]  text-center mt-[20px] md:text-[20px] md:text-gray-200">
-                Revolutionize your online footprint with Rchauhan. Whether you&apos;re a startup dreaming big or an established brand ready for a digital facelift, our team is poised to elevate your digital presence to new heights.
+                Revolutionize your online footprint with RC Tech Solutions. Whether you&apos;re a startup dreaming big or an established brand ready for a digital facelift, our team is poised to elevate your digital presence to new heights.
                 </p>
             </div>
             <div>
@@ -160,12 +160,12 @@ export default function Aboutpage(){
                 Let&apos;s Script Digital Success Together
                 </h3>
                 <p className="text-[15px]  text-center mt-[20px] md:text-[20px] md:text-gray-200">
-                Partner with Rchauhan and script a digital success story that resonates across the virtual landscape. Collaborate, innovate, and witness your brand&apos;s meteoric rise with us.
+                Partner with RC Tech Solutions and script a digital success story that resonates across the virtual landscape. Collaborate, innovate, and witness your brand&apos;s meteoric rise with us.
                 </p>
             </div>
             <div>
                 <p className="text-center text-[15px]  mt-[50px] md:text-[20px] md:text-gray-200 md:tracking-wider md:mt-[100px]">
-                Thank you for considering Rchauhan as your digital ally. Let&apos;s weave digital wonders together.
+                Thank you for considering RC Tech Solutions as your digital ally. Let&apos;s weave digital wonders together.
                 </p>
             </div>
             <div className="text-center mt-[20px] md:tracking-wider md:text-[20px] md:mt-[80px] mb-[50px]">
@@ -176,7 +176,7 @@ export default function Aboutpage(){
                 Rahul Chauhan
                 </p>
                 <p>
-                Founder, Rchauhan
+                Founder, RC Tech Solutions
                 </p>
             </div>
         </section>
