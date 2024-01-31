@@ -41,7 +41,8 @@ export default function Home() {
           </div>
           <div className=" md:mt-[50px] mt-[-20px] text-center ">
           <p className="mt-8 text-4xl font-bold tracking-normal text-grey-300 leading-normal  lg:text-[80px]">
-          People who care<br/> about your growth
+          We are Creative Tech Solutions Company.<br/>
+          <span className='text-xl'>Transforming Dukaans to Brands.</span>
         </p>
         <p className="mt-8 text-[15px] md:text-[25px] md:w-auto text-gray-300 leading-loose">
         Fueling online success, one click at a time supercharge your business growth with our winning web solutions.
