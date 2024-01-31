@@ -77,9 +77,197 @@ export default function Home() {
       </div>
     </div>
   
-    
+    <div id='services' className="croll-smooth focus:scroll-auto mx-auto my-12 max-w-7xl px-4 sm:px-6 md:my-24 lg:my-32 lg:px-8">
+    <div className="mx-auto max-w-xl text-center">
+      <div className="mx-auto inline-flex rounded-full bg-mypurple px-4 py-1.5">
+        <p className="text-xs font-semibold uppercase tracking-widest text-white">
+          What we have for you...
+        </p>
+      </div>
+      <h2 className="mt-6 text-3xl font-bold leading-tight text-grey-100 sm:text-4xl lg:text-5xl">
+        Our Exclusive Services
+      </h2>
+      <p className="mt-4 text-base leading-relaxed text-gray-200">
+      From design to deployment, we have got your web presence covered—your all-in-one solution for digital excellence.
+      </p>
+    </div>
+    <div className="mt-12 grid grid-cols-1 gap-y-8 text-center sm:grid-cols-2 sm:gap-12 lg:grid-cols-4">
+      <div className='hover:border-white  hover:bg-mypurple/20  border-2 p-[20px] border-mypurple rounded-2xl'>
+        <div className=" mx-auto flex h-20 w-20 items-center justify-center rounded-full ">
+          <img src="/webdevelopers.gif" alt="web development" />
+        </div>
+        <h3 className="mt-8 text-lg font-semibold text-white">Web Development</h3>
+        <p className="mt-8 text-sm text-gray-200">
+        Elevate your online presence with our expert web development services—where innovation meets impeccable design.
+        </p>
+      </div>
+      <div className='hover:border-white  hover:bg-mypurple/20 border-2 p-[20px] border-mypurple rounded-2xl'>
+        <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full ">
+          <img src="/gd.gif" alt="Graphcs designing" />
+        </div>
+        <h3 className="mt-8 text-lg font-semibold text-white">
+          Graphics Designing
+        </h3>
+        <p className="mt-8 text-sm text-gray-200">
+        Ignite your brand with our graphic design magic—where creativity meets visual brilliance.
+        </p>
+      </div>
+      <div className='hover:border-white  hover:bg-mypurple/20 border-2 p-[20px] border-mypurple rounded-2xl'>
+        <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full ">
+          <img src="/cw.gif" alt="content writing" />
+        </div>
+        <h3 className="mt-8 text-lg font-semibold text-white">
+          Content Writing
+        </h3>
+        <p className="mt-8 text-sm text-gray-200">
+        Unleash the power of words with our content writing services—where every sentence tells your story and captivates your audience.
+        </p>
+      </div>
+      <div className='hover:border-white  hover:bg-mypurple/20 border-2 p-[20px] border-mypurple rounded-2xl'>
+        <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full ">
+          <img src="/dm.gif" alt="Digital Marketing" />
+        </div>
+        <h3 className="mt-8 text-lg font-semibold text-white">Digital Marketing</h3>
+        <p className="mt-8 text-sm text-gray-200">
+        Elevate your brand with our expert digital marketing services – where visibility meets success in the online landscape.
+        </p>
+      </div>
+      <div className='hover:border-white  hover:bg-mypurple/20 border-2 p-[20px] border-mypurple rounded-2xl'>
+        <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full ">
+          <img src="/ve.gif" alt="Digital Marketing" />
+        </div>
+        <h3 className="mt-8 text-lg font-semibold text-white">Professional Video Editing</h3>
+        <p className="mt-8 text-sm text-gray-200">
+        Transforming moments into cinematic magic—our video editing services make your story unforgettable.
+        </p>
+      </div>
+      <div className='hover:border-white  hover:bg-mypurple/20 border-2 p-[20px] border-mypurple rounded-2xl'>
+        <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full ">
+          <img src="/seo.gif" alt="Digital Marketing" />
+        </div>
+        <h3 className="mt-8 text-lg font-semibold text-white">SEO </h3>
+        <p className="mt-8 text-sm text-gray-200">
+        Boost your online presence with our expert SEO services—because being found is the first step to being remembered.
+        </p>
+      </div>
+      <div className='hover:border-white  hover:bg-mypurple/20 border-2 p-[20px] border-mypurple rounded-2xl'>
+        <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full ">
+          <img src="/insta.png" alt="Digital Marketing" />
+        </div>
+        <h3 className="mt-8 text-lg font-semibold text-white">SMM </h3>
+        <p className="mt-8 text-sm text-gray-200">
+        Elevate your brand online charisma with our Social Media Magic – where engagement meets strategy, and your story takes center stage.
+        </p>
+      </div>
+      <div className='hover:border-white  hover:bg-mypurple/20 border-2 p-[20px] border-mypurple rounded-2xl'>
+        <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full ">
+          <img src="/smo.png" alt="Digital Marketing" />
+        </div>
+        <h3 className="mt-8 text-lg font-semibold text-white">SMO </h3>
+        <p className=" mt-8 text-sm text-gray-200">
+        Elevate your online presence with our Social Media Optimization magic— where visibility meets engagement, and your brand becomes the talk of the digital town!
+        </p>
+      </div>
+    </div>
+  </div>    
 
-
+  <section id='pricing' className="relative w-full overflow-hidden bg-transparent pb-14">
+  <div className='lg:text-5xl md:text-5xl text-3xl md:mb-[80px] lg:mb-[80px] mb-[40px] mt-[40px] font-bold mx-auto max-w-auto text-center place-content-center'>Our Exclusive Plans</div>
+      <div className="relative  z-10 mx-auto max-w-7xl px-4">
+        <div className="mx-auto md:max-w-4xl">
+          <div className="-m-5 flex flex-wrap">
+            <div className="w-full p-5 md:w-1/2">
+              <div className="rounded-md border border-mypurple hover:border-white bg-transparent hover:bg-mypurple/20 bg-opacity-10">
+                <div className=" border-b">
+                  <div className="px-9 py-7">
+                    <h3 className="mb-3 text-2xl font-extrabold leading-snug text-white md:stroke-black">Basic Website</h3>
+                    <p className="font-medium leading-relaxed text-white/50 ">
+                      Basic plan is for Small website where we can showcase our business or anything else.Great choice for Bloggers, Personal Portfolios, Awareness, NGOs etc.
+                    </p>
+                  </div>
+                </div>
+                <div className="px-9 pb-9 pt-8">
+                  <p className="mb-6 font-extrabold leading-relaxed text-white">
+                    Features included:
+                  </p>
+                  <ul className="mb-11">
+                    <li className="mb-4 flex items-center">
+                      {/* <CheckCircle className="mr-2" size={16} /> */}
+                      <p className="font-normal leading-normal">6 Pages</p>
+                    </li>
+                    <li className="mb-4 flex items-center">
+                      {/* <CheckCircle className="mr-2" size={16} /> */}
+                      <p className="font-normal leading-normal">2 Months Free Maintainance</p>
+                    </li>
+                    <li className="flex items-center">
+                      {/* <CheckCircle className="mr-2" size={16} /> */}
+                      <p className="font-normal leading-normal">Premium Support</p>
+                    </li>
+                  </ul>
+                  <p className="mb-6 text-lg font-semibold leading-normal text-white/70">
+                    <span className=''>Starting from</span>
+                    <span className="ml-2 text-gray-100 text-2xl">15,000/-</span>
+                  </p>
+                  <div className="md:inline-block">
+                    <button
+                      type="button"
+                      className="rounded-md bg-mypurple px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-mypurple/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+                    >
+                      <Link href="/contact">Start your free consultation</Link>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="w-full p-5 md:w-1/2">
+              <div className="rounded-md border border-mypurple hover:border-white bg-transparent hover:bg-mypurple/20 bg-opacity-10">
+                <div className=" border-b">
+                  <div className="px-9 py-7">
+                    <h3 className="mb-3 text-2xl font-extrabold leading-snug text-white md:stroke-black">E-Commerce Website</h3>
+                    <p className="font-medium leading-relaxed text-white/50 ">
+                      E-Commerce plan is for those who wants to sell their products or services Online.Great choice for Small Business, Online sellers, Large business, Startups etc.
+                    </p>
+                  </div>
+                </div>
+                <div className="px-9 pb-9 pt-8">
+                  <p className="mb-6 font-extrabold leading-relaxed text-white">
+                    Features included:
+                  </p>
+                  <ul className="mb-11">
+                    <li className="mb-4 flex items-center">
+                      {/* <CheckCircle className="mr-2" size={16} /> */}
+                      <p className="font-normal leading-normal">25 Pages</p>
+                    </li>
+                    <li className="mb-4 flex items-center">
+                      {/* <CheckCircle className="mr-2" size={16} /> */}
+                      <p className="font-normal leading-normal">6 Months Free Maintainance</p>
+                    </li>
+                    <li className="flex items-center">
+                      {/* <CheckCircle className="mr-2" size={16} /> */}
+                      <p className="font-normal leading-normal">Premium+ Support</p>
+                    </li>
+                  </ul>
+                  <p className="mb-6 text-lg font-semibold leading-normal text-white/70">
+                    <span className=''>Starting from</span>
+                    <span className="ml-2 text-gray-100 text-2xl">45,000/-</span>
+                  </p>
+                  <div className="md:inline-block">
+                    <button
+                      type="button"
+                      className="rounded-md bg-mypurple px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-mypurple/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+                    >
+                      <Link href="/contact">Start your free consultation</Link>
+                      
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>  
 
   <div className="mt-[100px] md:mt-[50px] mx-auto max-w-xl text-center">
       <div className="mx-auto inline-flex rounded-full bg-mypurple px-4 py-1.5">
