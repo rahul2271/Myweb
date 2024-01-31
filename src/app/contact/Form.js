@@ -177,8 +177,8 @@ const Form = () => {
         <div className="mx-auto max-w-7xl py-12 md:py-24">
           <div className="grid items-center justify-items-center gap-x-4 gap-y-10 lg:grid-cols-2">
           <Image
-              width={500}
-              height={500}
+              width={200}
+              height={200}
               alt="Contact us"
               className="block md:hidden max-h-full w-full rounded-lg object-cover "
               src="/contact.jpg"
