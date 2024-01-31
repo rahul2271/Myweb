@@ -57,7 +57,7 @@ export default function RootLayout({
               </Link>
             </li>
             <li>
-              <Link className="hover:text-mypurple"  href="#services">
+              <Link className="hover:text-mypurple"  href="/services">
               Services
               </Link>
             </li>
@@ -72,7 +72,7 @@ export default function RootLayout({
               </Link>
             </li> */}
             <li>
-              <Link className="hover:text-mypurple" href="#pricing">
+              <Link className="hover:text-mypurple" href="/price">
               Pricing
               </Link>
             </li>            
