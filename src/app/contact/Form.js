@@ -1,8 +1,23 @@
 import React, { useState } from 'react';
 import Image from 'next/image'
 import Check from './check.gif'
+// import { Menu, X, MapPin } from 'lucide-react'
 
-
+const locations = [
+  {
+    title: 'Bengaluru office',
+    timings: 'Mon-Sat 9am to 5pm.',
+    address: '100, Electronic City Phase-1, Bengaluru, Karnataka 560100 IN',
+  },
+  {
+    title: 'Chandigarh office',
+    timings: 'Mon-Sat 9am to 5pm.',
+    address: '3124, Sector 61, Phase-7, Mohali 160061 IN',
+  },
+  {
+    title: 'Contact : +91 7009646377',
+  },
+]
 const Form = () => {
   const [showTick, setShowTick] = useState(false);
   const [formData, setFormData] = useState({
@@ -278,6 +293,32 @@ const Form = () => {
         </div>
         </div>
       )}
+
+<div className="rounded-lg bg-mypurple">
+        <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+          <div className="py-20">
+            <div className="grid grid-cols-1 gap-x-20 gap-y-8 lg:grid-cols-2">
+              <div className="space-y-4">
+                <p className="w-full text-4xl font-bold text-white">Our Offices</p>
+                <p className="w-full text-lg text-gray-200">Find us at these locations.</p>
+              </div>
+              <div className="space-y-4 divide-y-2">
+                {locations.map((location) => (
+                  <div
+                    key={location.title}
+                    className="flex flex-col space-y-2 pt-4 first:pt-0 lg:w-full"
+                  >
+                    <p className="w-full text-xl font-semibold  text-white">{location.title}</p>
+                    <p className="w-full text-base  text-white">{location.timings}</p>
+                    <p className="text-sm font-semibold text-white">{location.address}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+         
 
     </>
   );
