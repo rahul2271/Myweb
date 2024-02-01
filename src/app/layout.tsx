@@ -73,7 +73,7 @@ export default function RootLayout({
             </li> */}
             <li>
               <Link className="hover:text-mypurple" href="/price">
-              Pricing
+              Plans
               </Link>
             </li>            
           </ul>
