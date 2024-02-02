@@ -6,6 +6,7 @@ import './globals.css'
 import Home from './page';
 import Link from 'next/link';
 import Head from 'next/head';
+import Image from 'next/image';
 
 // import { Poppins } from 'next/font/google';
 
@@ -75,8 +76,11 @@ export default function RootLayout({
               <Link className="hover:text-mypurple" href="/price">
               Plans
               </Link>
-            </li>            
+            </li> 
+            <Image className='hidden lg:block md:block absolute inset-y-0 right-0 mt-[10px]' width={150} height={150} alt='makeinindia' src="/MAKEININDIA.png"/>  
+            <Image className='visible md:hidden lg:hidden absolute inset-y-0 right-0 mt-[10px]' width={80} height={80} alt='makeinindia' src="/MAKEININDIA.png"/>         
           </ul>
+          {/* <Image width={200} height={200} alt='makeinindia' src="/MAKEININDIA.png"/> */}
           {/* <Link href="/contact" className="hidden lg:block ml-[1300px] mt-[-50px] ">
       <button
         type="button"
