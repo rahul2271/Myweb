@@ -169,7 +169,18 @@ const Form = () => {
 
       <button type="submit">SEND</button>
     </form> */}
-
+<title>Contact Us - Your Company Name</title>
+        <meta name="description" content="Contact us for inquiries, feedback, or any other questions you may have." />
+        <meta name="keywords" content="contact, contact us, get in touch, inquiries, feedback, support, RC Tech Solutions, Rahul chauhan" />
+        <meta property="og:title" content="Contact Us - RC Tech Solutions" />
+        <meta property="og:description" content="Contact us for inquiries, feedback, or any other questions you may have." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.rchauhan.com/contact" />
+        <meta property="og:image" content="/logo.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Contact Us - RC Tech Solutions" />
+        <meta name="twitter:description" content="Contact us for inquiries, feedback, or any other questions you may have." />
+        <meta name="twitter:image" content="/logo.png" />
 
     
 
