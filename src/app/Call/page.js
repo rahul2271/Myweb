@@ -14,7 +14,7 @@ const CallNowButton = () => {
     <div className="mt-10 flex items-center justify-center gap-x-2">
               <button
                 type="button"
-                className="rounded-md bg-mypurple px-3 py-2 md:px-6 md:py-3 text-sm md:text-[15px] font-semibold text-grey-300 shadow-sm hover:bg-mypurple/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+                className=" animate-pulse rounded-md bg-mypurple px-3 py-2 md:px-6 md:py-3 text-sm md:text-[15px] font-semibold text-grey-300 shadow-sm hover:bg-mypurple/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
                 onClick={handleCallButtonClick}
                 
               >
