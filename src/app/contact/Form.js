@@ -169,7 +169,7 @@ const Form = () => {
 
       <button type="submit">SEND</button>
     </form> */}
-<title>Contact Us - Your Company Name</title>
+<title>Contact Us - RC Tech Solutions</title>
         <meta name="description" content="Contact us for inquiries, feedback, or any other questions you may have." />
         <meta name="keywords" content="contact, contact us, get in touch, inquiries, feedback, support, RC Tech Solutions, Rahul chauhan" />
         <meta property="og:title" content="Contact Us - RC Tech Solutions" />
