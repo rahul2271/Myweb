@@ -6,9 +6,12 @@ import CallNowButton from '../app/Call/page'
 
 
 export default function Home() {
-    
+
+  
+ 
   return (
     <main>
+      
     <div className="relative w-full lg:w-auto lg:place-content-center">
       
       <div className="relative isolate z-0  px-6 md:mt-[20px] md:pt-[-50px] pt-[-100px] lg:px-8">
@@ -47,29 +50,7 @@ export default function Home() {
         <p className="mt-8 text-[15px] md:text-[25px] md:w-auto text-gray-300 leading-loose">
         Fueling online success, one click at a time supercharge your business growth with our winning web solutions.
         </p>
-            {/* <h1 className="text-4xl font-bold tracking-tight text-gray-300 sm:text-6xl">
-              Lorem ipsum dolor sit amet consectetur dicta.
-            </h1>
-            <p className="mt-6 text-lg leading-8 text-gray-400">
-              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat
-              commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
-            </p> */}
-            {/* <div className="mt-10 flex items-center justify-center gap-x-2">
-              <button
-                type="button"
-                className="rounded-md bg-mypurple px-3 py-2 md:px-6 md:py-3 text-sm md:text-[15px] font-semibold text-grey-300 shadow-sm hover:bg-mypurple/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
-                onClick={handleCallButtonClick}
-                
-              >
-                Contact Us
-              </button>
-              <button
-                type="button"
-                className="rounded-md border md:border-2 border-mypurple px-3 py-2 md:px-6 md:py-3 md:text-[15px] hover:bg-white text-sm font-semibold text-mypurple shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
-              >
-                Get Started
-              </button>
-            </div> */}
+        
             <CallNowButton/>
             
           </div>
