@@ -1,6 +1,7 @@
 "use client"
 // import { poppins } from 'next/font/google'
 import { link } from 'fs'
+import Head from "next/head"
 import Link from 'next/link'
 import CallNowButton from '../app/Call/page'
 
@@ -11,6 +12,12 @@ export default function Home() {
  
   return (
     <main>
+
+<Head>
+          {/* <link rel="shortcut icon" href={favicon} /> */}
+          <link rel="shortcut icon" href="favicon.ico" />
+        </Head>
+    
       
     <div className="relative w-full lg:w-auto lg:place-content-center">
       

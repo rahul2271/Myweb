@@ -34,7 +34,7 @@ export default function RootLayout({
   return(
     <html lang="en">
       <head>
-        <title>Rchauhan - Web Development, Graphic Design,and other Digital Services.</title>
+        <title>Rchauhan - Transforms Dukaan to Brand.</title>
         <meta name="description" content="Transform your online presence with expert web development, creative graphic design, and engaging content writing services. Explore the world with Rchauhan." />
         <meta name="keywords" content="web development, graphic design, content creation, digital services, social media optimization, social media management, digital marketing, business growth, Rahul Chauhan, rchauhan, innovation, creativity, branding" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
