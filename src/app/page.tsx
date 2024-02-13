@@ -14,9 +14,9 @@ export default function Home() {
       
     <div className="relative w-full lg:w-auto lg:place-content-center">
       
-      <div className="relative isolate z-0  px-6 md:mt-[20px] md:pt-[-50px] pt-[-100px] lg:px-8">
+      <div className="relative isolate z-0   px-6 md:mt-[20px] md:pt-[-50px] pt-[-100px] lg:px-8">
         <div className="relative mx-auto  py-[50px]">
-          <div className="absolute inset-x-0 -top-[0rem] -z-10 transform-gpu overflow-hidden blur-3xl md:-top-[0rem]">
+          <div className="absolute inset-x-0 -top-[0rem] -z-10  transform-gpu overflow-hidden blur-3xl md:-top-[0rem]">
             <svg
               className="mt-[50px] left-[calc(50%-11rem)] -z-10 h-[21.1875rem] max-w-none -translate-x-1/2 rotate-[30deg] sm:left-[calc(50%-30rem)] sm:h-[42.375rem]"
               viewBox="0 0 1155 678"
