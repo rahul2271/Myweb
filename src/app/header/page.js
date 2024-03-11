@@ -29,11 +29,16 @@ export default function Header(){
               Blogs
               </Link>
             </li> */}
-            <li>
+            {/* <li>
               <Link className="hover:text-mypurple" href="/price">
               Plans
               </Link>
-            </li> 
+            </li>  */}
+            <li>
+              <Link className="animate-pulse hover:text-mypurple" href="/contact">
+              Contact Us
+              </Link>
+            </li>
             <Image className='hidden lg:block md:block absolute inset-y-0 right-0 mt-[10px]' width={150} height={150} alt='makeinindia' src="/MAKEININDIA.png"/>  
             <Image className='visible md:hidden lg:hidden absolute inset-y-0 right-0 mt-[10px]' width={80} height={80} alt='makeinindia' src="/MAKEININDIA.png"/>         
           </ul>
