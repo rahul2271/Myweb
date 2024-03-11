@@ -6,9 +6,9 @@ export default function Header(){
         {/* <audio  autoplay loop className="invisible" src="audio.mp3"></audio> */}
         {/* <iframe hidden src="audio.mp3" allow="autoplay">
         </iframe>  */}
-      <header className='md:mx-auto md:w-full md:mt-[-70px] mx-auto w-full'>
-      <img className=' mx-auto  relative  h-[150px] w-[150px] md:h-[100px] md:w-[100px] md:mt-[70px] md:mx-[10px]' src="./logo.png" alt="rchauhan" />
-          <ul className=' flex md:space-x-6  md:text-xl md:my-[-20px] md:place-content-center lg:flex md:space-x-6 lg:place-content-center text-[15px] space-x-6  place-content-center'>
+      <header className='mt-[20px] md:mx-auto md:w-full md:mt-[-70px] mx-auto w-full'>
+      <img className=' mx-auto  relative  h-[100px] w-[130px] md:h-[100px] md:w-[130px] md:mt-[90px] md:mx-[10px]' src="./loogo.png" alt="rchauhan" />
+          <ul className='mt-[20px] flex md:space-x-6  md:text-xl md:my-[-20px] md:place-content-center lg:flex md:space-x-6 lg:place-content-center text-[15px] space-x-6  place-content-center'>
             <li>
               <Link className="hover:text-mypurple" href="/">
               Home
