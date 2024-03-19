@@ -37,8 +37,8 @@ export default function Price(){
                     </li>
                   </ul>
                   <p className="mb-6 text-lg font-semibold leading-normal text-white/70">
-                    <span className=''>Starting from</span>
-                    <span className="ml-2 text-gray-100 text-2xl">15,000/-</span>
+                    <span className=''>Available at</span>
+                    <span className="ml-2 text-gray-100 text-2xl">Affordable Prices</span>
                   </p>
                   <div className="md:inline-block">
                     <button
@@ -80,8 +80,8 @@ export default function Price(){
                     </li>
                   </ul>
                   <p className="mb-6 text-lg font-semibold leading-normal text-white/70">
-                    <span className=''>Starting from</span>
-                    <span className="ml-2 text-gray-100 text-2xl">45,000/-</span>
+                    <span className=''>Available at</span>
+                    <span className="ml-2 text-gray-100 text-2xl">Affordable Prices</span>
                   </p>
                   <div className="md:inline-block">
                     <button
