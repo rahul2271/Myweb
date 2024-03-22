@@ -34,20 +34,20 @@ export default function RootLayout({
   return(
     <html lang="en">
       <head>
-        <title>Rchauhan - Transforming Dukaan to Brand.</title>
-        <meta name="description" content="Transform your online presence with expert web development, creative graphic design, and engaging content writing services. Explore the world with Rchauhan." />
-        <meta name="keywords" content="web development, graphic design, content creation, digital services, social media optimization, social media management, digital marketing, business growth, Rahul Chauhan, rchauhan, innovation, creativity, branding" />
+        <title>RC Tech Solutions - Web Dev, SEO & Marketing.</title>
+        <meta name="description" content="Transform your online presence with expert web development, creative graphic design, and engaging content writing services. Explore the world with RC Tech Solutions." />
+        <meta name="keywords" content="web development, graphic design, content creation, digital services, social media optimization, social media management, digital marketing, business growth, Rahul Chauhan, RC tech solutions, creativity, branding" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="canonical" href="https://www.rchauhan.in" />
         <meta property="og:type" content="website"/>
         <meta property="og:url" content="www.rchauhan.in"/>
-        <meta property="og:title" content="Rchauhan - Crafting Digital Excellence"/>
-        <meta property="og:description" content="Join Rahul Chauhan's journey at Rchauhan, a hub of innovation in web development, graphic design, and content creation. Your digital success begins here."/>
+        <meta property="og:title" content="RC Tech Solutions - Crafting Digital Excellence"/>
+        <meta property="og:description" content="Join Rahul Chauhan's journey at RC Tech Solutions, a hub of innovation in web development, graphic design, and content creation. Your digital success begins here."/>
         <meta property="og:image" content="/logo.png"/>
         <meta name="twitter:card" content="summary_large_image"/>
-        <meta name="twitter:url" content="www.rchauhan.in"/>
-        <meta name="twitter:title" content="Rchauhan - Crafting Digital Excellence"/>
-        <meta name="twitter:description" content="Join Rahul Chauhan's journey at Rchauhan, a hub of innovation in web development, graphic design, and content creation. Your digital success begins here."/>
+        <meta name="twitter:url" content="https://twitter.com/RchauhanI66121"/>
+        <meta name="twitter:title" content="RC Tech Solutions - Crafting Digital Excellence"/>
+        <meta name="twitter:description" content="Join Rahul Chauhan's journey at RC Tech Solutions, a hub of innovation in web development, graphic design, and content creation. Your digital success begins here."/>
         <meta name="twitter:image" content="/logo.png"/>
 
         </head>

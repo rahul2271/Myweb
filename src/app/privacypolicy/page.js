@@ -3,17 +3,17 @@ import { Metadata } from "next"
 export default function Privacy(){
     return(
         <>
-        <title>Privacy Policy - Rchauhan</title>
+        <title>Privacy Policy - RC Tech Solutions</title>
         <meta
           name="description"
           content="Learn about how we collect, use, and protect your personal information. Read our Privacy Policy to understand our commitment to your privacy."
         />
         <meta
           name="keywords"
-          content="privacy policy, personal information, data protection, user privacy, Rchauhan, Rahul Chauhan"
+          content="privacy policy, personal information, data protection, user privacy, RC Tech Solutions, Rahul Chauhan"
         />
         <meta name="robots" content="index, follow" />
-        <meta property="og:title" content="Privacy Policy - Rchauhan" />
+        <meta property="og:title" content="Privacy Policy - RC Tech Solutions" />
         <meta
           property="og:description"
           content="Learn about how we collect, use, and protect your personal information. Read our Privacy Policy to understand our commitment to your privacy."
@@ -22,7 +22,7 @@ export default function Privacy(){
         <meta property="og:type" content="article" />
         <meta property="og:image" content="/logo.png" />
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:title" content="Privacy Policy - Rchauhan" />
+        <meta name="twitter:title" content="Privacy Policy - RC Tech Solutions" />
         <meta
           name="twitter:description"
           content="Learn about how we collect, use, and protect your personal information. Read our Privacy Policy to understand our commitment to your privacy."
@@ -112,7 +112,7 @@ export default function Privacy(){
             </div>
             <div>
             <h2 className="mt-[20px] text-[30px] font-extrabold md:text-[50px]">Introduction</h2>
-            <p className="md:text-[20px] md:text-gray-200">Welcome to Rchauhan (&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;). This Privacy Policy is designed to help you understand how we collect, use, disclose, and safeguard your personal information.</p>
+            <p className="md:text-[20px] md:text-gray-200">Welcome to RC Tech Solutions (&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;). This Privacy Policy is designed to help you understand how we collect, use, disclose, and safeguard your personal information.</p>
             </div>
             <div>
                 <h2 className="mt-[20px] text-[30px] font-extrabold md:text-[50px]">Information We Collect</h2>

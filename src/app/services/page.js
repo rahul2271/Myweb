@@ -3,6 +3,34 @@ import Link from "next/link"
 export default function Service(){
     return(
         <>
+        <title>Services - RC Tech Solutions</title>
+        <meta
+          name="description"
+          content="Increase Sales with Web Dev, Digital Marketing, SEO & SMO"
+        />
+        <meta
+          name="keywords"
+          content="Increase website traffic with SEO,
+          Grow social media following for your business,
+          Develop a mobile-friendly website,
+          Content marketing strategy for Startups, Best Digital Marketing agency, RC Tech Solutions, Rahul Chauhan"
+        />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="Services - RC Tech Solutions" />
+        <meta
+          property="og:description"
+          content="Learn about how we collect, use, and protect your personal information. Read our Privacy Policy to understand our commitment to your privacy."
+        />
+        <meta property="og:url" content="www.rchauhan.in/Services" />
+        <meta property="og:type" content="article" />
+        <meta property="og:image" content="/logo.png" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="Services - RC Tech Solutions" />
+        <meta
+          name="twitter:description"
+          content="Learn about how we collect, use, and protect your personal information. Read our Privacy Policy to understand our commitment to your privacy."
+        />
+        <meta name="twitter:image" content="/logo.png" />
     <div id='services' className="croll-smooth focus:scroll-auto mx-auto my-12 max-w-7xl px-4 sm:px-6 md:my-24 lg:my-32 lg:px-8">
     <div className="mx-auto max-w-xl text-center">
       <div className="mx-auto inline-flex rounded-full bg-mypurple px-4 py-1.5">
