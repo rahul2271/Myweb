@@ -8,7 +8,8 @@ export default function Header(){
         </iframe>  */}
       <header className='mt-[20px] md:mx-auto md:w-full md:mt-[-70px] mx-auto w-full'>
       <img className=' mx-auto  relative  h-[100px] w-[145px] md:h-[110px] md:w-[160px] md:mt-[90px] md:mx-[10px]' src="./3dlogo.png" alt="rchauhan" />
-          <ul className='mt-[20px] flex   md:text-xl md:my-[-20px] md:place-content-center lg:flex md:space-x-6 lg:place-content-center text-[15px] space-x-6  place-content-center'>
+          <ul className='mt-[20px] md:mt-[0px] flex   md:text-xl  md:place-content-center lg:flex md:space-x-6 lg:place-content-center text-[15px] space-x-6  place-content-center'>
+            
             <li>
               <Link className="hover:text-mypurple" href="/">
               Home
