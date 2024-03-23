@@ -8,7 +8,7 @@ export default function Header(){
         </iframe>  */}
       <header className='mt-[20px] md:mx-auto md:w-full md:mt-[-70px] mx-auto w-full'>
       <img className=' mx-auto  relative  h-[100px] w-[145px] md:h-[110px] md:w-[160px] md:mt-[90px] md:mx-[10px]' src="./3dlogo.png" alt="rchauhan" />
-          <ul className='mt-[20px] flex md:space-x-6  md:text-xl md:my-[-20px] md:place-content-center lg:flex md:space-x-6 lg:place-content-center text-[15px] space-x-6  place-content-center'>
+          <ul className='mt-[20px] flex   md:text-xl md:my-[-20px] md:place-content-center lg:flex md:space-x-6 lg:place-content-center text-[15px] space-x-6  place-content-center'>
             <li>
               <Link className="hover:text-mypurple" href="/">
               Home
@@ -39,8 +39,8 @@ export default function Header(){
               Contact Us
               </Link>
             </li>
-            <Image className='hidden lg:block md:block absolute inset-y-0 right-0 mt-[10px]' width={150} height={150} alt='makeinindia' src="/MAKEININDIA.png"/>  
-            <Image className='visible md:hidden lg:hidden absolute inset-y-0 right-0 mt-[10px]' width={80} height={80} alt='makeinindia' src="/MAKEININDIA.png"/>         
+            {/* <Image className='hidden lg:block md:block absolute inset-y-0 right-0 mt-[10px]' width={150} height={150} alt='makeinindia' src="/MAKEININDIA.png"/>  
+            <Image className='visible md:hidden lg:hidden absolute inset-y-0 right-0 mt-[10px]' width={80} height={80} alt='makeinindia' src="/MAKEININDIA.png"/>          */}
           </ul>
           {/* <Image width={200} height={200} alt='makeinindia' src="/MAKEININDIA.png"/> */}
           {/* <Link href="/contact" className="hidden lg:block ml-[1300px] mt-[-50px] ">
