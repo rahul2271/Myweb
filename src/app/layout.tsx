@@ -41,10 +41,10 @@ export default function RootLayout({
         <link rel="canonical" href="https://www.rchauhan.in" />
         
         <meta property="og:site_name" content="RC Tech Solutions"/>
-        <meta property="og:title" content="RC Tech Solutions"/>
+        {/* <meta property="og:title" content="RC Tech Solutions"/> */}
         <meta property="og:type" content="website"/>
         <meta property="og:url" content="www.rchauhan.in"/>
-        <meta property="og:title" content="RC Tech Solutions - Crafting Digital Excellence"/>
+        <meta property="og:title" content="RC Tech Solutions - Web Development, SEO & Digital Marketing. "/>
         <meta property="og:description" content="Join Rahul Chauhan's journey at RC Tech Solutions, a hub of innovation in web development, graphic design, and content creation. Your digital success begins here."/>
         <meta property="og:image" content="/logo.png"/>
         <meta name="twitter:card" content="summary_large_image"/>
