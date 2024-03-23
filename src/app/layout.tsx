@@ -39,6 +39,8 @@ export default function RootLayout({
         <meta name="keywords" content="web development, graphic design, content creation, digital services, social media optimization, social media management, digital marketing, business growth, Rahul Chauhan, RC tech solutions, creativity, branding" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="canonical" href="https://www.rchauhan.in" />
+        
+        <meta property="og:site_name" content="RC Tech Solutions"/>
         <meta property="og:title" content="RC Tech Solutions"/>
         <meta property="og:type" content="website"/>
         <meta property="og:url" content="www.rchauhan.in"/>
