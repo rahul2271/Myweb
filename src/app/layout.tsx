@@ -34,7 +34,7 @@ export default function RootLayout({
   return(
     <html lang="en">
       <head>
-        <title>RC Tech Solutions - Web Dev, SEO & Marketing.</title>
+        <title>RC Tech Solutions - Web Dev, SEO & Digital Marketing.</title>
         <meta name="description" content="Transform your online presence with expert web development, creative graphic design, and engaging content writing services. Explore the world with RC Tech Solutions." />
         <meta name="keywords" content="web development, graphic design, content creation, digital services, social media optimization, social media management, digital marketing, business growth, Rahul Chauhan, RC tech solutions, creativity, branding" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
