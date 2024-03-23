@@ -4,7 +4,7 @@ export default function terms(){
          <title>Terms of Service - RC Tech Solutions</title>
          <meta
           name="description"
-          content="Read the Terms of Service for www.rchauhan.in to understand the rules and guidelines for using our website. Your use of the website is subject to these terms and conditions."
+          content="Read the Terms of Service for RC Tech Solutions to understand the rules and guidelines for using our website. Your use of the website is subject to these terms and conditions."
         />
         <meta
           name="keywords"
@@ -14,7 +14,7 @@ export default function terms(){
         <meta property="og:title" content="Terms of Service - RC Tech Solutions" />
         <meta
           property="og:description"
-          content="Read the Terms of Service for www.rchauhan.in to understand the rules and guidelines for using our website. Your use of the website is subject to these terms and conditions."
+          content="Read the Terms of Service for RC Tech Solutions to understand the rules and guidelines for using our website. Your use of the website is subject to these terms and conditions."
         />
         <meta property="og:url" content="www.rchauhan.in/terms-of-service" />
         <meta property="og:type" content="article" />
@@ -23,7 +23,7 @@ export default function terms(){
         <meta name="twitter:title" content="Terms of Service - Rhauhan" />
         <meta
           name="twitter:description"
-          content="Read the Terms of Service for www.rchauhan.in to understand the rules and guidelines for using our website. Your use of the website is subject to these terms and conditions."
+          content="Read the Terms of Service for RC Tech Solutions to understand the rules and guidelines for using our website. Your use of the website is subject to these terms and conditions."
         />
         <meta name="twitter:image" content="/logo.png" />
       
