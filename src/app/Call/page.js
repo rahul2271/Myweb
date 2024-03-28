@@ -4,10 +4,10 @@ import Link from 'next/link';
 
 
 const CallNowButton = () => {
-  const phoneNumber = '+917009646377'; // Replace with your actual phone number
+  const phoneNumber = 'info@rchauhan.in'; // Replace with your actual phone number
 
   const handleCallButtonClick = () => {
-    window.location.href = `tel:${phoneNumber}`;
+    window.location.href = `mailto:${phoneNumber}`;
   };
 
   return (
