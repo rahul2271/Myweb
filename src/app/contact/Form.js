@@ -15,10 +15,7 @@ const locations = [
     address: '3124, Sector 61, Phase-7, Mohali 160061 IN',
   },
   {
-    title: 'Contact : +91 7009646377',
-  },
-  {
-    title: 'E-mail : rraahhuullch@gmail.com',
+    title: 'E-mail : info@rchauhan.in',
   },
 ]
 const Form = () => {
