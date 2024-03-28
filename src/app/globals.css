@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: var(--font-poppins);
+  background: #000000;
+  color: rgb(255, 255, 255);
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+
+.centered-div{
+  width: 100%;
+  height: 100%;
+  background-color: #d7b6f3;
+  opacity: 70%;
+  text-align:center;
+  position:absolute;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#check{
+  width: 30%;
+}
+
+
+.contactusform {
+  background-color: transparent; /* Form background color */
+  display: block;
+  margin: auto;
+  margin-top: 70px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  width: 500px; /* Adjust the width as needed */
+  border: 2px solid #953ee2;
+}
+
+@media only screen and (max-width: 600px) {
+  .contactusform {
+    background-color: transparent; /* Form background color */
+    display: block;
+    margin: auto;
+    margin-top: 70px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    width: 350px; /* Adjust the width as needed */
+    border: 2px solid #953ee2;
+  }
+
+  .centered-div{
+    width: 100%;
+    height: 200%;
+    background-color: #d7b6f3;
+    opacity: 70%;
+    text-align:center;
+    position:absolute;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* .contactusform p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+} */
+
+/* .mb-3 {
+  margin-bottom: 15px;
+} */
+
+/* .form-label {
+  font-size: 14px;
+  color: #953ee2;
+} */
+
+/* .form-control {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  margin-top: 5px;
+} */
+
+
+/* .input-group {
+  margin-top: 10px;
+}
+
+.textarea {
+  height: 100px; 
+} */
+
+/* button[type='submit'] {
+  background-color: #953ee2;
+  color: #fff;
+  font-weight: bolder;
+  padding: 10px 50px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+} */
+
+/* Add a hover effect to the button */
+/* button:hover {
+  background-color: rgb(116, 38, 116);
+} */
+
+
