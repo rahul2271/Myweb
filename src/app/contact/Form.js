@@ -61,7 +61,7 @@ const Form = () => {
       const response = await fetch(sheetDBEndpoint, {
         method: 'POST',
         headers: {
-          'Content-Type': 'application/json',
+          'Content-Type': 'multipart/form-data/application/json',
         },
         body: JSON.stringify(formData),
       });
@@ -279,7 +279,6 @@ const Form = () => {
                       required
                       placeholder="resume"
                       name="resume"
-                      accept=".pdf,.doc,.docx"
                       value={formData.resume}
                 onChange={handleChange} 
                     />
