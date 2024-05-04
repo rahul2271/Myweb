@@ -28,7 +28,7 @@ const Form = () => {
     gmail: '',
     number: '',
     query: '',
-    resume: '',
+    
   });
 
   const handleChange = (e) => {
@@ -61,7 +61,7 @@ const Form = () => {
       const response = await fetch(sheetDBEndpoint, {
         method: 'POST',
         headers: {
-          'Content-Type': 'multipart/form-data/application/json',
+          'Content-Type': 'application/json',
         },
         body: JSON.stringify(formData),
       });
@@ -75,7 +75,7 @@ const Form = () => {
             gmail: '',
             number: '',
             query: '',
-          resume: '',
+          
           });
 
           // Hide tick animation after 2 seconds (adjust as needed)
@@ -264,25 +264,7 @@ const Form = () => {
                     />
                   </div>
 
-                  <div className="grid w-full  items-center gap-1.5">
-                    <label
-                      className="text-sm font-medium leading-none text-gray-200 peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-                      For="bresume"
-                    >
-                      Resume
-                    </label>
-                    <input
-                      className="flex h-10 w-full rounded-md border border-mypurple bg-transparent px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-400 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50 dark:border-gray-700 dark:text-gray-50 dark:focus:ring-gray-400 dark:focus:ring-offset-gray-900"
-                      type="file"
-                      id="resume"
-                      aria-describedby="basic-addon3 basic-addon4"
-                      required
-                      placeholder="resume"
-                      name="resume"
-                      value={formData.resume}
-                onChange={handleChange} 
-                    />
-                  </div>                  
+                 
                   <div className="grid w-full  items-center gap-1.5">
                     <label
                       className="text-sm font-medium leading-none text-gray-200 peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
