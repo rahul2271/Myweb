@@ -28,7 +28,6 @@ const Form = () => {
     gmail: '',
     number: '',
     query: '',
-    
   });
 
   const handleChange = (e) => {
@@ -75,7 +74,6 @@ const Form = () => {
             gmail: '',
             number: '',
             query: '',
-          
           });
 
           // Hide tick animation after 2 seconds (adjust as needed)
@@ -263,8 +261,6 @@ const Form = () => {
                 onChange={handleChange} 
                     />
                   </div>
-
-                 
                   <div className="grid w-full  items-center gap-1.5">
                     <label
                       className="text-sm font-medium leading-none text-gray-200 peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
@@ -343,4 +339,3 @@ const Form = () => {
 };
 
 export default Form;
-
