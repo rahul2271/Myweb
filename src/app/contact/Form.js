@@ -275,7 +275,7 @@ const Form = () => {
                       id="basic-url"
                       aria-describedby="basic-addon3 basic-addon4"
                       required
-                      accept: ".pdf,.doc,.jpg"
+                      accept=".pdf,.doc,.docx"
                       placeholder="Resume"
                       name="Resume"
                       value={formData.number}
