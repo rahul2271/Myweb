@@ -272,10 +272,10 @@ const Form = () => {
                     <input
                       className="flex h-10 w-full rounded-md border border-mypurple bg-transparent px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-400 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50 dark:border-gray-700 dark:text-gray-50 dark:focus:ring-gray-400 dark:focus:ring-offset-gray-900"
                       type="file"
-                      id="basic-url"
+                      id="resume"
                       aria-describedby="basic-addon3 basic-addon4"
                       required
-                      placeholder=""
+                      placeholder="resume"
                       name="resume"
                       accept=".pdf,.doc,.docx"
                       value={formData.resume}
