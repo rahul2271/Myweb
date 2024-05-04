@@ -75,6 +75,7 @@ const Form = () => {
             gmail: '',
             number: '',
             query: '',
+          resume: '',
           });
 
           // Hide tick animation after 2 seconds (adjust as needed)
