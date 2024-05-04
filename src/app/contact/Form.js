@@ -28,6 +28,7 @@ const Form = () => {
     gmail: '',
     number: '',
     query: '',
+    resume: '',
   });
 
   const handleChange = (e) => {
