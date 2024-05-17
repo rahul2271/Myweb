@@ -5,9 +5,9 @@ import Check from './check.gif'
 
 const locations = [
   {
-    title: 'Bengaluru office',
+    title: 'Batala office',
     timings: 'Mon-Sat 9am to 5pm.',
-    address: '100, Electronic City Phase-1, Bengaluru, Karnataka 560100 IN',
+    address: '81, Inside Hathi Gate, Brahmana Gali, Batala 143505 IN',
   },
   {
     title: 'Chandigarh office',
