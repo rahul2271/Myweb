@@ -1,6 +1,6 @@
 
 // 'use client'
-import './gtag.js'
+import 'gtag.js'
 import type { Metadata } from 'next'
 import { Poppins } from 'next/font/google'
 import './globals.css'
