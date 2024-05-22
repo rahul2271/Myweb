@@ -33,6 +33,15 @@ export default function RootLayout({
   
   return(
     <html lang="en">
+      <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YLHN7WV840"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-YLHN7WV840');
+</script>
       <head>
       <meta name="p:domain_verify" content="5547c5da888b33b6d7f689b96b7e94ad"/>
         <title>RC Tech Solutions - Web Development, SEO & Digital Marketing.</title>
