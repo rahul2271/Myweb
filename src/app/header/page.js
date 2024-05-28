@@ -25,11 +25,11 @@ export default function Header(){
               About
               </Link>
             </li>
-            {/* <li>
+            <li>
               <Link className="hover:text-mypurple" href="/blogs">
               Blogs
               </Link>
-            </li> */}
+            </li>
             {/* <li>
               <Link className="hover:text-mypurple" href="/price">
               Plans
