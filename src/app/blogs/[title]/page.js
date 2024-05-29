@@ -5,8 +5,11 @@ import { useParams } from 'next/navigation';
 import { db } from '../../../../firebase'; // Adjust the import path based on your project structure
 import { collection, getDocs, query, where } from 'firebase/firestore';
 import Image from 'next/image';
-import DOMPurify from 'dompurify';
+import dynamic from 'next/dynamic'; // Import dynamic from next
 import styles from './blogContent.module.css'; // Import custom styles
+
+// Dynamically import DOMPurify with no SSR
+const DOMPurify = dynamic(() => import('dompurify'), { ssr: false });
 
 export default function BlogPostPage() {
   const { title } = useParams();
@@ -43,7 +46,7 @@ export default function BlogPostPage() {
     return <div>Blog post not found</div>;
   }
 
-  // Sanitize the content
+  // Sanitize the content on the client side
   const sanitizedContent = DOMPurify.sanitize(post.content);
 
   return (
