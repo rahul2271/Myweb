@@ -162,8 +162,7 @@ const AllBlogs = () => {
                   [{ 'list': 'ordered'}, { 'list': 'bullet' }],
                   ['bold', 'italic', 'underline'],
                   [{ 'align': [] }],
-                  ['link', 'image', 'video'],
-                  ['clean']
+                  ['image', 'video'],
                 ]
               }}
               style={{ color: 'black', backgroundColor: 'white' }} 

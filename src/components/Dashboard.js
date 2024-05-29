@@ -7,7 +7,7 @@ import AllBlogs from '../Adminpanel/AllBlogs';
 
 export default function Dashboard() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
-  const [activeComponent, setActiveComponent] = useState('Home');
+  const [activeComponent, setActiveComponent] = useState('AddBlogs');
 
   const toggleSidebar = () => {
     setIsSidebarOpen(!isSidebarOpen);

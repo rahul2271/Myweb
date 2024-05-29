@@ -40,6 +40,7 @@ const AddBlogs = () => {
         slug: blogData.title.toLowerCase().replace(/ /g, '-')
       };
 
+      // Add blog data without image URL first
       const docRef = await addDoc(collection(db, 'blogs'), blogDataWithSlug);
       console.log('Document written with ID: ', docRef.id);
 
@@ -52,6 +53,7 @@ const AddBlogs = () => {
         console.log('File available at', blogImageUrl);
       }
 
+      // Update blog data with image URL
       const blogDataWithImage = {
         ...blogDataWithSlug,
         blogImageUrl,
@@ -60,6 +62,7 @@ const AddBlogs = () => {
       await updateDoc(doc(db, 'blogs', docRef.id), blogDataWithImage);
       console.log('Document successfully updated!');
 
+      // Reset form
       setBlogData({
         author: '',
         content: '',
@@ -105,8 +108,8 @@ const AddBlogs = () => {
                 [{ 'list': 'ordered'}, { 'list': 'bullet' }],
                 ['bold', 'italic', 'underline'],
                 [{ 'align': [] }],
-                ['link', 'image', 'video'],
-                ['clean']
+                ['image', 'video'],
+              
               ]
             }}
             style={{ color: 'black', backgroundColor: 'white' }} 
@@ -122,7 +125,6 @@ const AddBlogs = () => {
             className="border p-2 rounded-md w-full bg-gray-700"
           />
         </div>
-        
         <div className="w-full lg:w-1/2 p-2">
           <label>Title</label>
           <input

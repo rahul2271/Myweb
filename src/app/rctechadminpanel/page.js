@@ -1,12 +1,7 @@
-import React from 'react'
-import Dashboard from '../../components/Dashboard'
+// pages/rctechadminpanel.js
 
-const page = () => {
-  return (
-    <>
-    {/* <Dashboard/> */}
-    </>
-  )
+import Dashboard from '../../components/Dashboard';
+
+export default function Page() {
+  return <Dashboard />;
 }
-
-export default page
