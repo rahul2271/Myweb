@@ -117,3 +117,19 @@
 } */
 
 
+/* _-------------CSS for Blogs---------------_ */
+
+.ql-align-center {
+  text-align: center !important;
+}
+.blog-content .ql-align-right {
+  text-align: right;
+}
+
+.blog-content .ql-align-left {
+  text-align: left;
+}
+
+.blog-content .ql-align-justify {
+  text-align: justify;
+}

@@ -50,6 +50,10 @@ font-size: 3em;
   .blog-content .ql-align-center {
     text-align: center !important;
   }
+
+  .blogContent_blog-content__fqfLN p{
+    text-align: center !important;
+  }
   
   .blog-content .ql-align-right {
     text-align: right;

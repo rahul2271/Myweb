@@ -5,22 +5,18 @@ import { useParams } from 'next/navigation';
 import { db } from '../../../../firebase'; // Adjust the import path based on your project structure
 import { collection, getDocs, query, where } from 'firebase/firestore';
 import Image from 'next/image';
-import dynamic from 'next/dynamic'; // Import dynamic from next
-import styles from './blogContent.module.css'; // Import custom styles
-
-// Dynamically import DOMPurify with no SSR
-const DOMPurify = dynamic(() => import('dompurify'), { ssr: false });
+import styles from './blogContent.module.css';
 
 export default function BlogPostPage() {
   const { title } = useParams();
   const [post, setPost] = useState(null);
   const [loading, setLoading] = useState(true);
-  const [sanitizedContent, setSanitizedContent] = useState('');
 
   useEffect(() => {
     const fetchBlogPost = async () => {
       try {
         const decodedTitle = decodeURIComponent(title);
+        // console.log(decodedTitle)
         const q = query(collection(db, 'blogs'), where('slug', '==', decodedTitle));
         const querySnapshot = await getDocs(q);
         if (!querySnapshot.empty) {
@@ -39,17 +35,6 @@ export default function BlogPostPage() {
     fetchBlogPost();
   }, [title]);
 
-  useEffect(() => {
-    const sanitizeContent = async () => {
-      if (post && post.content) {
-        const DOMPurifyModule = await DOMPurify;
-        const DOMPurifyInstance = DOMPurifyModule.default || DOMPurifyModule;
-        setSanitizedContent(DOMPurifyInstance.sanitize(post.content));
-      }
-    };
-    sanitizeContent();
-  }, [post]);
-
   if (loading) {
     return <div>Loading...</div>;
   }
@@ -59,7 +44,7 @@ export default function BlogPostPage() {
   }
 
   return (
-    <div className='m-5'>
+    <div className='m-5 mt-20'>
       <div className="relative w-full h-64 md:h-96">
         <Image
           className="rounded-t-lg object-cover"
@@ -69,12 +54,12 @@ export default function BlogPostPage() {
           objectFit="cover"
         />
       </div>
-      <h1 className='text-center my-5 text-3xl uppercase'>{post.title}</h1>
+      <h1 className=' text-center my-10 text-3xl uppercase'>{post.title}</h1>
       <div
-        className={`${styles['blog-content']} my-5`} // Apply custom styles
-        dangerouslySetInnerHTML={{ __html: sanitizedContent }}
+        className={`${styles['blog-content']} my-5`}
+        dangerouslySetInnerHTML={{ __html: post.content }}
       ></div>
-      <p className='text-sm text-gray-400 mb-5'><em>By {post.author} on {post.date}</em></p>
+      <p className='text-sm text-gray-400 mb-5 text-end pr-5'><em>By {post.author} on {post.date}</em></p>
       <hr className='border border-gray-500' />
     </div>
   );
