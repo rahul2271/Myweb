@@ -15,6 +15,7 @@ export default function BlogPostPage() {
   const { title } = useParams();
   const [post, setPost] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [sanitizedContent, setSanitizedContent] = useState('');
 
   useEffect(() => {
     const fetchBlogPost = async () => {
@@ -38,6 +39,17 @@ export default function BlogPostPage() {
     fetchBlogPost();
   }, [title]);
 
+  useEffect(() => {
+    const sanitizeContent = async () => {
+      if (post && post.content) {
+        const DOMPurifyModule = await DOMPurify;
+        const DOMPurifyInstance = DOMPurifyModule.default || DOMPurifyModule;
+        setSanitizedContent(DOMPurifyInstance.sanitize(post.content));
+      }
+    };
+    sanitizeContent();
+  }, [post]);
+
   if (loading) {
     return <div>Loading...</div>;
   }
@@ -45,9 +57,6 @@ export default function BlogPostPage() {
   if (!post) {
     return <div>Blog post not found</div>;
   }
-
-  // Sanitize the content on the client side
-  const sanitizedContent = DOMPurify.sanitize(post.content);
 
   return (
     <div className='m-5'>
