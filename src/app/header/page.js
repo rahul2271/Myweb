@@ -30,11 +30,11 @@ export default function Header(){
               Blogs
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link className="hover:text-mypurple" href="/rctechadminpanel">
               Admin Panel
               </Link>
-            </li> 
+            </li>  */}
             <li>
               <Link className="animate-pulse hover:text-mypurple" href="/contact">
               Contact Us

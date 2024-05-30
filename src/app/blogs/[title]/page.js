@@ -50,8 +50,9 @@ export default function BlogPostPage() {
           className="rounded-t-lg object-cover"
           src={post.blogImageUrl}
           alt={post.title}
-          layout="fill"
-          objectFit="cover"
+          fill
+          style={{ objectFit: 'cover' }}
+  priority={true}
         />
       </div>
       <h1 className=' text-center my-10 text-3xl uppercase'>{post.title}</h1>
