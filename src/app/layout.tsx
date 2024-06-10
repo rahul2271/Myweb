@@ -36,7 +36,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
 
-            gtag('config', '${G-YLHN7WV840}');
+            gtag('config', 'G-YLHN7WV840');
           `}
           </Script>
         <meta name="p:domain_verify" content="5547c5da888b33b6d7f689b96b7e94ad" />
