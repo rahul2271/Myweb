@@ -37,7 +37,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             gtag('js', new Date());
 
             gtag('config', '${G-YLHN7WV840}');
-          `}       
+          `}
+          </Script>
         <meta name="p:domain_verify" content="5547c5da888b33b6d7f689b96b7e94ad" />
         <title>RC Tech Solutions - Web Development, SEO & Digital Marketing.</title>
         <meta name="description" content="Transform your online presence with expert web development, creative graphic design, and engaging content writing services. Explore the world with RC Tech Solutions." />
