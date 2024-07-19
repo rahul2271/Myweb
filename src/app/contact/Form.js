@@ -7,12 +7,12 @@ const locations = [
   {
     title: 'Batala office',
     timings: 'Mon-Sat 9am to 5pm.',
-    address: '81, Inside Hathi Gate, Brahmana Gali, Batala 143505 IN',
+    address: ' IN',
   },
   {
     title: 'Chandigarh office',
     timings: 'Mon-Sat 9am to 5pm.',
-    address: '3124, Sector 61, Phase-7, Mohali 160061 IN',
+    address: ' IN',
   },
   {
     title: 'Contact : +91 7009646377',
