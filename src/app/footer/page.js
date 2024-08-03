@@ -6,7 +6,7 @@ export default function Footer(){
         <>
     <footer className="mx-auto place-content-center relative overflow-hidden py-8">
       <div className=" place-content-center flex w-auto">
-      <img className='hidden md:block mx-auto md:ml-[12px] md:mt-[25px]  relative h-[100px] w-[100px] ' src="./logo.png" alt="RC Tech Solutions" />
+      <img className='hidden md:block mx-auto md:ml-[12px] md:mt-[25px] md:ml-[50px]  relative h-[60px] w-[100px] ' src="./RCLogo.png" alt="RC Tech Solutions" />
 
         <ul className="text-center relative md:absolute place-content-center md:m-5 md:flex flex-column md:flex-wrap">
           <li className="p-5">
@@ -38,7 +38,7 @@ export default function Footer(){
           </li>
         </ul>
       </div>
-      <div className="md:mt-[-115px] md:mr-[-1110px] w-auto p-8">
+      <div className="md:mt-[-115px] md:mr-[-1500px] w-auto p-8">
         <div className="place-content-center flex flex-wrap">
           <div className="w-auto p-1.5">
             <Link href="https://www.facebook.com/rchauhanweb">
