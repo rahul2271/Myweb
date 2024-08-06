@@ -7,7 +7,7 @@ export default function Header(){
         {/* <iframe hidden src="audio.mp3" allow="autoplay">
         </iframe>  */}
       <header className='mt-[20px] md:mx-auto md:w-full md:mt-[-70px] mx-auto w-full'>
-      <img className=' mx-auto  relative  h-[60px] w-[100px] md:h-[80px] md:w-[140px] md:mt-[120px] md:mx-[70px]' src="./RCLogo.png" alt="rchauhan" />
+      <Link href='./'><img className=' mx-auto  relative  h-[60px] w-[100px] md:h-[80px] md:w-[140px] md:mt-[120px] md:mx-[70px]' src="./RCLogo.png" alt="rchauhan" /></Link>
           <ul className='mt-[20px] md:mt-[0px] flex   md:text-xl  md:place-content-center lg:flex md:space-x-6 lg:place-content-center text-[15px] space-x-6  place-content-center'>
             
             <li>
