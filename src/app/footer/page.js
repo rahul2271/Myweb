@@ -31,7 +31,7 @@ export default function Footer(){
             </Link>
           </li>
         <li  className="p-5">
-            <Link target='_blank'  className="font-medium text-gray-300 md:text-[20px] hover:text-mypurple" href="/cancel">
+            <Link  className="font-medium text-gray-300 md:text-[20px] hover:text-mypurple" href="/cancel">
               
               Refund & Cancellation Policy
             </Link>
