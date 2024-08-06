@@ -35,10 +35,10 @@ export default function Aboutpage(){
     <div class="sm:w-1/2 p-5">
         <div class="text">
             {/* <span class="text-gray-100 border-b-2 border-mypurple uppercase">About us</span> */}
-            <h2 class="my-4 font-bold text-3xl  sm:text-4xl ">Birth of <p class="text-6xl font-bold text-mypurple">RC Tech Solutions</p>
+            <h2 class="my-4 font-bold  md:text-3xl  text-2xl ">Birth of <p class="text-3xl md:text-6xl font-bold text-mypurple">RC Tech Solutions</p>
             </h2>
             <p class="mt-[50px] text-gray-100">
-            Hi, <span className="text-3xl text-mypurple font-bold">I am Rahul Chauhan</span>. Ever since I was a kid, I have loved tinkering with computers. This passion led me to study computer science and eventually land a good job at a tech company. Despite the success, I felt like something was missing. I had a dream: starting my own company.<br/><br/>
+            Hi, <span className="text-2xl md:text-3xl text-mypurple font-bold">I am Rahul Chauhan</span>. Ever since I was a kid, I have loved tinkering with computers. This passion led me to study computer science and eventually land a good job at a tech company. Despite the success, I felt like something was missing. I had a dream: starting my own company.<br/><br/>
 
 I realized many small businesses were struggling to keep up with the digital world and could not compete with big online companies. So, I quit my job to help these businesses go online and succeed.<br/><br/>
 
