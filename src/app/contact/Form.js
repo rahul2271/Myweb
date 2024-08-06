@@ -5,17 +5,17 @@ import Check from './check.gif'
 
 const locations = [
   {
-    title: 'Batala office',
+    title: '3126, Sector 61, Phase 7, Sahibzada Ajitsingh Nagar, Mohali 140301',
     timings: 'Mon-Sat 9am to 5pm.',
     address: ' IN',
   },
+  // {
+  //   title: 'Chandigarh office',
+  //   timings: 'Mon-Sat 9am to 5pm.',
+  //   address: ' IN',
+  // },
   {
-    title: 'Chandigarh office',
-    timings: 'Mon-Sat 9am to 5pm.',
-    address: ' IN',
-  },
-  {
-    title: 'Contact : +91 7009646377',
+    title: 'Contact : +91 770-786-1771',
   },
   {
     title: 'E-mail : rraahhuullch@gmail.com',
