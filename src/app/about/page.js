@@ -26,7 +26,7 @@ export default function Aboutpage(){
             <img src="/logo.png" alt="" />
         </section> */}
        
- <div class="mx-auto max-w-7xl place-content-center mt-[100px] sm:flex items-center max-w-screen-xl">
+ <div class="mx-auto max-w-7xl place-content-center mt-[25px] md:mt-[100px] sm:flex items-center max-w-screen-xl">
     <div class="sm:w-1/2 p-10">
         <div class="image object-center text-center">
             <img src="./about.png"/>
