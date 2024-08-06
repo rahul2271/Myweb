@@ -6,7 +6,7 @@ export default function Footer(){
         <>
     <footer className="mx-auto place-content-center relative overflow-hidden py-8">
       <div className=" place-content-center flex w-auto">
-      <Link href='./'><img className='hidden md:block mx-auto md:ml-[12px] md:mt-[25px] md:ml-[50px]  relative h-[60px] w-[100px] ' src="./RCLogo.png" alt="Rchauhans" /></Link>
+      <img href='./' className='hidden md:block mx-auto md:ml-[12px] md:mt-[25px] md:ml-[50px]  relative h-[60px] w-[100px] ' src="./RCLogo.png" alt="Rchauhans" />
 
         <ul className="text-center relative md:absolute place-content-center md:m-5 md:flex flex-column md:flex-wrap">
           <li className="p-5">
