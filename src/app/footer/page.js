@@ -15,15 +15,15 @@ export default function Footer(){
             </Link>
           </li>
           <li className="p-5">
-            <Link target='_blank' className="font-medium text-gray-300 md:text-[20px] hover:text-mypurple" href="/tnc">
+            <Link target='_blank' className="font-medium text-gray-300 md:text-[20px] hover:text-mypurple" href="/termsofservices">
               Terms of Service
             </Link>
           </li>
-          <li className="p-5">
-            <Link target='_blank' className="font-medium text-gray-300 md:text-[20px] hover:text-mypurple" href="">
-              Career
-            </Link>
-          </li>
+          // <li className="p-5">
+          //   <Link target='_blank' className="font-medium text-gray-300 md:text-[20px] hover:text-mypurple" href="">
+          //     Career
+          //   </Link>
+          // </li>
           <li  className="p-5">
             <Link target='_blank'  className="font-medium text-gray-300 md:text-[20px] hover:text-mypurple" href="/contact">
               
