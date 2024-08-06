@@ -31,7 +31,7 @@ export default function Footer(){
             </Link>
           </li>
         <li  className="p-5">
-            <Link target='_blank'  className="font-medium text-gray-300 md:text-[20px] hover:text-mypurple" href="https://www.freeprivacypolicy.com/live/9680cde0-c6cd-4938-9b57-406640f741ac">
+            <Link target='_blank'  className="font-medium text-gray-300 md:text-[20px] hover:text-mypurple" href="/cancel">
               
               Refund & Cancellation Policy
             </Link>
