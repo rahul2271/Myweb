@@ -106,58 +106,53 @@ export default function Privacy(){
               </defs>
             </svg>
           </div>        
-        <section className="z-10 max-w-7xl md:max-w-6xl mx-auto place-content-center text-center md:mb-[100px] mb=[50px] ">
-            <div className="mt-[50px] md:mt-[100px] text-gray-500">
-                <p>Last Updated: [06-01-2024]</p>
-            </div>
-            <div>
-            <h2 className="mt-[20px] text-[30px] font-extrabold md:text-[50px]">Introduction</h2>
-            <p className="md:text-[20px] md:text-gray-200">Welcome to RC Tech Solutions (&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;). This Privacy Policy is designed to help you understand how we collect, use, disclose, and safeguard your personal information.</p>
-            </div>
-            <div>
-                <h2 className="mt-[20px] text-[30px] font-extrabold md:text-[50px]">Information We Collect</h2>
-                <ol>
-                    <li className="md:text-[20px] md:text-gray-200"><h2 className="font-extrabold mt-[20px] text-[20px] md:text-[30px] md:mt-[40px] md:tracking-wider">Personal Information :</h2> When you use our website or services, we may collect personal information such as your name, email address, and other contact details.</li>
-                    <li className="md:text-[20px] md:text-gray-200"><h2 className="font-extrabold mt-[20px] text-[20px] md:text-[30px] md:mt-[40px] md:tracking-wider"> Usage Information :</h2>We collect information about how you interact with our website, including the pages you visit and the actions you take.</li>
-                    <li className="md:text-[20px] md:text-gray-200"><h2 className="font-extrabold mt-[20px] text-[20px] md:text-[30px] md:mt-[40px] md:tracking-wider">Device Information :</h2>We may collect information about the device you use to access our website, including the device type, operating system, and browser.</li>
-                </ol>
-            </div>
-            <div>
-                <h2 className="font-extrabold mt-[20px] text-[20px] md:text-[30px] md:mt-[40px] md:tracking-wider">How We Use Your Information</h2>
-                <p className="md:text-[20px] md:text-gray-200">We use the information we collect for various purposes, including:</p>
-            </div>
-            <div>
-                <ol>
-                    <li className="md:text-[20px] md:text-gray-200"><h2 className="font-extrabold mt-[20px] text-[20px] md:text-[30px] md:mt-[40px] md:tracking-wider">Providing Services: </h2> To deliver the services you request from us.</li>
-                    <li className="md:text-[20px] md:text-gray-200"><h2 className="font-extrabold mt-[20px] text-[20px] md:text-[30px] md:mt-[40px] md:tracking-wider"> Improving User Experience:</h2>To enhance and personalize your experience on our website.</li>
-                    <li className="md:text-[20px] md:text-gray-200"><h2 className="font-extrabold mt-[20px] text-[20px] md:text-[30px] md:mt-[40px] md:tracking-wider">Communication:</h2>WTo communicate with you about our services, updates, and promotional offers.</li>
-                </ol>
-            </div>
-            <div>
-                <h2 className="font-extrabold mt-[20px] text-[20px] md:text-[30px] md:mt-[40px] md:tracking-wider">Cookies and Tracking Technologies</h2>
-                <p className="md:text-[20px] md:text-gray-200">We use cookies and similar technologies to collect information about your browsing activities. You can manage your cookie preferences through your browser settings.</p>
-            </div>
-            <div>
-                <h2 className="font-extrabold mt-[20px] text-[20px] md:text-[30px] md:mt-[40px] md:tracking-wider">Sharing Your Information</h2>
-                <p className="md:text-[20px] md:text-gray-200">We may share your information with third parties in certain circumstances, such as with service providers or to comply with legal obligations.</p>
-            </div>
-            <div>
-                <h2 className="font-extrabold mt-[20px] text-[20px] md:text-[30px] md:mt-[40px] md:tracking-wider">Your Choices</h2>
-                <p className="md:text-[20px] md:text-gray-200">You have the right to access, update, or delete your personal information. If you have any questions or requests regarding your data, please contact us at rraahhuullch@gmail.com.</p>
-            </div>
-            <div>
-                <h2 className="font-extrabold mt-[20px] text-[20px] md:text-[30px] md:mt-[40px] md:tracking-wider">Security</h2>
-                <p className="md:text-[20px] md:text-gray-200">We take reasonable measures to protect your personal information from unauthorized access, disclosure, or alteration.</p>
-            </div>
-            <div>
-                <h2 className="font-extrabold mt-[20px] text-[20px] md:text-[30px] md:mt-[40px] md:tracking-wider">Changes to This Privacy Policy</h2>
-                <p className="md:text-[20px] md:text-gray-200">We may update this Privacy Policy to reflect changes in our practices or for other operational, legal, or regulatory reasons. The updated policy will be effective when posted.</p>
-            </div>
-            <div>
-                <h2 className="font-extrabold mt-[20px] text-[20px] md:text-[30px] md:mt-[40px] md:tracking-wider">Contact Us</h2>
-                <p className="md:text-[20px] md:text-gray-200">If you have any questions, concerns, or requests regarding this Privacy Policy, please contact us at rraahhuullch@gmail.com.</p>
-            </div>
-        </section>
+
+
+        <main className="md:mt-[70px] mt-[30px] max-w-3xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+        <div className="bg-white rounded-lg shadow px-6 py-8 sm:px-10">
+          <h1 className="text-3xl font-bold text-gray-900 mb-6">Privacy Policy</h1>
+          <section>
+          <h2 className="text-gray-700">
+            Welcome to RC Tech Solutions (&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;). This Privacy Policy is designed to help you understand how we collect, use, disclose, and safeguard your personal information.
+            </h2><br/>
+            {/* <h2 className="text-2xl font-bold text-gray-800 mb-4">Contact Us</h2> */}
+            <p className="text-gray-700"> 
+            <h2 className="text-xl font-bold text-black">Personal Information :</h2>
+            <p>When you use our website or services, we may collect personal information such as your name, email address, and other contact details.<br/><br/></p>
+            <h2 className="text-xl font-bold text-black">Usage Information :<br/></h2>
+            <p> We collect information about how you interact with our website, including the pages you visit and the actions you take.<br/><br/></p>
+            <h2 className="text-xl font-bold text-black">Device Information :<br/></h2>
+            <p>We may collect information about the device you use to access our website, including the device type, operating system, and browser.<br/><br/></p>
+            <h2 className="text-xl font-bold text-black">How We Use Your Information<br/></h2>
+            <p>We use the information we collect for various purposes, including:</p><br/>
+
+            <h2 className="text-xl font-bold text-black">Providing Services:</h2>
+            <p>To deliver the services you request from us.</p><br/>
+            <h2 className="text-xl font-bold text-black">Improving User Experience:</h2>
+            <p>To enhance and personalize your experience on our website.</p><br/>
+            <h2 className="text-xl font-bold text-black">Communication:</h2>
+            <p>To communicate with you about our services, updates, and promotional offers.</p><br/>
+            <h2 className="text-xl font-bold text-black">Cookies and Tracking Technologies<br/></h2>
+            <p>We use cookies and similar technologies to collect information about your browsing activities. You can manage your cookie preferences through your browser settings.<br/></p><br/>
+
+            <h2 className="text-xl font-bold text-black">Sharing Your Information<br/></h2>
+            <p>We may share your information with third parties in certain circumstances, such as with service providers or to comply with legal obligations.<br/><br/></p>
+
+            <h2 className="text-xl font-bold text-black">Your Choices<br/></h2>
+            <p>You have the right to access, update, or delete your personal information. If you have any questions or requests regarding your data, please contact us at rraahhuullch@gmail.com.</p>  <br/>
+
+            <h2 className="text-xl font-bold text-black">Security<br/></h2>
+            <p>We take reasonable measures to protect your personal information from unauthorized access, disclosure, or alteration.<br/></p><br/>
+
+            <h2 className="text-xl font-bold text-black">Changes to This Privacy Policy<br/></h2>
+            <p>We may update this Privacy Policy to reflect changes in our practices or for other operational, legal, or regulatory reasons. The updated policy will be effective when posted.</p><br/>
+
+            <h2 className="text-xl font-bold text-black">Contact Us<br/></h2>
+            <p>If you have any questions, concerns, or requests regarding this Privacy Policy, please contact us at rraahhuullch@gmail.com.<br/></p>
+            </p>
+          </section>
+        </div>
+      </main>
         </>
     )
 }
