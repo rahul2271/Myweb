@@ -117,7 +117,7 @@ export default function terms(){
             {/* <h2 className="text-2xl font-bold text-gray-800 mb-4">Contact Us</h2> */}
             <p className="text-gray-700"> 
   
-            <p>Welcome to www.rchauhan.in (the "Website"). By accessing or using the Website, you agree to comply with and be bound by these Terms of Service. If you do not agree with these            terms, please refrain from using the Website.</p>
+            <p>Welcome to www.rchauhan.in (the Website). By accessing or using the Website, you agree to comply with and be bound by these Terms of Service. If you do not agree with these            terms, please refrain from using the Website.</p>
 
             <h2 className="text-xl mt-[20px] font-bold text-black">Content and Intellectual Property</h2>
             <h3 className="text-md font-bold text-black">Ownership:</h3>
@@ -136,7 +136,7 @@ export default function terms(){
             <p>Interfering with the proper functioning of the Website or any activities conducted on the Website.</p>
 
             <h2 className="text-xl mt-[20px] font-bold text-black">Disclaimer of Warranties</h2>
-            <p>The Website is provided on an "as-is" and "as available" basis. RC Tech Solutions makes no warranties, express or implied, regarding the Website's accuracy, completeness, or             fitness for a particular purpose.</p>
+            <p>The Website is provided on an as-is and as available basis. RC Tech Solutions makes no warranties, express or implied, regarding the Website's accuracy, completeness, or             fitness for a particular purpose.</p>
 
             <h2 className="text-xl font-bold mt-[20px] text-black">Limitation of Liability</h2>
             <p>To the fullest extent permitted by applicable law, RC Tech Solutions shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of            profits or revenues.</p>
