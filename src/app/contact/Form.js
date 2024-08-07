@@ -5,7 +5,7 @@ import Check from './check.gif'
 
 const locations = [
   {
-    title: '3126, Sector 61, Phase 7, Sahibzada Ajitsingh Nagar, Mohali 140301',
+    title: '3126, Sector 82, JLPL Industrial Area, Sahibzada Ajitsingh Nagar, Mohali 140306',
     timings: 'Mon-Sat 9am to 5pm.',
     address: ' IN',
   },
