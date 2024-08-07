@@ -105,78 +105,58 @@ export default function terms(){
               </defs>
             </svg>
           </div>
-        <section className="z-10 max-w-7xl md:max-w-6xl mx-auto place-content-center text-center md:mb-[100px] mb=[50px] ">
-            <div className="mt-[50px] md:mt-[100px] text-gray-500">
-                <p>Last Updated: [06-01-2024]</p>
-            </div>
-            <div>
-                {/* <h2>Content and Intellectual Property</h2> */}
-                <h2 className="font-extrabold mt-[20px] text-[30px] md:text-[30px] md:mt-[40px] md:tracking-wider">Acceptance of Terms</h2>
-                <p className="md:text-[20px] md:text-gray-200">Welcome to www.rchauhan.in (the &quot;Website&quot;). By accessing or using the Website, you agree to comply with and be bound by these Terms of Service. If you do not agree with these terms, please refrain from using the Website.</p>
-            </div>
-            <div>
-                <h2 className= "font-extrabold mt-[20px] text-[30px] md:text-[35px] md:mt-[100px] md:tracking-wider mt-[80px]">Content and Intellectual Property</h2>
-            </div>
-            <div>
-                <ol>
-                    <li>
-                        <h2 className="font-extrabold mt-[20px] text-[20px] md:text-[25px] md:mt-[40px] md:tracking-wider">Ownership: </h2>
-                        <p className="md:text-[20px] md:text-gray-200">All content on the Website, including text, graphics, logos, images, and software, is the property of RC Tech Solutions or its licensors and is protected by copyright and other intellectual property laws.</p>
-                    </li>
-                    <li>
-                        <h2 className="font-extrabold mt-[20px] text-[20px] md:text-[25px] md:mt-[40px] md:tracking-wider">User-Generated Content: </h2>
-                        <p className="md:text-[20px] md:text-gray-200">If you submit any content to the Website, you grant RC Tech Solutions a non-exclusive, royalty-free, worldwide, and perpetual license to use, reproduce, modify, adapt, publish, translate, create derivative works, distribute, and display such content.</p>
-                    </li>
-                    
-                </ol>
-            </div>
 
-            <div>
-                <h2 className= "font-extrabold text-[30px] md:text-[35px] mt-[100px] md:mt-[100px] md:tracking-wider">Prohibited Activities</h2>
-            </div>
-            <div>
-                <ol>
-                    <li>
-                        <h2 className="font-extrabold mt-[20px] text-[20px] md:text-[25px] md:mt-[40px] md:tracking-wider">Unauthorized Access: </h2>
-                        <p className="md:text-[20px] md:text-gray-200">Accessing the Website in any manner that violates any applicable laws or regulations.</p>
-                    </li>
-                    <li>
-                        <h2 className="font-extrabold mt-[20px] text-[20px] md:text-[25px] md:mt-[40px] md:tracking-wider">Interference: </h2>
-                        <p className="md:text-[20px] md:text-gray-200">Interfering with the proper functioning of the Website or any activities conducted on the Website.</p>
-                    </li>
-                    
-                </ol>
-            </div>
 
+        <main className="md:mt-[70px] mt-[30px] max-w-3xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+        <div className="bg-white rounded-lg shadow px-6 py-8 sm:px-10">
+          <h1 className="text-3xl font-bold text-gray-900 mb-6">Terms of services</h1>
+          <section>
+          <h2 className="text-gray-700">
+          Welcome to www.rchauhan.in (the &quot;Website&quot;). By accessing or using the Website, you agree to comply with and be bound by these Terms of Service. If you do not agree with these terms, please refrain from using the Website.
+            </h2><br/>
+            {/* <h2 className="text-2xl font-bold text-gray-800 mb-4">Contact Us</h2> */}
+            <p className="text-gray-700"> 
+  
+            <p>Welcome to www.rchauhan.in (the "Website"). By accessing or using the Website, you agree to comply with and be bound by these Terms of Service. If you do not agree with these            terms, please refrain from using the Website.</p>
+
+            <h2 className="text-xl mt-[20px] font-bold text-black">Content and Intellectual Property</h2>
+            <h3 className="text-md font-bold text-black">Ownership:</h3>
             
-            <div>
-                <h2 className= "font-extrabold mt-[80px] text-[30px] md:text-[35px] md:mt-[100px] md:tracking-wider">Disclaimer of Warranties</h2>
-                <p className="md:text-[20px] md:text-gray-200">The Website is provided on an &quot;as-is&quot; and &quot;as available&quot; basis. RC Tech Solutions makes no warranties, express or implied, regarding the Website&apos;s accuracy, completeness, or fitness for a particular purpose.</p>
-            </div>
+            <p>All content on the Website, including text, graphics, logos, images, and software, is the property of RC Tech Solutions or its licensors and is protected by copyright and other            intellectual property laws.</p>
 
-            <div>
-                <h2 className= "font-extrabold mt-[80px] text-[30px] md:text-[35px] md:mt-[100px] md:tracking-wider">Limitation of Liability</h2>
-                <p className="md:text-[20px] md:text-gray-200">To the fullest extent permitted by applicable law, RC Tech Solutions shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenues.</p>
-            </div>                       
-        
-            <div>
-                <h2 className= "font-extrabold mt-[80px] text-[30px] md:text-[35px] md:mt-[100px] md:tracking-wider">Changes to Terms</h2>
-                <p className="md:text-[20px] md:text-gray-200">RC Tech Solutions reserves the right to modify or replace these Terms of Service at any time. Your continued use of the Website after any changes constitute your acceptance of the new terms.</p>
-            </div>
+            <h3 className="text-md font-bold text-black">User-Generated Content:</h3>
+            
+            <p>If you submit any content to the Website, you grant RC Tech Solutions a non-exclusive, royalty-free, worldwide, and perpetual license to use, reproduce, modify, adapt, publish,            translate, create derivative works, distribute, and display such content.</p>
 
-            <div>
-                <h2 className= "font-extrabold mt-[80px] text-[30px] md:text-[35px] md:mt-[100px] md:tracking-wider">Governing Law</h2>
-                <p className="md:text-[20px] md:text-gray-200">These Terms of Service are governed by and construed in accordance with the laws of India.</p>
-            </div>
+            <h2 className="text-xl mt-[20px] font-bold text-black">Prohibited Activities</h2>
+            <h3 className="text-md font-bold text-black">Unauthorized Access:</h3>
+            <p>Accessing the Website in any manner that violates any applicable laws or regulations.</p>
 
-            <div>
-                <h2 className= "font-extrabold mt-[80px] text-[30px] md:text-[35px] md:mt-[100px] md:tracking-wider">Contact Information</h2>
-                <p className="md:text-[20px] md:text-gray-200">If you have any questions about these Terms of Service, please contact us at rraahhuullch@gmail.com.</p>
-            </div>
-        </section>
+            <h3 className="text-md font-bold text-black">Interference:</h3>
+            <p>Interfering with the proper functioning of the Website or any activities conducted on the Website.</p>
+
+            <h2 className="text-xl mt-[20px] font-bold text-black">Disclaimer of Warranties</h2>
+            <p>The Website is provided on an "as-is" and "as available" basis. RC Tech Solutions makes no warranties, express or implied, regarding the Website's accuracy, completeness, or             fitness for a particular purpose.</p>
+
+            <h2 className="text-xl font-bold mt-[20px] text-black">Limitation of Liability</h2>
+            <p>To the fullest extent permitted by applicable law, RC Tech Solutions shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of            profits or revenues.</p>
+
+            <h2 className="text-xl font-bold mt-[20px] text-black">Changes to Terms</h2>
+            <p>RC Tech Solutions reserves the right to modify or replace these Terms of Service at any time. Your continued use of the Website after any changes constitute your acceptance of the new terms.</p>
+
+            <h2 className="text-xl font-bold mt-[20px] text-black">Governing Law</h2>
+            <p>These Terms of Service are governed by and construed in accordance with the laws of India.</p>
+
+            <h2 className="text-xl font-bold mt-[20px] text-black">Contact Information</h2>
+            <p>If you have any questions about these Terms of Service, please contact us at rraahhuullch@gmail.com.</p>
+            </p>
+          </section>
+        </div>
+      </main>
         </>
     )
 }
+
 
 
 
