@@ -55,7 +55,7 @@ export default function Home() {
           <span className='text-[17px] md:text-5xl'>Transforming Dukaans to Brands.</span>
         </p>
         <p className="mt-8 text-[15px] md:text-[25px] md:w-auto text-gray-300 leading-loose">
-        Fueling online success, one click at a time supercharge your business growth with our winning <Link href='./services'>web solutions.</Link>
+        Fueling online success, one click at a time supercharge your business growth with our winning <Link className = 'font-bold text-mypurple' href='./services'>web solutions.</Link>
         </p>
         
             <CallNowButton/>
