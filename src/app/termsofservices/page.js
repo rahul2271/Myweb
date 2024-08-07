@@ -136,7 +136,7 @@ export default function terms(){
             <p>Interfering with the proper functioning of the Website or any activities conducted on the Website.</p>
 
             <h2 className="text-xl mt-[20px] font-bold text-black">Disclaimer of Warranties</h2>
-            <p>The Website is provided on an as-is and as available basis. RC Tech Solutions makes no warranties, express or implied, regarding the Website's accuracy, completeness, or             fitness for a particular purpose.</p>
+            <p>The Website is provided on an as-is and as available basis. RC Tech Solutions makes no warranties, express or implied, regarding the Website accuracy, completeness, or             fitness for a particular purpose.</p>
 
             <h2 className="text-xl font-bold mt-[20px] text-black">Limitation of Liability</h2>
             <p>To the fullest extent permitted by applicable law, RC Tech Solutions shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of            profits or revenues.</p>
