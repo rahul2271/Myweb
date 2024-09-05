@@ -299,7 +299,7 @@ export default function Home() {
         <h4 className="mb-4 text-[30px] md:text-[50px] font-semibold text-center text-mypurple">What our Esteemed client are saying ?</h4>
         <blockquote className="md:text-[20px] tracking-wide leading-6 mt-10 text-xs text-left text-grey-300">
           <p className='max-w-4xl m-auto place-content-center'>
-            “Choosing this <Link className='font-bold text-mypurple' href='./services'>web service</Link> was a game-changer for my business. Their innovative designs and seamless functionality not only elevated my <Link className='font-bold text-mypurple' href='./contact'>online presence</Link> but also significantly boosted my customer engagement. The team expertise and commitment to excellence made the entire process a breeze. I am thrilled with the results and can confidently say they exceeded my expectations. Highly recommended!”
+            “Choosing this <a className='font-bold text-mypurple' href='./services'>web service </a> was a game-changer for my business. Their innovative designs and seamless functionality not only elevated my <Link className='font-bold text-mypurple' href='./contact'>online presence</Link> but also significantly boosted my customer engagement. The team expertise and commitment to excellence made the entire process a breeze. I am thrilled with the results and can confidently say they exceeded my expectations. Highly recommended!”
           </p>
         </blockquote>
         <figcaption className="mt-10 flex mx-auto place-content-center items-center gap-x-6 ">
