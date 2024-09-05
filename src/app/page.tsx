@@ -289,17 +289,17 @@ export default function Home() {
 <section className="px-2 md:mt-[-80px] py-10 md:px-0">
 <div className="mt-[10px] md:mt-[50px] mx-auto max-w-xl text-center">
       <div className="mx-auto inline-flex rounded-full bg-mypurple px-4 py-1.5">
-        <p className="text-xs md:text-[10px] font-semibold uppercase tracking-widest text-white">
+        <h3 className="text-xs md:text-[10px] font-semibold uppercase tracking-widest text-white">
           Reviews...
-        </p>
+        </h3>
       </div>
       </div>
       
       <figure className="mx-auto">
-        <h1 className="mb-4 text-[30px] md:text-[50px] font-semibold text-center text-mypurple">What our Esteemed client are saying ?</h1>
+        <h4 className="mb-4 text-[30px] md:text-[50px] font-semibold text-center text-mypurple">What our Esteemed client are saying ?</h4>
         <blockquote className="md:text-[20px] tracking-wide leading-6 mt-10 text-xs text-left text-grey-300">
           <p className='max-w-4xl m-auto place-content-center'>
-            “Choosing this web service was a game-changer for my business. Their innovative designs and seamless functionality not only elevated my <Link className='font-bold text-mypurple' href='./contact'>online presence</Link> but also significantly boosted my customer engagement. The team expertise and commitment to excellence made the entire process a breeze. I am thrilled with the results and can confidently say they exceeded my expectations. Highly recommended!”
+            “Choosing this <Link className='font-bold text-mypurple' href='./services'>web service</Link> was a game-changer for my business. Their innovative designs and seamless functionality not only elevated my <Link className='font-bold text-mypurple' href='./contact'>online presence</Link> but also significantly boosted my customer engagement. The team expertise and commitment to excellence made the entire process a breeze. I am thrilled with the results and can confidently say they exceeded my expectations. Highly recommended!”
           </p>
         </blockquote>
         <figcaption className="mt-10 flex mx-auto place-content-center items-center gap-x-6 ">
