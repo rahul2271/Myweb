@@ -9,35 +9,35 @@ export default function Footer(){
       <Link className="hidden md:block mx-auto md:ml-[12px] md:mt-[25px] md:ml-[50px]  relative h-[60px] w-[100px] " href = './'><img href='./' className='' src="./RCLogo.png" alt="Rchauhans" /></Link>
 
         <ul className="text-center relative md:absolute place-content-center md:m-5 md:flex flex-column md:flex-wrap">
-          <li className="p-5">
+          <h5 className="p-5">
             <Link target='_blank' className="text-center font-medium md:text-[20px] text-gray-300 hover:text-mypurple" href="/privacypolicy">
               Privacy Policy
             </Link>
-          </li>
-          <li className="p-5">
+          </h5>
+          <h5 className="p-5">
             <Link target='_blank' className="font-medium text-gray-300 md:text-[20px] hover:text-mypurple" href="/termsofservices">
               Terms of Service
             </Link>
-          </li>
+          </h5>
 
-          <li  className="p-5">
+          <h5  className="p-5">
             <Link target='_blank'  className="font-medium text-gray-300 md:text-[20px] hover:text-mypurple" href="/contact">
               
               Contact Us
             </Link>
-          </li>
-        <li  className="p-5">
+          </h5>
+        <h5  className="p-5">
             <Link  className="font-medium text-gray-300 md:text-[20px] hover:text-mypurple" href="/cancel">
               
               Refund & Cancellation Policy
             </Link>
-          </li>
-        <li  className="p-5">
+          </h5>
+        <h5  className="p-5">
             <Link  className="font-medium text-gray-300 md:text-[20px] hover:text-mypurple" href="https://merchant.razorpay.com/policy/OhVEfCUhxzUUy5/shipping">
               
               Shipping & Delivery Policy
             </Link>
-          </li>
+          </h5>
         </ul>
       </div>
       <div className="md:mt-[-115px] md:mr-[-1500px] w-auto p-8">
