@@ -40,15 +40,11 @@ export default function Aboutpage(){
             <h2 class="my-4 font-bold  md:text-3xl  text-2xl ">Birth of <p class="text-3xl md:text-6xl font-bold text-mypurple">RC Tech Solutions</p>
             </h2>
             <p class="mt-[50px] text-gray-100">
-            Hi, <span className="text-2xl md:text-3xl text-mypurple font-bold">I am Rahul Chauhan</span>. Ever since I was a kid, I have loved tinkering with computers. This passion led me to study computer science and eventually land a good job at a <Link className='text-mypurple font-bold' href='./'>Tech Solutions Company</Link>. Despite the success, I felt like something was missing. I had a dream: starting my own company.<br/><br/>
-
-I realized many small businesses were struggling to keep up with the digital world and could not compete with big online companies. So, I quit my job to help these businesses go online and succeed.<br/><br/>
-
-That’s how RC Tech Solutions was born. I wanted to create a place where small businesses could get all the help they needed to thrive online. Starting out was tough, but soon, people began noticing the difference we were making. In just a few months, I secured over 20 projects, giving me the momentum I needed.<br/><br/>
-
-Talented people joined my team, and together we built websites, launched marketing campaigns, and designed graphics. We helped clients like Meera, a bakery owner whose business started receiving orders from all over the city after we created her online presence.
-<br/><br/>
-With over 50 successful projects, RC Tech Solutions became known for innovation and growth. Looking back, I realize my leap was about empowering others and turning dreams into reality.<br/><br/>
+            Hi, I am Rahul Chauhan.I've enjoyed playing around with computers since I was a young child. I studied computer science as a result of this interest, and I eventually got a good position at a RC Tech Solutions Company. Even with the accomplishment, I thought something was lacking. Creating my own business was my dream.<br/><br/>
+I came to understand that a lot of small businesses were finding it difficult to stay competitive in the digital era and to compete with large internet enterprises. I therefore resigned from my position to assist these companies in becoming successful online.<br/><br/>
+Thus, <a className='text-mypurple' href='/'>RC Tech Solutions</a> was established. My goal was to establish a location where small companies could receive all the support they required to succeed online. It was difficult at first, but eventually people started to notice the change we were making. I got the momentum I needed when I acquired over 20 assignments in a matter of months.<br/><br/>
+My team grew as talented individuals joined, and we created marketing campaigns, websites, and graphics together. We worked with customers like Meera, a bakery owner who began getting orders from all across the city when we created her <a className='text-mypurple' href='/'>online presence.</a> <br/><br/>
+Through more than 50 accomplished projects, RC Tech Solutions established a reputation for growth and innovation. In retrospect, I see that my leap was about enabling people and realizing dreams.<br/><br/>
 
 
             </p>
