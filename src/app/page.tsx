@@ -76,7 +76,7 @@ export default function Home() {
         Our Exclusive Services
       </h2>
       <h3 className="mt-4 md:text-[15px] text-[8px] leading-relaxed text-gray-200">
-      Our exclusive services are designed to provide a holistic approach to digital success. By integrating Web Services, graphics designing, content writing, digital marketing, video editing, SEO, SMM, and SMO, we offer a comprehensive solution that addresses all facets of your digital strategy, ensuring your brand stands out and thrives in a competitive online landscape.
+      Our exclusive services are designed to provide a holistic approach to digital success. By integrating <a className='text-mypurple' href='/price'>Web Services</a>, graphics designing, content writing, digital marketing, video editing, SEO, SMM, and SMO, we offer a comprehensive solution that addresses all facets of your digital strategy, ensuring your brand stands out and thrives in a competitive online landscape.
       </h3>
     </div>
     <div className="mt-12 grid grid-cols-1 gap-y-8 text-center sm:grid-cols-2 sm:gap-12 lg:grid-cols-4">
@@ -160,7 +160,7 @@ export default function Home() {
   </div>    
 
   <section id='pricing' className="relative w-full overflow-hidden bg-transparent pb-14">
-  <div className='lg:text-5xl md:text-5xl text-3xl md:mb-[80px] lg:mb-[80px] mb-[40px] mt-[40px] font-bold mx-auto max-w-auto text-center place-content-center'>Our Exclusive Plans</div>
+  <h3 className='lg:text-5xl md:text-5xl text-3xl md:mb-[80px] lg:mb-[80px] mb-[40px] mt-[40px] font-bold mx-auto max-w-auto text-center place-content-center'>Our Exclusive Plans</h3>
       <div className="relative  z-10 mx-auto max-w-7xl px-4">
         <div className="mx-auto md:max-w-4xl">
           <div className="-m-5 flex flex-wrap">
@@ -271,16 +271,16 @@ export default function Home() {
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
     <dl className="grid grid-cols-1 gap-x-8 gap-y-16 text-center md:flex animate-pulse lg:grid-cols-3">
     <div className="mx-auto flex max-w-xs flex-col gap-y-4">
-        <dt className="text-base leading-7 text-grey-300">Existing Clients</dt>
-        <p className="order-first text-3xl font-semibold tracking-tight text-mypurple sm:text-5xl">110+</p>
+        <h5 className="text-base leading-7 text-grey-300">Existing Clients</h5>
+        <h4 className="order-first text-3xl font-semibold tracking-tight text-mypurple sm:text-5xl">110+</h4>
       </div>
       <div className="mx-auto flex max-w-xs flex-col gap-y-4">
-        <dt className="text-base leading-7 text-grey-300">Projects Completed</dt>
-        <dd className="order-first text-3xl font-semibold tracking-tight text-mypurple sm:text-5xl">389+</dd>
+        <h5 className="text-base leading-7 text-grey-300">Projects Completed</h5>
+        <h4 className="order-first text-3xl font-semibold tracking-tight text-mypurple sm:text-5xl">389+</h4>
       </div>
       <div className="mx-auto flex max-w-xs flex-col gap-y-4">
-        <dt className="text-base leading-7 text-grey-300">Cups of Chai</dt>
-        <dd className="order-first text-3xl font-semibold tracking-tight text-mypurple sm:text-5xl">1000+</dd>
+        <h5 className="text-base leading-7 text-grey-300">Cups of Chai</h5>
+        <h4 className="order-first text-3xl font-semibold tracking-tight text-mypurple sm:text-5xl">1000+</h4>
       </div>
     </dl>
   </div>
