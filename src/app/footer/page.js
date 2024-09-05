@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export default function Footer(){
+    const currentYear = new Date().getFullYear();
     return(
         <>
     <footer className="mx-auto place-content-center relative overflow-hidden py-8">
@@ -116,7 +117,7 @@ export default function Footer(){
           </div>
         </div>
       </div>
-  
+  <p style={{ textAlign: 'center', padding: '1rem 0' }}>&copy; {currentYear === 2024 ? '2024' : `2024 - ${currentYear}`} RC Tech Solutions. All rights reserved.</p>
   </footer>        
         </>
     )
