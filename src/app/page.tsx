@@ -50,12 +50,12 @@ export default function Home() {
             </svg>
           </div>
           <div className=" md:mt-[-20px] mt-[-40px] text-center ">
-          <p className="mt-8 text-4xl font-bold tracking-normal text-grey-300 leading-normal  lg:text-[80px]">
-          We are Creative Tech Solutions Company.<br/>
-          <span className='text-[17px] md:text-5xl'>Transforming Dukaans to Brands.</span>
-        </p>
-        <p className="mt-8 text-[15px] md:text-[25px] md:w-auto text-gray-300 leading-loose">
-        Fueling online success, one click at a time supercharge your business growth with our winning <Link className = 'font-bold text-mypurple' href='./services'>web solutions.</Link>
+          <h1 className="mt-8 text-4xl font-bold tracking-normal text-grey-300 leading-normal  lg:text-[80px]">
+          We are Creative Tech Solutions Company.</h1><br/>
+          <h2 className='text-[15px] md:text-4xl'>Transforming Dukaans to Brands.<br/>Your Partner in Innovative Tech Solutions</h2>
+        
+        <p className="mt-8 text-[8px] md:text-[15px] md:w-auto text-gray-300 leading-loose">
+        At RC Tech Solutions, we are dedicated to transforming your digital landscape with our cutting-edge technology and unparalleled expertise. As a leading provider of comprehensive <a className='text-mypurple' href='/price'>tech solutions</a>, we specialize in delivering top-notch services in <a className='text-mypurple' href='/services'>web development services</a>, SEO, and digital marketing. Our goal is to help your business thrive in the digital age by leveraging the latest technologies and strategies. 
         </p>
         
             <CallNowButton/>
@@ -75,9 +75,9 @@ export default function Home() {
       <h2 className="mt-6 text-3xl font-bold leading-tight text-grey-100 sm:text-4xl lg:text-5xl">
         Our Exclusive Services
       </h2>
-      <p className="mt-4 text-base leading-relaxed text-gray-200">
-      From design to deployment, we have got your <Link className='font-bold text-mypurple' href='./about'>web presence</Link> covered—your all-in-one solution for digital excellence.
-      </p>
+      <h3 className="mt-4 md:text-[15px] text-[8px] text-base leading-relaxed text-gray-200">
+      Our exclusive services are designed to provide a holistic approach to digital success. By integrating Web Services, graphics designing, content writing, digital marketing, video editing, SEO, SMM, and SMO, we offer a comprehensive solution that addresses all facets of your digital strategy, ensuring your brand stands out and thrives in a competitive online landscape.
+      </h3>
     </div>
     <div className="mt-12 grid grid-cols-1 gap-y-8 text-center sm:grid-cols-2 sm:gap-12 lg:grid-cols-4">
       <div className='hover:border-white  hover:bg-mypurple/20  border-2 p-[20px] border-mypurple rounded-2xl'>
