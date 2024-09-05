@@ -75,7 +75,7 @@ export default function Home() {
       <h2 className="mt-6 text-3xl font-bold leading-tight text-grey-100 sm:text-4xl lg:text-5xl">
         Our Exclusive Services
       </h2>
-      <h3 className="mt-4 md:text-[15px] sm:text-[8px] text-base leading-relaxed text-gray-200">
+      <h3 className="mt-4 md:text-[15px] text-[8px] leading-relaxed text-gray-200">
       Our exclusive services are designed to provide a holistic approach to digital success. By integrating Web Services, graphics designing, content writing, digital marketing, video editing, SEO, SMM, and SMO, we offer a comprehensive solution that addresses all facets of your digital strategy, ensuring your brand stands out and thrives in a competitive online landscape.
       </h3>
     </div>
