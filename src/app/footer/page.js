@@ -33,12 +33,12 @@ export default function Footer(){
               Refund & Cancellation Policy
             </Link>
           </h5>
-        <h5  className="p-5">
-            <Link  className="font-medium text-gray-300 md:text-[20px] hover:text-mypurple" href="https://merchant.razorpay.com/policy/OhVEfCUhxzUUy5/shipping">
+        // <h5  className="p-5">
+        //     <Link  className="font-medium text-gray-300 md:text-[20px] hover:text-mypurple" href="https://merchant.razorpay.com/policy/OhVEfCUhxzUUy5/shipping">
               
-              Shipping & Delivery Policy
-            </Link>
-          </h5>
+        //       Shipping & Delivery Policy
+        //     </Link>
+        //   </h5>
         </ul>
       </div>
       <div className="md:mt-[-115px] md:mr-[-1500px] w-auto p-8">
