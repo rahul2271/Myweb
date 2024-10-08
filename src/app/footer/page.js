@@ -70,7 +70,7 @@ export default function Footer() {
       </div>
 
       <p className="text-center text-gray-500 text-[20px] pt-10 font-medium">
-        &copy; {currentYear} RChauhan's Tech Solutions | All rights reserved.
+        &copy; {currentYear} RC Tech Solutions | All rights reserved.
       </p>
     </footer>
   );
