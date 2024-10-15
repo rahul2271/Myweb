@@ -11,7 +11,7 @@ import Script from 'next/script';
 const poppins = Poppins({
   subsets: ['latin'],
   variable: '--font-poppins',
-  weight: ['300'],
+  weight: ['300','400', '500', '600'],
 });
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
