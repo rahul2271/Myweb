@@ -55,9 +55,9 @@ export default function BlogPage() {
                     />
                   </div>
                   <div className="p-4">
-                    <h2 className="text-xl font-bold mb-2 text-mypurple">{blog.title}</h2>
-                    <p className="text-white text-sm mb-2">By {blog.author} on {blog.date}</p>
-                    <p className="text-white">{stripHtmlTags(blog.content).slice(0, 100)}...</p>
+                    <h2 className="text-xl font-bold mb-4 text-mypurple">{blog.title}</h2>    
+                    <p className="text-white font-light text-sm">{stripHtmlTags(blog.content).slice(0, 100)}...</p>
+                    <p className="text-white text-[5px] mb-2">By {blog.author} on {blog.date}</p>
                   </div>
                 </a>
               </Link>
