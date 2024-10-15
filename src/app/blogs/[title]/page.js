@@ -44,7 +44,7 @@ export default function BlogPostPage() {
   }
 
   return (
-    <div className='mx-auto place-content-center  m-5 mt-20'>
+    <div className='mx-auto place-content-center max-w-[1100px]  m-5 mt-20'>
       <div className="relative w-full h-64 md:h-96">
         <Image
           className="rounded-t-lg object-fill"
@@ -55,7 +55,7 @@ export default function BlogPostPage() {
   priority={true}
         />
       </div>
-    <div className="max-w-[800px]">
+ 
       <h1 className=' text-center my-10 text-3xl uppercase'>{post.title}</h1>
       <div
         className={`${styles['blog-content']} my-5`}
@@ -64,6 +64,6 @@ export default function BlogPostPage() {
       <p className='text-sm text-gray-400 mb-5 text-end pr-5'><em>By {post.author} on {post.date}</em></p>
       <hr className='border border-gray-500' />
     </div>
-        </div>
+        
   );
 }
