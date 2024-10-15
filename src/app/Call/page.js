@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 
 const CallNowButton = () => {
-  const phoneNumber = 'info@rchauhan.in'; // Replace with your actual phone number
+  const phoneNumber = 'rctechsolutions22@gmail.com'; // Replace with your actual phone number
 
   const handleCallButtonClick = () => {
     window.location.href = `mailto:${phoneNumber}`;
