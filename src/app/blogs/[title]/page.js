@@ -44,7 +44,7 @@ export default function BlogPostPage() {
   }
 
   return (
-    <div className='mx-auto place-content-center w-max md:max-w-[800px]   m-5 mt-20'>
+    <div className='mx-auto place-content-center w-auto md:max-w-[800px]   m-5 mt-20'>
       <div className="relative w-full h-64 md:h-96">
         <Image
           className="rounded-t-lg object-fill"
