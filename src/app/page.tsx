@@ -50,7 +50,7 @@ export default function Home() {
             </svg>
           </div>
           <div className=" md:mt-[-20px] mt-[-40px] text-center ">
-          <h1 className="mt-8 text-4xl font-light tracking-normal text-grey-300 leading-normal  lg:text-[80px]">
+          <h1 className="bg-gradient-to-r from-mypurple via-white to-mypurple bg-clip-text mt-8 text-4xl font-light tracking-normal text-grey-300 leading-normal  lg:text-[80px]">
           We are Creative Tech Solutions Company.</h1><br/>
           <h2 className='text-[15px] md:text-4xl'>Turning ideas into Digital reality.<br/>We are Damn Sure you need us.</h2>
         
