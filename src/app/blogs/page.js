@@ -41,7 +41,7 @@ export default function BlogPage() {
       <div className="flex flex-wrap -mx-2 px-5">
         {blogs.map((blog) => (
           <div key={blog.id} className="w-full sm:w-1/2 md:w-1/4 px-2 mb-4 overflow-hidden">
-            <div className="bg-black p-4 shadow-white shadow-lg rounded-lg h-[400px] overflow-hidden">
+            <div className="bg-black p-4 shadow-white shadow-xl rounded-lg h-[400px] overflow-hidden">
               <Link href={`/blogs/${blog.slug}`} legacyBehavior>
                 <a>
                   <div className='max-h-[180px] h-[180px] rounded-lg'>
