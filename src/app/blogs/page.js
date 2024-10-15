@@ -37,7 +37,7 @@ export default function BlogPage() {
   }, []);
 
   return (
-    <div className=" shadow-xl container mx-auto p-4 mt-10">
+    <div className=" border-1 border-white container mx-auto p-4 mt-10">
       <div className="flex flex-wrap -mx-2 px-5">
         {blogs.map((blog) => (
           <div key={blog.id} className="w-full sm:w-1/2 md:w-1/4 px-2 mb-4 overflow-hidden">
