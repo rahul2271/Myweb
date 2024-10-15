@@ -47,7 +47,7 @@ export default function BlogPostPage() {
     <div className='m-5 mt-20'>
       <div className="relative w-full h-64 md:h-96">
         <Image
-          className="rounded-t-lg object-cover"
+          className="rounded-t-lg object-fill"
           src={post.blogImageUrl}
           alt={post.title}
           fill
