@@ -24,23 +24,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
   return (
     <html lang="en">
-
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1067605258390336');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1067605258390336&ev=PageView&noscript=1"
-/></noscript>
-
       <head>
         {/* Google Analytics */}
         <Script
@@ -55,7 +38,29 @@ src="https://www.facebook.com/tr?id=1067605258390336&ev=PageView&noscript=1"
 
             gtag('config', 'G-YLHN7WV840');
           `}
-          </Script>
+        </Script>
+
+        {/* Facebook Pixel */}
+        <Script id="facebook-pixel" strategy="afterInteractive">
+          {`
+            !function(f,b,e,v,n,t,s)
+            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '1067605258390336');
+            fbq('track', 'PageView');
+          `}
+        </Script>
+        <noscript>
+          <img height="1" width="1" style={{ display: 'none' }}
+            src="https://www.facebook.com/tr?id=1067605258390336&ev=PageView&noscript=1"
+          />
+        </noscript>
+
         <meta name="p:domain_verify" content="5547c5da888b33b6d7f689b96b7e94ad" />
         <title>RC Tech Solutions - Web Development, SEO & Digital Marketing.</title>
         <meta name="description" content="Transform your online presence with expert web development, creative graphic design, and engaging content writing services. Explore the world with RC Tech Solutions." />
