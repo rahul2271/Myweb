@@ -6,12 +6,8 @@ export default function Footer() {
   
   return (
     <footer className="mx-[60px] mx-auto py-8 relative overflow-hidden">
-    <iframe
-    allow="microphone;"
-    width="350"
-    height="430"
-    src="https://console.dialogflow.com/api-client/demo/embedded/3b04b88a-9356-422a-b334-f9f8fbf664cc">
-</iframe>
+
+    
       <div className="flex flex-col md:flex-row items-center justify-between w-full">
         {/* Logo Section */}
         <div className="mb-4 md:mb-0">
