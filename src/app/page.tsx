@@ -50,9 +50,9 @@ export default function Home() {
             </svg>
           </div>
           <div className=" md:mt-[-20px] mt-[-40px] text-center ">
-          <h1 className="bg-gradient-to-r from-mypurple via-white to-mypurple inline-block text-transparent bg-clip-text  mt-8 text-4xl font-light tracking-normal  leading-normal  lg:text-[80px]">
-          We are Creative Tech Solutions Company.</h1><br/>
-          <h2 className='text-[15px] md:text-4xl'>Turning ideas into Digital reality.<br/>We are Damn Sure you need us.</h2>
+          <h1 className="text-white bg-transparent  mt-8 text-4xl font-light tracking-normal  leading-normal  lg:text-[80px]">
+          Turning ideas into Digital reality</h1><br/>
+          <h2 className='text-[15px] md:text-4xl'>We are Damn Sure you need us.</h2>
         
 {/*         <p className="mt-8 text-[8px] md:text-[15px] md:w-auto text-gray-300 leading-loose">
         At RC Tech Solutions, we are dedicated to transforming your digital landscape with our cutting-edge technology and unparalleled expertise. As a leading provider of comprehensive <a className='text-mypurple' href='/price'>tech solutions</a>, we specialize in delivering top-notch services in <a className='text-mypurple' href='/services'>web development services</a>, SEO, and digital marketing. Our goal is to help your business thrive in the digital age by leveraging the latest technologies and strategies. 
