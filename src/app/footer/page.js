@@ -60,7 +60,7 @@ export default function Footer() {
             </div>
           </Link>
 
-          <Link href="https://www.instagram.com/rc_tech_solutions_/" target="_blank" rel="noopener noreferrer">
+          <Link href="https://www.instagram.com/rc_tech_solutions/" target="_blank" rel="noopener noreferrer">
             <div className="flex h-[50px] w-[50px] bg-mypurple items-center justify-center rounded-full hover:border-white">
               {/* Instagram SVG */}
               <svg width="20" height="30" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
