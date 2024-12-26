@@ -14,7 +14,7 @@ export default function Home() {
     <main>
 
 <Head>
-  <!-- Hotjar Tracking Code for Site 5251171 (name missing) -->
+  
 <script>
     (function(h,o,t,j,a,r){
         h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
