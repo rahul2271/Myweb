@@ -21,7 +21,7 @@ export default function Service(){
           property="og:description"
           content="Learn about how we collect, use, and protect your personal information. Read our Privacy Policy to understand our commitment to your privacy."
         />
-        <meta property="og:url" content="www.rchauhan.in/Services" />
+        <meta property="og:url" content="www.rctechsolutions.com/Services" />
         <meta property="og:type" content="article" />
         <meta property="og:image" content="/logo.png" />
         <meta name="twitter:card" content="summary" />
