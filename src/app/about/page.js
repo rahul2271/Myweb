@@ -14,7 +14,7 @@ export default function Aboutpage(){
         <meta name="author" content="Rahul Chauhan"/>
         <meta name="robots" content="index, follow"/>
         <meta property="og:type" content="website"/>
-        <meta property="og:url" content="www.rchauhan.in"/>
+        <meta property="og:url" content="www.rctechsolutions.com"/>
         <meta property="og:title" content="RC Tech Solutions - Crafting Digital Excellence"/>
         <meta property="og:description" content="Join Rahul Chauhan's journey at RC Tech Solutions, a hub of innovation in web development, graphic design, and content creation. Your digital success begins here."/>
         <meta property="og:image" content="/logo.png"/>
