@@ -11,12 +11,12 @@ export default function Aboutpage(){
         <meta name="author" content="Rahul Chauhan"/>
         <meta name="robots" content="index, follow"/>
         <meta property="og:type" content="website"/>
-        <meta property="og:url" content="www.rchauhan.in"/>
+        <meta property="og:url" content="www.rctechsolutions.com"/>
         <meta property="og:title" content="RC Tech Solutions - Crafting Digital Excellence"/>
         <meta property="og:description" content="Join Rahul Chauhan's journey at RC Tech Solutions, a hub of innovation in web development, graphic design, and content creation. Your digital success begins here."/>
         <meta property="og:image" content="/logo.png"/>
         <meta name="twitter:card" content="summary_large_image"/>
-        <meta name="twitter:url" content="www.rchauhan.in"/>
+        <meta name="twitter:url" content="www.rctechsolutions.com"/>
         <meta name="twitter:title" content="RC Tech Solutions - Crafting Digital Excellence"/>
         <meta name="twitter:description" content="Join Rahul Chauhan's journey at RC Tech Solutions, a hub of innovation in web development, graphic design, and content creation. Your digital success begins here."/>
         <meta name="twitter:image" content="/logo.png"/>
