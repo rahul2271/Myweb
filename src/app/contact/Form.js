@@ -175,7 +175,7 @@ const Form = () => {
         <meta property="og:title" content="Contact Us - RC Tech Solutions" />
         <meta property="og:description" content="Contact us for inquiries, feedback, or any other questions you may have." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.rchauhan.com/contact" />
+        <meta property="og:url" content="https://www.rctechsolutions.com/contact" />
         <meta property="og:image" content="/logo.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Contact Us - RC Tech Solutions" />
