@@ -66,11 +66,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta name="description" content="Transform your online presence with expert web development, creative graphic design, and engaging content writing services. Explore the world with RC Tech Solutions." />
         <meta name="keywords" content="web development, graphic design, content creation, digital services, social media optimization, social media management, digital marketing, business growth, Rahul Chauhan, RC tech solutions, creativity, branding" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="canonical" href="https://www.rchauhan.in" />
+        <link rel="canonical" href="https://www.rctechsolutions.com" />
 
         <meta property="og:site_name" content="RC Tech Solutions" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="www.rchauhan.in" />
+        <meta property="og:url" content="www.rctechsolutions.com" />
         <meta property="og:title" content="RC Tech Solutions - Web Development, SEO & Digital Marketing. " />
         <meta property="og:description" content="Join Rahul Chauhan's journey at RC Tech Solutions, a hub of innovation in web development, graphic design, and content creation. Your digital success begins here." />
         <meta property="og:image" content="/logo.png" />
