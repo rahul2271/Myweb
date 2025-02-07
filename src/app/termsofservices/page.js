@@ -16,7 +16,7 @@ export default function terms(){
           property="og:description"
           content="Read the Terms of Service for RC Tech Solutions to understand the rules and guidelines for using our website. Your use of the website is subject to these terms and conditions."
         />
-        <meta property="og:url" content="www.rchauhan.in/terms-of-service" />
+        <meta property="og:url" content="www.rctechsolutions.com/terms-of-service" />
         <meta property="og:type" content="article" />
         <meta property="og:image" content="/logo.png" />
         <meta name="twitter:card" content="summary" />
